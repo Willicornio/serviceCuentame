@@ -1,0 +1,50 @@
+{
+  "name": "Cromo",
+  "plural": "Cromos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Imagen": {
+      "type": "string",
+      "required": true
+    },
+    "Probabilidad": {
+      "type": "string",
+      "required": true
+    },
+    "Nivel": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumnoJuegoDeColeccions": {
+      "type": "hasMany",
+      "model": "AlumnoJuegoDeColeccion",
+      "foreignKey": "cromoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Album"
+    },
+    "equipoJuegoDeColeccions": {
+      "type": "hasMany",
+      "model": "EquipoJuegoDeColeccion",
+      "foreignKey": "cromoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlbumEquipo"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

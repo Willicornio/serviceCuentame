@@ -1,0 +1,69 @@
+{
+  "name": "Alumno",
+  "plural": "Alumnos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "PrimerApellido": {
+      "type": "string",
+      "required": true
+    },
+    "SegundoApellido": {
+      "type": "string",
+      "required": true
+    },
+    "ImagenPerfil": {
+      "type": "string",
+      "required": true,
+      "default": "UsuarioAlumno.jpg"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "grupos": {
+      "type": "hasMany",
+      "model": "Grupo",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Matricula"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AsignacionEquipo"
+    },
+    "juegoDePuntos": {
+      "type": "hasMany",
+      "model": "JuegoDePuntos",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDePuntos"
+    },
+    "juegoDeColeccions": {
+      "type": "hasMany",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeColeccion"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

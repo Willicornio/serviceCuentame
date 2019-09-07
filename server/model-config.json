@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Profesor": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Alumno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Grupo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Equipo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Juego": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDePuntos": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Punto": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Nivel": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Coleccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Cromo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Album": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "ReglaManualColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "ReglaAutomaticaColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeCompeticion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "ReglaManualCompeticion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "ReglaAutomaticaCompeticion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Liga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Jornada": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Partido": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Matricula": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AsignacionEquipo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AsignacionPuntoJuego": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlumnoJuegoDePuntos": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "EquipoJuegoDePuntos": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "HistorialPuntosAlumno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "imagen": {
+    "dataSource": "imagenes",
+    "public": true
+  },
+  "Insignia": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "HistorialPuntosEquipo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlumnoJuegoDeColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlbumEquipo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "EquipoJuegoDeColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  }
+}
