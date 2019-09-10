@@ -6,7 +6,7 @@
 
 ## Global dependencies
 
-Make sure you have NodeJS installed. Download the installer [here](https://nodejs.org/dist/latest-v8.x/) or use your favorite package manager. It's best to get the 8x version of node along with the 5x version of npm. This offers the best in stability and speed for building.
+Make sure you have NodeJS installed. Download the installer [here](https://nodejs.org/dist/latest-v8.x/) or use your favorite package manager. It's best to get the 10x version of node along with the 5x version of npm. This offers the best in stability and speed for building.
 
 ```
 node -v
