@@ -10,9 +10,7 @@ Make sure you have NodeJS installed. Download the installer [here](https://nodej
 
 ```
 node -v
-> v8.6.0
-npm -v
-> 5.6.0
+> v10.13.0
 ```
 
 You have to install LoopBack tooling for managing the model:
