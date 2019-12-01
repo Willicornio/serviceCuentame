@@ -162,5 +162,9 @@
   "EquipoJuegoDeColeccion": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "JornadaDeCompeticionLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
