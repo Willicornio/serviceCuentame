@@ -174,5 +174,9 @@
   "EnfrentamientoLiga": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "AlumnoJuegoDeCompeticionLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
