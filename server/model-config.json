@@ -170,5 +170,9 @@
   "JornadaDeCompeticionLiga": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "EnfrentamientoLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
