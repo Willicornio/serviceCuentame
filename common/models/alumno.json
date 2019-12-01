@@ -62,6 +62,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeColeccion"
+    },
+    "juegosDeCompeticionLiga": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticionLiga",
+      "foreignKey": "AlumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeCompeticionLiga"
     }
   },
   "acls": [],
