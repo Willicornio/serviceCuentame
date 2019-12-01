@@ -22,6 +22,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "juegoDeCompeticionLiga": {
+      "type": "belongsTo",
+      "model": "JuegoDeCompeticionLiga",
+      "foreignKey": "JuegoDeCompeticionLigaId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
