@@ -14,7 +14,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "AlumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
