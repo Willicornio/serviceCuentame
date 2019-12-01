@@ -1,0 +1,19 @@
+{
+  "name": "JuegoDeCompeticionLiga",
+  "plural": "JuegosDeCompeticionLiga",
+  "base": "Juego",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NumeroTotalJornadas": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
