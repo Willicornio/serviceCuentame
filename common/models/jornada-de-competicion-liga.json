@@ -17,7 +17,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "enfrentamientosLiga": {
+      "type": "hasMany",
+      "model": "EnfrentamientoLiga",
+      "foreignKey": "JornadaDeCompeticionLigaId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
