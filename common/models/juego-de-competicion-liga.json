@@ -21,6 +21,15 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "JuegoDeCompeticionLigaId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeCompeticionLiga"
     }
   },
   "acls": [],
