@@ -13,7 +13,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "jornadasDeCompeticionLiga": {
+      "type": "hasMany",
+      "model": "JornadaDeCompeticionLiga",
+      "foreignKey": "JuegoDeCompeticionLigaId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

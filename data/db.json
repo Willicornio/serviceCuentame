@@ -25,7 +25,9 @@
     "AlumnoJuegoDeColeccion": 16,
     "EquipoJuegoDeColeccion": 10,
     "Album": 54,
-    "AlbumEquipo": 8
+    "AlbumEquipo": 8,
+    "JuegoDeCompeticionLiga": 4,
+    "JornadaDeCompeticionLiga": 3
   },
   "models": {
     "Profesor": {
@@ -304,6 +306,13 @@
       "5": "{\"cromoId\":11,\"equipoJuegoDeColeccionId\":8,\"id\":5}",
       "6": "{\"cromoId\":20,\"equipoJuegoDeColeccionId\":8,\"id\":6}",
       "7": "{\"cromoId\":8,\"equipoJuegoDeColeccionId\":8,\"id\":7}"
+    },
+    "JuegoDeCompeticionLiga": {
+      "1": "{\"NumeroTotalJornadas\":2,\"Tipo\":\"Juego De Competicion Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"id\":1}"
+    },
+    "JornadaDeCompeticionLiga": {
+      "1": "{\"Fecha\":\"2019-12-03T09:30:00.134Z\",\"CriterioGanador\":\"Llegar a hora\",\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
+      "2": "{\"Fecha\":\"2019-12-10T09:30:00.134Z\",\"CriterioGanador\":\"Deberes hechos\",\"JuegoDeCompeticionLigaId\":1,\"id\":2}"
     }
   }
 }
