@@ -9,7 +9,7 @@
   "properties": {
     "Fecha": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "CriterioGanador": {
       "type": "string",
