@@ -178,5 +178,9 @@
   "AlumnoJuegoDeCompeticionLiga": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "EquipoJuegoDeCompeticionLiga": {
+    "dataSource": "db",
+    "public": true
   }
 }
