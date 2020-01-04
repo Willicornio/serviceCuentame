@@ -180,7 +180,7 @@
     "public": true
   },
   "EquipoJuegoDeCompeticionLiga": {
-    "dataSource": "db",
+    "dataSource": "baseDatosEnMemoria",
     "public": true
   }
 }
