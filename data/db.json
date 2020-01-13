@@ -3,25 +3,25 @@
     "Profesor": 3,
     "Alumno": 23,
     "Grupo": 14,
-    "Punto": 31,
+    "Punto": 32,
     "Coleccion": 3,
     "Cromo": 21,
     "Equipo": 38,
     "Juego": 1,
-    "JuegoDePuntos": 74,
+    "JuegoDePuntos": 77,
     "JuegoDeCompeticion": 1,
     "Liga": 1,
     "JuegoDeColeccion": 20,
     "Matricula": 36,
     "AsignacionEquipo": 48,
-    "AsignacionPuntoJuego": 46,
+    "AsignacionPuntoJuego": 53,
     "Nivel": 17,
     "Jornada": 4,
-    "AlumnoJuegoDePuntos": 41,
-    "EquipoJuegoDePuntos": 12,
-    "HistorialPuntosAlumno": 23,
+    "AlumnoJuegoDePuntos": 49,
+    "EquipoJuegoDePuntos": 15,
+    "HistorialPuntosAlumno": 25,
     "Insignia": 22,
-    "HistorialPuntosEquipo": 0,
+    "HistorialPuntosEquipo": 1,
     "AlumnoJuegoDeColeccion": 16,
     "EquipoJuegoDeColeccion": 10,
     "Album": 54,
@@ -65,7 +65,8 @@
       "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"Deberes\",\"Descripcion\":\"Se asignará puntos de deberes a los alumnos que traigan los deberes hechos\",\"profesorId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Buena nota examen\",\"Descripcion\":\"Se asignará puntos a todo aquel que consiga una nota superior al 7 en los exámenes\",\"profesorId\":1,\"id\":4}",
-      "5": "{\"Nombre\":\"Ayudar a un compañero\",\"Descripcion\":\"Se asignará puntos a los alumnos que ayuden a los compañeros que tengan dificultades\",\"profesorId\":1,\"id\":5}"
+      "5": "{\"Nombre\":\"Ayudar a un compañero\",\"Descripcion\":\"Se asignará puntos a los alumnos que ayuden a los compañeros que tengan dificultades\",\"profesorId\":1,\"id\":5}",
+      "31": "{\"Nombre\":\"Aleatorio\",\"Descripcion\":\"Asignado de forma aleatoria (se crea automáticamente)\",\"profesorId\":1,\"id\":31}"
     },
     "Coleccion": {
       "1": "{\"Nombre\":\"Físicos\",\"ImagenColeccion\":\"363.jpg\",\"profesorId\":1,\"id\":1}",
@@ -100,8 +101,8 @@
     },
     "Juego": {},
     "JuegoDePuntos": {
-      "1": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
-      "69": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":69}"
+      "75": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":75}",
+      "76": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":76}"
     },
     "JuegoDeCompeticion": {},
     "Liga": {},
@@ -155,7 +156,14 @@
       "42": "{\"juegoDePuntosId\":69,\"puntoId\":3,\"id\":42}",
       "43": "{\"juegoDePuntosId\":69,\"puntoId\":4,\"id\":43}",
       "44": "{\"juegoDePuntosId\":70,\"puntoId\":1,\"id\":44}",
-      "45": "{\"juegoDePuntosId\":71,\"puntoId\":1,\"id\":45}"
+      "45": "{\"juegoDePuntosId\":71,\"puntoId\":1,\"id\":45}",
+      "46": "{\"juegoDePuntosId\":75,\"puntoId\":31,\"id\":46}",
+      "47": "{\"juegoDePuntosId\":75,\"puntoId\":1,\"id\":47}",
+      "48": "{\"juegoDePuntosId\":75,\"puntoId\":2,\"id\":48}",
+      "49": "{\"juegoDePuntosId\":75,\"puntoId\":3,\"id\":49}",
+      "50": "{\"juegoDePuntosId\":76,\"puntoId\":31,\"id\":50}",
+      "51": "{\"juegoDePuntosId\":76,\"puntoId\":3,\"id\":51}",
+      "52": "{\"juegoDePuntosId\":76,\"puntoId\":4,\"id\":52}"
     },
     "Nivel": {
       "1": "{\"Nombre\":\"Bronce\",\"PuntosAlcanzar\":10,\"PrivilegiosDelNivel\":\"Pueden salir 5 minutos antes al patio\",\"Imagen\":\"Bronze-Level.png\",\"juegoDePuntosId\":1,\"id\":1}",
@@ -201,7 +209,15 @@
       "37": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":71,\"id\":37}",
       "38": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":5,\"juegoDePuntosId\":71,\"id\":38}",
       "39": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":6,\"juegoDePuntosId\":71,\"id\":39}",
-      "40": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":7,\"juegoDePuntosId\":71,\"id\":40}"
+      "40": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":7,\"juegoDePuntosId\":71,\"id\":40}",
+      "41": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":1,\"juegoDePuntosId\":75,\"id\":41}",
+      "42": "{\"id\":42,\"PuntosTotalesAlumno\":3,\"alumnoId\":2,\"juegoDePuntosId\":75}",
+      "43": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":3,\"juegoDePuntosId\":75,\"id\":43}",
+      "44": "{\"id\":44,\"PuntosTotalesAlumno\":1,\"alumnoId\":4,\"juegoDePuntosId\":75}",
+      "45": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":5,\"juegoDePuntosId\":75,\"id\":45}",
+      "46": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":6,\"juegoDePuntosId\":75,\"id\":46}",
+      "47": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":7,\"juegoDePuntosId\":75,\"id\":47}",
+      "48": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":8,\"juegoDePuntosId\":75,\"id\":48}"
     },
     "EquipoJuegoDePuntos": {
       "1": "{\"PuntosTotalesEquipo\":0,\"equipoId\":1,\"juegoDePuntosId\":2,\"id\":1}",
@@ -214,7 +230,10 @@
       "8": "{\"PuntosTotalesEquipo\":0,\"equipoId\":36,\"juegoDePuntosId\":64,\"id\":8}",
       "9": "{\"id\":9,\"PuntosTotalesEquipo\":15,\"equipoId\":2,\"juegoDePuntosId\":69,\"nivelId\":15}",
       "10": "{\"id\":10,\"PuntosTotalesEquipo\":14,\"equipoId\":21,\"juegoDePuntosId\":69}",
-      "11": "{\"id\":11,\"PuntosTotalesEquipo\":7,\"equipoId\":1,\"juegoDePuntosId\":69}"
+      "11": "{\"id\":11,\"PuntosTotalesEquipo\":7,\"equipoId\":1,\"juegoDePuntosId\":69}",
+      "12": "{\"PuntosTotalesEquipo\":0,\"equipoId\":1,\"juegoDePuntosId\":76,\"id\":12}",
+      "13": "{\"id\":13,\"PuntosTotalesEquipo\":1,\"equipoId\":2,\"juegoDePuntosId\":76}",
+      "14": "{\"PuntosTotalesEquipo\":0,\"equipoId\":21,\"juegoDePuntosId\":76,\"id\":14}"
     },
     "HistorialPuntosAlumno": {
       "0": "{\"ValorPunto\":4,\"puntoId\":1,\"alumnoJuegoDePuntosId\":1,\"fecha\":\"1/7/2019  19:39:52\",\"id\":0}",
@@ -238,13 +257,17 @@
       "19": "{\"ValorPunto\":5,\"puntoId\":3,\"alumnoJuegoDePuntosId\":1,\"fecha\":\"28/8/2019  13:32:25\",\"id\":19}",
       "20": "{\"ValorPunto\":5,\"puntoId\":1,\"alumnoJuegoDePuntosId\":2,\"fecha\":\"28/8/2019  13:32:32\",\"id\":20}",
       "21": "{\"ValorPunto\":2,\"puntoId\":1,\"alumnoJuegoDePuntosId\":2,\"fecha\":\"28/8/2019  13:32:39\",\"id\":21}",
-      "22": "{\"ValorPunto\":5,\"puntoId\":3,\"alumnoJuegoDePuntosId\":2,\"fecha\":\"28/8/2019  13:32:46\",\"id\":22}"
+      "22": "{\"ValorPunto\":5,\"puntoId\":3,\"alumnoJuegoDePuntosId\":2,\"fecha\":\"28/8/2019  13:32:46\",\"id\":22}",
+      "23": "{\"ValorPunto\":1,\"puntoId\":31,\"alumnoJuegoDePuntosId\":44,\"fecha\":\"13/1/2020  13:27:15\",\"id\":23}",
+      "24": "{\"ValorPunto\":3,\"puntoId\":2,\"alumnoJuegoDePuntosId\":42,\"fecha\":\"13/1/2020  13:27:24\",\"id\":24}"
     },
     "Insignia": {
       "18": "{\"Nombre\":\"Mano del Rey\",\"Descripcion\":\"Este galardón solo es apto para alumnos trabajadores\",\"Imagen\":\"mano-del-rey-juego-de-tronos-tyrion.jpg\",\"profesorId\":1,\"id\":18}",
       "19": "{\"Nombre\":\"Rey\",\"Descripcion\":\"Prueba 2\",\"profesorId\":1,\"id\":19}"
     },
-    "HistorialPuntosEquipo": {},
+    "HistorialPuntosEquipo": {
+      "0": "{\"ValorPunto\":1,\"equipoJuegoDePuntosId\":13,\"puntoId\":31,\"fecha\":\"13/1/2020  13:27:50\",\"id\":0}"
+    },
     "AlumnoJuegoDeColeccion": {
       "0": "{\"alumnoId\":2,\"juegoDeColeccionId\":8,\"id\":0}",
       "1": "{\"alumnoId\":3,\"juegoDeColeccionId\":8,\"id\":1}",
