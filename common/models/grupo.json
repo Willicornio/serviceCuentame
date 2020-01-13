@@ -51,6 +51,14 @@
       "type": "hasMany",
       "model": "AsignacionEquipo",
       "foreignKey": "grupoId"
+    },
+    "juegosDeCompeticionLiga": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticionLiga",
+      "foreignKey": "grupoId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

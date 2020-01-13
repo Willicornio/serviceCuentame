@@ -162,5 +162,25 @@
   "EquipoJuegoDeColeccion": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "JuegoDeCompeticionLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JornadaDeCompeticionLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "EnfrentamientoLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlumnoJuegoDeCompeticionLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "EquipoJuegoDeCompeticionLiga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
