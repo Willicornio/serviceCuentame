@@ -28,7 +28,7 @@
     "AlbumEquipo": 8,
     "JuegoDeCompeticionLiga": 11,
     "JornadaDeCompeticionLiga": 23,
-    "EnfrentamientoLiga": 6,
+    "EnfrentamientoLiga": 14,
     "AlumnoJuegoDeCompeticionLiga": 30,
     "EquipoJuegoDeCompeticionLiga": 4
   },
@@ -367,7 +367,15 @@
       "2": "{\"JugadorUno\":2,\"JugadorDos\":21,\"Ganador\":2,\"JornadaDeCompeticionLigaId\":21,\"id\":2}",
       "3": "{\"JugadorUno\":1,\"JugadorDos\":21,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":22,\"id\":3}",
       "4": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":22,\"id\":4}",
-      "5": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":21,\"id\":5}"
+      "5": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":21,\"id\":5}",
+      "6": "{\"JugadorUno\":1,\"JugadorDos\":2,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":18,\"id\":6}",
+      "7": "{\"JugadorUno\":3,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":18,\"id\":7}",
+      "8": "{\"JugadorUno\":5,\"JugadorDos\":6,\"Ganador\":5,\"JornadaDeCompeticionLigaId\":18,\"id\":8}",
+      "9": "{\"JugadorUno\":7,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":18,\"id\":9}",
+      "10": "{\"JugadorUno\":1,\"JugadorDos\":8,\"Ganador\":8,\"JornadaDeCompeticionLigaId\":19,\"id\":10}",
+      "11": "{\"JugadorUno\":2,\"JugadorDos\":6,\"Ganador\":2,\"JornadaDeCompeticionLigaId\":19,\"id\":11}",
+      "12": "{\"JugadorUno\":3,\"JugadorDos\":5,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":19,\"id\":12}",
+      "13": "{\"JugadorUno\":4,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":19,\"id\":13}"
     },
     "AlumnoJuegoDeCompeticionLiga": {
       "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
@@ -390,19 +398,19 @@
       "19": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionLigaId\":8,\"id\":19}",
       "20": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":8,\"id\":20}",
       "21": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":8,\"id\":21}",
-      "22": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":9,\"id\":22}",
-      "23": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionLigaId\":9,\"id\":23}",
-      "24": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionLigaId\":9,\"id\":24}",
+      "22": "{\"PuntosTotalesAlumno\":1,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":9,\"id\":22}",
+      "23": "{\"PuntosTotalesAlumno\":4,\"AlumnoId\":2,\"JuegoDeCompeticionLigaId\":9,\"id\":23}",
+      "24": "{\"PuntosTotalesAlumno\":1,\"AlumnoId\":3,\"JuegoDeCompeticionLigaId\":9,\"id\":24}",
       "25": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionLigaId\":9,\"id\":25}",
-      "26": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":5,\"JuegoDeCompeticionLigaId\":9,\"id\":26}",
+      "26": "{\"PuntosTotalesAlumno\":4,\"AlumnoId\":5,\"JuegoDeCompeticionLigaId\":9,\"id\":26}",
       "27": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionLigaId\":9,\"id\":27}",
       "28": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":9,\"id\":28}",
-      "29": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":9,\"id\":29}"
+      "29": "{\"PuntosTotalesAlumno\":3,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":9,\"id\":29}"
     },
     "EquipoJuegoDeCompeticionLiga": {
       "1": "{\"PuntosTotalesEquipo\":4,\"EquipoId\":1,\"JuegoDeCompeticionLigaId\":10,\"id\":1}",
       "2": "{\"PuntosTotalesEquipo\":3,\"EquipoId\":2,\"JuegoDeCompeticionLigaId\":10,\"id\":2}",
-      "3": "{\"PuntosTotalesEquipo\":10,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10,\"id\":3}"
+      "3": "{\"PuntosTotalesEquipo\":1,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10,\"id\":3}"
     }
   }
 }
