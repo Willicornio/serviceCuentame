@@ -26,10 +26,11 @@
     "EquipoJuegoDeColeccion": 10,
     "Album": 54,
     "AlbumEquipo": 8,
-    "JuegoDeCompeticionLiga": 10,
-    "JornadaDeCompeticionLiga": 20,
+    "JuegoDeCompeticionLiga": 11,
+    "JornadaDeCompeticionLiga": 23,
     "EnfrentamientoLiga": 6,
-    "AlumnoJuegoDeCompeticionLiga": 30
+    "AlumnoJuegoDeCompeticionLiga": 30,
+    "EquipoJuegoDeCompeticionLiga": 4
   },
   "models": {
     "Profesor": {
@@ -335,11 +336,12 @@
     "JuegoDeCompeticionLiga": {
       "1": "{\"NumeroTotalJornadas\":2,\"Tipo\":\"Juego De Competicion Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"id\":1}",
       "4": "{\"NumeroTotalJornadas\":6,\"Tipo\":\"Juego De Competicion Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"id\":4}",
-      "5": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":5}",
+      "5": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":5}",
       "6": "{\"NumeroTotalJornadas\":4,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":6}",
       "7": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":7}",
       "8": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":8}",
-      "9": "{\"NumeroTotalJornadas\":2,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":9}"
+      "9": "{\"NumeroTotalJornadas\":2,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":9}",
+      "10": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":10}"
     },
     "JornadaDeCompeticionLiga": {
       "1": "{\"Fecha\":\"2019-12-03T09:30:00.134Z\",\"CriterioGanador\":\"Llegar a hora\",\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
@@ -355,11 +357,17 @@
       "16": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":8,\"id\":16}",
       "17": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":8,\"id\":17}",
       "18": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":9,\"id\":18}",
-      "19": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":9,\"id\":19}"
+      "19": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":9,\"id\":19}",
+      "20": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":10,\"id\":20}",
+      "21": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":10,\"id\":21}",
+      "22": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":10,\"id\":22}"
     },
     "EnfrentamientoLiga": {
-      "1": "{\"JugadorUno\":1,\"JugadorDos\":2,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":1,\"id\":1}",
-      "2": "{\"JugadorUno\":1,\"JugadorDos\":2,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":2,\"id\":2}"
+      "1": "{\"JugadorUno\":1,\"JugadorDos\":2,\"Ganador\":1,\"JornadaDeCompeticionLigaId\":20,\"id\":1}",
+      "2": "{\"JugadorUno\":2,\"JugadorDos\":21,\"Ganador\":2,\"JornadaDeCompeticionLigaId\":21,\"id\":2}",
+      "3": "{\"JugadorUno\":1,\"JugadorDos\":21,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":22,\"id\":3}",
+      "4": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":22,\"id\":4}",
+      "5": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":21,\"id\":5}"
     },
     "AlumnoJuegoDeCompeticionLiga": {
       "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
@@ -390,6 +398,11 @@
       "27": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionLigaId\":9,\"id\":27}",
       "28": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":9,\"id\":28}",
       "29": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":9,\"id\":29}"
+    },
+    "EquipoJuegoDeCompeticionLiga": {
+      "1": "{\"PuntosTotalesEquipo\":4,\"EquipoId\":1,\"JuegoDeCompeticionLigaId\":10,\"id\":1}",
+      "2": "{\"PuntosTotalesEquipo\":3,\"EquipoId\":2,\"JuegoDeCompeticionLigaId\":10,\"id\":2}",
+      "3": "{\"PuntosTotalesEquipo\":10,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10,\"id\":3}"
     }
   }
 }
