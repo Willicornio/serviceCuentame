@@ -367,7 +367,7 @@
       "2": "{\"JugadorUno\":2,\"JugadorDos\":21,\"JornadaDeCompeticionLigaId\":21,\"id\":2}",
       "3": "{\"JugadorUno\":1,\"JugadorDos\":21,\"JornadaDeCompeticionLigaId\":22,\"id\":3}",
       "4": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":22,\"id\":4}",
-      "5": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":21,\"id\":5}",
+      "5": "{\"JugadorUno\":2,\"JugadorDos\":1,\"JornadaDeCompeticionLigaId\":21,\"id\":5}",
       "6": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":18,\"id\":6}",
       "7": "{\"JugadorUno\":3,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":18,\"id\":7}",
       "8": "{\"JugadorUno\":5,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":18,\"id\":8}",
