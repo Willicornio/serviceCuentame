@@ -28,7 +28,7 @@
     "AlbumEquipo": 8,
     "JuegoDeCompeticionLiga": 11,
     "JornadaDeCompeticionLiga": 23,
-    "EnfrentamientoLiga": 14,
+    "EnfrentamientoLiga": 12,
     "AlumnoJuegoDeCompeticionLiga": 30,
     "EquipoJuegoDeCompeticionLiga": 4
   },
@@ -366,16 +366,14 @@
       "1": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":20,\"id\":1}",
       "2": "{\"JugadorUno\":2,\"JugadorDos\":21,\"JornadaDeCompeticionLigaId\":21,\"id\":2}",
       "3": "{\"JugadorUno\":1,\"JugadorDos\":21,\"JornadaDeCompeticionLigaId\":22,\"id\":3}",
-      "4": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":22,\"id\":4}",
-      "5": "{\"JugadorUno\":2,\"JugadorDos\":1,\"JornadaDeCompeticionLigaId\":21,\"id\":5}",
-      "6": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":18,\"id\":6}",
-      "7": "{\"JugadorUno\":3,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":18,\"id\":7}",
-      "8": "{\"JugadorUno\":5,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":18,\"id\":8}",
-      "9": "{\"JugadorUno\":7,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":18,\"id\":9}",
-      "10": "{\"JugadorUno\":1,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":19,\"id\":10}",
-      "11": "{\"JugadorUno\":2,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":19,\"id\":11}",
-      "12": "{\"JugadorUno\":3,\"JugadorDos\":5,\"JornadaDeCompeticionLigaId\":19,\"id\":12}",
-      "13": "{\"JugadorUno\":4,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":19,\"id\":13}"
+      "4": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":18,\"id\":4}",
+      "5": "{\"JugadorUno\":3,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":18,\"id\":5}",
+      "6": "{\"JugadorUno\":5,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":18,\"id\":6}",
+      "7": "{\"JugadorUno\":7,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":18,\"id\":7}",
+      "8": "{\"JugadorUno\":1,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":19,\"id\":8}",
+      "9": "{\"JugadorUno\":2,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":19,\"id\":9}",
+      "10": "{\"JugadorUno\":3,\"JugadorDos\":5,\"JornadaDeCompeticionLigaId\":19,\"id\":10}",
+      "11": "{\"JugadorUno\":4,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":19,\"id\":11}"
     },
     "AlumnoJuegoDeCompeticionLiga": {
       "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
