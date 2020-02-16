@@ -182,5 +182,9 @@
   "EquipoJuegoDeCompeticionLiga": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "JuegoDeCompeticionFormulaUno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
