@@ -186,5 +186,9 @@
   "JuegoDeCompeticionFormulaUno": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "JornadaDeCompeticionFormulaUno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
