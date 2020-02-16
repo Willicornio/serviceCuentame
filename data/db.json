@@ -30,7 +30,10 @@
     "JornadaDeCompeticionLiga": 23,
     "EnfrentamientoLiga": 12,
     "AlumnoJuegoDeCompeticionLiga": 30,
-    "EquipoJuegoDeCompeticionLiga": 4
+    "EquipoJuegoDeCompeticionLiga": 4,
+    "JuegoDeCompeticionFormulaUno": 2,
+    "JornadaDeCompeticionFormulaUno": 2,
+    "AlumnoJuegoDeCompeticionFormulaUno": 9
   },
   "models": {
     "Profesor": {
@@ -409,6 +412,22 @@
       "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionLigaId\":10,\"id\":1}",
       "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionLigaId\":10,\"id\":2}",
       "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10,\"id\":3}"
+    },
+    "JuegoDeCompeticionFormulaUno": {
+      "1": "{\"NumeroTotalJornadas\":0,\"Tipo\":\"Juego de Competicion Formula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}"
+    },
+    "JornadaDeCompeticionFormulaUno": {
+      "1": "{\"Fecha\":\"2020-02-16T22:53:40.504Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}"
+    },
+    "AlumnoJuegoDeCompeticionFormulaUno": {
+      "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
+      "2": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
+      "3": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":3}",
+      "4": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":4}",
+      "5": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":5,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":5}",
+      "6": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":6}",
+      "7": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":7}",
+      "8": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":8}"
     }
   }
 }
