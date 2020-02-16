@@ -59,6 +59,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "juegosDeCompeticionFormulaUno": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticionFormulaUno",
+      "foreignKey": "grupoId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
