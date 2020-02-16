@@ -13,7 +13,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "jornadasDeCompeticionFormulaUno": {
+      "type": "hasMany",
+      "model": "JornadaDeCompeticionFormulaUno",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
