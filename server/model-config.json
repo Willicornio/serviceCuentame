@@ -194,5 +194,9 @@
   "AlumnoJuegoDeCompeticionFormulaUno": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "EquipoJuegoDeCompeticionFormulaUno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
