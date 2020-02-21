@@ -33,7 +33,8 @@
     "EquipoJuegoDeCompeticionLiga": 4,
     "JuegoDeCompeticionFormulaUno": 2,
     "JornadaDeCompeticionFormulaUno": 2,
-    "AlumnoJuegoDeCompeticionFormulaUno": 9
+    "AlumnoJuegoDeCompeticionFormulaUno": 9,
+    "EquipoJuegoDeCompeticionFormulaUno": 4
   },
   "models": {
     "Profesor": {
@@ -428,6 +429,11 @@
       "6": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":6}",
       "7": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":7}",
       "8": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":8}"
+    },
+    "EquipoJuegoDeCompeticionFormulaUno": {
+      "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
+      "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
+      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":21,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":3}"
     }
   }
 }
