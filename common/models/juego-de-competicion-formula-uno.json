@@ -10,6 +10,16 @@
     "NumeroTotalJornadas": {
       "type": "number",
       "required": true
+    },
+    "NumeroParticipantesPuntuan": {
+      "type": "number",
+      "required": true
+    },
+    "Puntos": {
+      "type": [
+        "number"
+      ],
+      "required": true
     }
   },
   "validations": [],
