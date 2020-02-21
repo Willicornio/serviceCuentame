@@ -14,7 +14,24 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "equipo": {
+      "type": "belongsTo",
+      "model": "Equipo",
+      "foreignKey": "EquipoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeCompeticionFormulaUno": {
+      "type": "belongsTo",
+      "model": "JuegoDeCompeticionFormulaUno",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
