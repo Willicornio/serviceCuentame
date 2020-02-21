@@ -30,6 +30,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeCompeticionFormulaUno"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Equipo"
     }
   },
   "acls": [],
