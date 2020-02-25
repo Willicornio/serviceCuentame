@@ -13,6 +13,11 @@
     "CriterioGanador": {
       "type": "string",
       "required": true
+    },
+    "GanadoresFormulaUno": {
+      "type": [
+        "number"
+      ]
     }
   },
   "validations": [],

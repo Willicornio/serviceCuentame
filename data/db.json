@@ -31,8 +31,8 @@
     "EnfrentamientoLiga": 12,
     "AlumnoJuegoDeCompeticionLiga": 30,
     "EquipoJuegoDeCompeticionLiga": 4,
-    "JuegoDeCompeticionFormulaUno": 2,
-    "JornadaDeCompeticionFormulaUno": 2,
+    "JuegoDeCompeticionFormulaUno": 3,
+    "JornadaDeCompeticionFormulaUno": 3,
     "AlumnoJuegoDeCompeticionFormulaUno": 9,
     "EquipoJuegoDeCompeticionFormulaUno": 4
   },
@@ -343,7 +343,7 @@
       "5": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":5}",
       "6": "{\"NumeroTotalJornadas\":4,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":6}",
       "7": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":7}",
-      "8": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":8}",
+      "8": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":8}",
       "9": "{\"NumeroTotalJornadas\":2,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":9}",
       "10": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":10}"
     },
@@ -368,7 +368,7 @@
     },
     "EnfrentamientoLiga": {
       "1": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":20,\"id\":1}",
-      "2": "{\"JugadorUno\":2,\"JugadorDos\":21,\"JornadaDeCompeticionLigaId\":21,\"id\":2}",
+      "2": "{\"id\":2,\"JugadorUno\":2,\"JugadorDos\":21,\"Ganador\":21,\"JornadaDeCompeticionLigaId\":21,\"nombreJugadorUno\":\"Boston Celtics\",\"nombreGanador\":\"-\",\"nombreJugadorDos\":\"Brooklyn Nets\"}",
       "3": "{\"JugadorUno\":1,\"JugadorDos\":21,\"JornadaDeCompeticionLigaId\":22,\"id\":3}",
       "4": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":18,\"id\":4}",
       "5": "{\"JugadorUno\":3,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":18,\"id\":5}",
@@ -412,13 +412,15 @@
     "EquipoJuegoDeCompeticionLiga": {
       "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionLigaId\":10,\"id\":1}",
       "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionLigaId\":10,\"id\":2}",
-      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10,\"id\":3}"
+      "3": "{\"id\":3,\"PuntosTotalesEquipo\":3,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10}"
     },
     "JuegoDeCompeticionFormulaUno": {
-      "1": "{\"NumeroTotalJornadas\":0,\"Tipo\":\"Juego de Competicion Formula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}"
+      "1": "{\"NumeroTotalJornadas\":1,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
+      "2": "{\"NumeroTotalJornadas\":1,\"NumeroParticipantesPuntuan\":2,\"Puntos\":[100,50],\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Equipo\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2}"
     },
     "JornadaDeCompeticionFormulaUno": {
-      "1": "{\"Fecha\":\"2020-02-16T22:53:40.504Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}"
+      "1": "{\"Fecha\":\"2020-02-24T22:56:26.333Z\",\"CriterioGanador\":\"No se sabe\",\"GanadoresFormulaUno\":[1,2,3],\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
+      "2": "{\"Fecha\":\"2020-02-24T23:33:14.308Z\",\"CriterioGanador\":\"No se sabe\",\"GanadoresFormulaUno\":[1,21],\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":2}"
     },
     "AlumnoJuegoDeCompeticionFormulaUno": {
       "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
@@ -431,9 +433,9 @@
       "8": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":8}"
     },
     "EquipoJuegoDeCompeticionFormulaUno": {
-      "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
-      "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
-      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":21,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":3}"
+      "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":1}",
+      "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":2}",
+      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":21,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":3}"
     }
   }
 }
