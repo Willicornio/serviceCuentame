@@ -19,7 +19,7 @@
     "Jornada": 4,
     "AlumnoJuegoDePuntos": 49,
     "EquipoJuegoDePuntos": 15,
-    "HistorialPuntosAlumno": 25,
+    "HistorialPuntosAlumno": 26,
     "Insignia": 22,
     "HistorialPuntosEquipo": 1,
     "AlumnoJuegoDeColeccion": 16,
@@ -32,7 +32,7 @@
     "AlumnoJuegoDeCompeticionLiga": 30,
     "EquipoJuegoDeCompeticionLiga": 4,
     "JuegoDeCompeticionFormulaUno": 3,
-    "JornadaDeCompeticionFormulaUno": 3,
+    "JornadaDeCompeticionFormulaUno": 4,
     "AlumnoJuegoDeCompeticionFormulaUno": 9,
     "EquipoJuegoDeCompeticionFormulaUno": 4
   },
@@ -222,7 +222,7 @@
       "45": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":5,\"juegoDePuntosId\":75,\"id\":45}",
       "46": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":6,\"juegoDePuntosId\":75,\"id\":46}",
       "47": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":7,\"juegoDePuntosId\":75,\"id\":47}",
-      "48": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":8,\"juegoDePuntosId\":75,\"id\":48}"
+      "48": "{\"id\":48,\"PuntosTotalesAlumno\":1,\"alumnoId\":8,\"juegoDePuntosId\":75}"
     },
     "EquipoJuegoDePuntos": {
       "1": "{\"PuntosTotalesEquipo\":0,\"equipoId\":1,\"juegoDePuntosId\":2,\"id\":1}",
@@ -264,7 +264,8 @@
       "21": "{\"ValorPunto\":2,\"puntoId\":1,\"alumnoJuegoDePuntosId\":2,\"fecha\":\"28/8/2019  13:32:39\",\"id\":21}",
       "22": "{\"ValorPunto\":5,\"puntoId\":3,\"alumnoJuegoDePuntosId\":2,\"fecha\":\"28/8/2019  13:32:46\",\"id\":22}",
       "23": "{\"ValorPunto\":1,\"puntoId\":31,\"alumnoJuegoDePuntosId\":44,\"fecha\":\"13/1/2020  13:27:15\",\"id\":23}",
-      "24": "{\"ValorPunto\":3,\"puntoId\":2,\"alumnoJuegoDePuntosId\":42,\"fecha\":\"13/1/2020  13:27:24\",\"id\":24}"
+      "24": "{\"ValorPunto\":3,\"puntoId\":2,\"alumnoJuegoDePuntosId\":42,\"fecha\":\"13/1/2020  13:27:24\",\"id\":24}",
+      "25": "{\"ValorPunto\":1,\"puntoId\":31,\"alumnoJuegoDePuntosId\":48,\"fecha\":\"7/3/2020  18:50:03\",\"id\":25}"
     },
     "Insignia": {
       "18": "{\"Nombre\":\"Mano del Rey\",\"Descripcion\":\"Este galardón solo es apto para alumnos trabajadores\",\"Imagen\":\"mano-del-rey-juego-de-tronos-tyrion.jpg\",\"profesorId\":1,\"id\":18}",
@@ -415,15 +416,16 @@
       "3": "{\"id\":3,\"PuntosTotalesEquipo\":3,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10}"
     },
     "JuegoDeCompeticionFormulaUno": {
-      "1": "{\"NumeroTotalJornadas\":1,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
+      "1": "{\"NumeroTotalJornadas\":2,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
       "2": "{\"NumeroTotalJornadas\":1,\"NumeroParticipantesPuntuan\":2,\"Puntos\":[100,50],\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Equipo\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2}"
     },
     "JornadaDeCompeticionFormulaUno": {
-      "1": "{\"Fecha\":\"2020-02-24T22:56:26.333Z\",\"CriterioGanador\":\"No se sabe\",\"GanadoresFormulaUno\":[1,2,3],\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
-      "2": "{\"Fecha\":\"2020-02-24T23:33:14.308Z\",\"CriterioGanador\":\"No se sabe\",\"GanadoresFormulaUno\":[1,21],\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":2}"
+      "1": "{\"id\":1,\"Fecha\":\"2020-03-08T12:42:39.549Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":1}",
+      "2": "{\"Fecha\":\"2020-03-07T18:32:52.516Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
+      "3": "{\"Fecha\":\"2020-02-24T23:33:14.308Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":3}"
     },
     "AlumnoJuegoDeCompeticionFormulaUno": {
-      "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
+      "1": "{\"id\":1,\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1}",
       "2": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
       "3": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":3}",
       "4": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":4}",
