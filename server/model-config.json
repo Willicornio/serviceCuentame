@@ -182,5 +182,21 @@
   "EquipoJuegoDeCompeticionLiga": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "JuegoDeCompeticionFormulaUno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JornadaDeCompeticionFormulaUno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlumnoJuegoDeCompeticionFormulaUno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "EquipoJuegoDeCompeticionFormulaUno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
