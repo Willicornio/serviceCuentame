@@ -26,15 +26,15 @@
     "EquipoJuegoDeColeccion": 10,
     "Album": 54,
     "AlbumEquipo": 8,
-    "JuegoDeCompeticionLiga": 11,
-    "JornadaDeCompeticionLiga": 23,
-    "EnfrentamientoLiga": 12,
-    "AlumnoJuegoDeCompeticionLiga": 30,
-    "EquipoJuegoDeCompeticionLiga": 4,
-    "JuegoDeCompeticionFormulaUno": 3,
-    "JornadaDeCompeticionFormulaUno": 4,
+    "JuegoDeCompeticionLiga": 2,
+    "JornadaDeCompeticionLiga": 8,
+    "EnfrentamientoLiga": 29,
+    "AlumnoJuegoDeCompeticionLiga": 9,
+    "EquipoJuegoDeCompeticionLiga": 1,
+    "JuegoDeCompeticionFormulaUno": 2,
+    "JornadaDeCompeticionFormulaUno": 6,
     "AlumnoJuegoDeCompeticionFormulaUno": 9,
-    "EquipoJuegoDeCompeticionFormulaUno": 4
+    "EquipoJuegoDeCompeticionFormulaUno": 1
   },
   "models": {
     "Profesor": {
@@ -339,93 +339,70 @@
       "7": "{\"cromoId\":8,\"equipoJuegoDeColeccionId\":8,\"id\":7}"
     },
     "JuegoDeCompeticionLiga": {
-      "1": "{\"NumeroTotalJornadas\":2,\"Tipo\":\"Juego De Competicion Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"id\":1}",
-      "4": "{\"NumeroTotalJornadas\":6,\"Tipo\":\"Juego De Competicion Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"id\":4}",
-      "5": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":5}",
-      "6": "{\"NumeroTotalJornadas\":4,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":6}",
-      "7": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":7}",
-      "8": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":8}",
-      "9": "{\"NumeroTotalJornadas\":2,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":9}",
-      "10": "{\"NumeroTotalJornadas\":3,\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":10}"
+      "1": "{\"NumeroTotalJornadas\":7,\"NombreJuego\":\"Prueba 1\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":1}"
     },
     "JornadaDeCompeticionLiga": {
-      "1": "{\"Fecha\":\"2019-12-03T09:30:00.134Z\",\"CriterioGanador\":\"Llegar a hora\",\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
-      "2": "{\"Fecha\":\"2019-12-10T09:30:00.134Z\",\"CriterioGanador\":\"Deberes hechos\",\"JuegoDeCompeticionLigaId\":1,\"id\":2}",
-      "3": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":3}",
-      "4": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":4}",
-      "5": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":5,\"id\":5}",
-      "11": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":6,\"id\":11}",
-      "12": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":6,\"id\":12}",
-      "13": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":6,\"id\":13}",
-      "14": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":6,\"id\":14}",
-      "15": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":8,\"id\":15}",
-      "16": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":8,\"id\":16}",
-      "17": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":8,\"id\":17}",
-      "18": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":9,\"id\":18}",
-      "19": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":9,\"id\":19}",
-      "20": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":10,\"id\":20}",
-      "21": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":10,\"id\":21}",
-      "22": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":10,\"id\":22}"
+      "1": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
+      "2": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":2}",
+      "3": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":3}",
+      "4": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":4}",
+      "5": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":5}",
+      "6": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":6}",
+      "7": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":7}"
     },
     "EnfrentamientoLiga": {
-      "1": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":20,\"id\":1}",
-      "2": "{\"id\":2,\"JugadorUno\":2,\"JugadorDos\":21,\"Ganador\":21,\"JornadaDeCompeticionLigaId\":21,\"nombreJugadorUno\":\"Boston Celtics\",\"nombreGanador\":\"-\",\"nombreJugadorDos\":\"Brooklyn Nets\"}",
-      "3": "{\"JugadorUno\":1,\"JugadorDos\":21,\"JornadaDeCompeticionLigaId\":22,\"id\":3}",
-      "4": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":18,\"id\":4}",
-      "5": "{\"JugadorUno\":3,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":18,\"id\":5}",
-      "6": "{\"JugadorUno\":5,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":18,\"id\":6}",
-      "7": "{\"JugadorUno\":7,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":18,\"id\":7}",
-      "8": "{\"JugadorUno\":1,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":19,\"id\":8}",
-      "9": "{\"JugadorUno\":2,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":19,\"id\":9}",
-      "10": "{\"JugadorUno\":3,\"JugadorDos\":5,\"JornadaDeCompeticionLigaId\":19,\"id\":10}",
-      "11": "{\"JugadorUno\":4,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":19,\"id\":11}"
+      "1": "{\"JugadorUno\":1,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":1,\"id\":1}",
+      "2": "{\"JugadorUno\":2,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":1,\"id\":2}",
+      "3": "{\"JugadorUno\":3,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":1,\"id\":3}",
+      "4": "{\"JugadorUno\":4,\"JugadorDos\":5,\"JornadaDeCompeticionLigaId\":1,\"id\":4}",
+      "5": "{\"JugadorUno\":8,\"JugadorDos\":5,\"JornadaDeCompeticionLigaId\":2,\"id\":5}",
+      "6": "{\"JugadorUno\":6,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":2,\"id\":6}",
+      "7": "{\"JugadorUno\":7,\"JugadorDos\":3,\"JornadaDeCompeticionLigaId\":2,\"id\":7}",
+      "8": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":2,\"id\":8}",
+      "9": "{\"JugadorUno\":2,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":3,\"id\":9}",
+      "10": "{\"JugadorUno\":3,\"JugadorDos\":1,\"JornadaDeCompeticionLigaId\":3,\"id\":10}",
+      "11": "{\"JugadorUno\":4,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":3,\"id\":11}",
+      "12": "{\"JugadorUno\":5,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":3,\"id\":12}",
+      "13": "{\"JugadorUno\":8,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":4,\"id\":13}",
+      "14": "{\"JugadorUno\":7,\"JugadorDos\":5,\"JornadaDeCompeticionLigaId\":4,\"id\":14}",
+      "15": "{\"JugadorUno\":1,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":4,\"id\":15}",
+      "16": "{\"JugadorUno\":2,\"JugadorDos\":3,\"JornadaDeCompeticionLigaId\":4,\"id\":16}",
+      "17": "{\"JugadorUno\":3,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":5,\"id\":17}",
+      "18": "{\"JugadorUno\":4,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":5,\"id\":18}",
+      "19": "{\"JugadorUno\":5,\"JugadorDos\":1,\"JornadaDeCompeticionLigaId\":5,\"id\":19}",
+      "20": "{\"JugadorUno\":6,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":5,\"id\":20}",
+      "21": "{\"JugadorUno\":8,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":6,\"id\":21}",
+      "22": "{\"JugadorUno\":1,\"JugadorDos\":6,\"JornadaDeCompeticionLigaId\":6,\"id\":22}",
+      "23": "{\"JugadorUno\":2,\"JugadorDos\":5,\"JornadaDeCompeticionLigaId\":6,\"id\":23}",
+      "24": "{\"JugadorUno\":3,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":6,\"id\":24}",
+      "25": "{\"JugadorUno\":4,\"JugadorDos\":8,\"JornadaDeCompeticionLigaId\":7,\"id\":25}",
+      "26": "{\"JugadorUno\":5,\"JugadorDos\":3,\"JornadaDeCompeticionLigaId\":7,\"id\":26}",
+      "27": "{\"JugadorUno\":6,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":7,\"id\":27}",
+      "28": "{\"JugadorUno\":7,\"JugadorDos\":1,\"JornadaDeCompeticionLigaId\":7,\"id\":28}"
     },
     "AlumnoJuegoDeCompeticionLiga": {
       "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
       "2": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionLigaId\":1,\"id\":2}",
       "3": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionLigaId\":1,\"id\":3}",
-      "5": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":4,\"id\":5}",
-      "6": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":7,\"id\":6}",
-      "7": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionLigaId\":7,\"id\":7}",
-      "8": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionLigaId\":7,\"id\":8}",
-      "9": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionLigaId\":7,\"id\":9}",
-      "10": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":5,\"JuegoDeCompeticionLigaId\":7,\"id\":10}",
-      "11": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionLigaId\":7,\"id\":11}",
-      "12": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":7,\"id\":12}",
-      "13": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":7,\"id\":13}",
-      "14": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":8,\"id\":14}",
-      "15": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionLigaId\":8,\"id\":15}",
-      "16": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionLigaId\":8,\"id\":16}",
-      "17": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionLigaId\":8,\"id\":17}",
-      "18": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":5,\"JuegoDeCompeticionLigaId\":8,\"id\":18}",
-      "19": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionLigaId\":8,\"id\":19}",
-      "20": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":8,\"id\":20}",
-      "21": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":8,\"id\":21}",
-      "22": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionLigaId\":9,\"id\":22}",
-      "23": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionLigaId\":9,\"id\":23}",
-      "24": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionLigaId\":9,\"id\":24}",
-      "25": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionLigaId\":9,\"id\":25}",
-      "26": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":5,\"JuegoDeCompeticionLigaId\":9,\"id\":26}",
-      "27": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionLigaId\":9,\"id\":27}",
-      "28": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":9,\"id\":28}",
-      "29": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":9,\"id\":29}"
+      "4": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionLigaId\":1,\"id\":4}",
+      "5": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":5,\"JuegoDeCompeticionLigaId\":1,\"id\":5}",
+      "6": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":6,\"JuegoDeCompeticionLigaId\":1,\"id\":6}",
+      "7": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":1,\"id\":7}",
+      "8": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionLigaId\":1,\"id\":8}"
     },
-    "EquipoJuegoDeCompeticionLiga": {
-      "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionLigaId\":10,\"id\":1}",
-      "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionLigaId\":10,\"id\":2}",
-      "3": "{\"id\":3,\"PuntosTotalesEquipo\":3,\"EquipoId\":21,\"JuegoDeCompeticionLigaId\":10}"
-    },
+    "EquipoJuegoDeCompeticionLiga": {},
     "JuegoDeCompeticionFormulaUno": {
-      "1": "{\"NumeroTotalJornadas\":2,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
-      "2": "{\"NumeroTotalJornadas\":1,\"NumeroParticipantesPuntuan\":2,\"Puntos\":[100,50],\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Equipo\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2}"
+      "1": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"NombreJuego\":\"Prueba 2\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}"
     },
     "JornadaDeCompeticionFormulaUno": {
-      "1": "{\"id\":1,\"Fecha\":\"2020-03-08T12:42:39.549Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":1}",
-      "2": "{\"Fecha\":\"2020-03-07T18:32:52.516Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
-      "3": "{\"Fecha\":\"2020-02-24T23:33:14.308Z\",\"CriterioGanador\":\"No se sabe\",\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":3}"
+      "1": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionFormulaUnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
+      "2": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionFormulaUnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":2}",
+      "3": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionFormulaUnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":3}",
+      "4": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionFormulaUnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":4}",
+      "5": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionFormulaUnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":5}"
     },
     "AlumnoJuegoDeCompeticionFormulaUno": {
-      "1": "{\"id\":1,\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1}",
+      "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":1,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":1}",
       "2": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":2}",
       "3": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":3,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":3}",
       "4": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":4}",
@@ -434,10 +411,6 @@
       "7": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":7}",
       "8": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":8,\"JuegoDeCompeticionFormulaUnoId\":1,\"id\":8}"
     },
-    "EquipoJuegoDeCompeticionFormulaUno": {
-      "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":1}",
-      "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":2}",
-      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":21,\"JuegoDeCompeticionFormulaUnoId\":2,\"id\":3}"
-    }
+    "EquipoJuegoDeCompeticionFormulaUno": {}
   }
 }
