@@ -7,16 +7,12 @@
     "Coleccion": 3,
     "Cromo": 21,
     "Equipo": 10,
-    "Juego": 1,
     "JuegoDePuntos": 4,
-    "JuegoDeCompeticion": 1,
-    "Liga": 1,
     "JuegoDeColeccion": 2,
     "Matricula": 22,
     "AsignacionEquipo": 20,
     "AsignacionPuntoJuego": 19,
     "Nivel": 4,
-    "Jornada": 1,
     "AlumnoJuegoDePuntos": 21,
     "EquipoJuegoDePuntos": 4,
     "HistorialPuntosAlumno": 1,
@@ -109,14 +105,11 @@
       "8": "{\"Nombre\":\"Los Leopardos\",\"grupoId\":2,\"id\":8}",
       "9": "{\"Nombre\":\"Los Cocodrilos\",\"grupoId\":2,\"id\":9}"
     },
-    "Juego": {},
     "JuegoDePuntos": {
       "1": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
       "2": "{\"NombreJuego\":\"Prueba Puntos 2\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2}",
       "3": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}"
     },
-    "JuegoDeCompeticion": {},
-    "Liga": {},
     "JuegoDeColeccion": {
       "1": "{\"NombreJuego\":\"Prueba Colección 1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1,\"coleccionId\":2}"
     },
@@ -188,7 +181,6 @@
       "2": "{\"Nombre\":\"Plata\",\"PuntosAlcanzar\":25,\"PrivilegiosDelNivel\":\"Pueden entregar unos deberes un día más tarde\",\"Imagen\":\"Silver_Level.jpg\",\"juegoDePuntosId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"Oro\",\"PuntosAlcanzar\":50,\"PrivilegiosDelNivel\":\"Pueden repetir una pregunta de un examen en la que hayan fallado\",\"Imagen\":\"Gold-Level.png\",\"juegoDePuntosId\":1,\"id\":3}"
     },
-    "Jornada": {},
     "AlumnoJuegoDePuntos": {
       "1": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":1,\"juegoDePuntosId\":2,\"id\":1}",
       "2": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":2,\"id\":2}",
