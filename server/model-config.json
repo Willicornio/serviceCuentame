@@ -182,5 +182,17 @@
   "EquipoJuegoDeCompeticionLiga": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "Pregunta": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Cuestionario": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "PreguntaDelCuestionario": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
