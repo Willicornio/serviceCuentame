@@ -95,7 +95,7 @@
       "20": "{\"Nombre\":\"Klay Thompson\",\"Imagen\":\"2e4372b0f1823ef8882f10c7e6cb7dff.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":20}"
     },
     "Equipo": {
-      "1": "{\"Nombre\":\"Los Angeles Lakers\",\"FotoEquipo\":\"e21219b6ea62929a81fcc3de3d31baf1-logo-de-los-angeles-lakers-by-vexels.png\",\"grupoId\":1,\"id\":1}",
+      "1": "{\"Nombre\":\"Angeles Lakers\",\"FotoEquipo\":\"e21219b6ea62929a81fcc3de3d31baf1-logo-de-los-angeles-lakers-by-vexels.png\",\"grupoId\":1,\"id\":1}",
       "2": "{\"Nombre\":\"Boston Celtics\",\"grupoId\":1,\"id\":2,\"FotoEquipo\":\"yyy1024px-Boston_Celtics.png\"}",
       "3": "{\"Nombre\":\"Brooklyn Nets\",\"grupoId\":1,\"id\":3,\"FotoEquipo\":\"Brooklyn-Nets-Symbol.png\"}",
       "4": "{\"Nombre\":\"Los Elefantes\",\"grupoId\":2,\"id\":4}",
@@ -384,7 +384,7 @@
     "JuegoDeCompeticionFormulaUno": {
       "1": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"NombreJuego\":\"Prueba F1 1\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
       "2": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[200,100,50],\"NombreJuego\":\"Prueba F1 1\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":2}",
-      "3": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[300,200,100],\"NombreJuego\":\"Prueba F2 2\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}"
+      "3": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[300,200,100],\"NombreJuego\":\"Prueba F1 2\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}"
     },
     "JornadaDeCompeticionFormulaUno": {
       "1": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionFormulaUnoId\":1,\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
@@ -428,9 +428,9 @@
     "EquipoJuegoDeCompeticionFormulaUno": {
       "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":4,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":1}",
       "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":5,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":2}",
-      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":6,\"JuegoDeCompeticionFormulaUnoId\":3\"id\":3}",
-      "4": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":7,\"JuegoDeCompeticionFormulaUnoId\":3\"id\":4}",
-      "5": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":8,\"JuegoDeCompeticionFormulaUnoId\":3\"id\":5}",
+      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":6,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":3}",
+      "4": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":7,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":4}",
+      "5": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":8,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":5}",
       "6": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":9,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":6}"
     }
   }
