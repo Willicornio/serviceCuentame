@@ -1,6 +1,6 @@
 {
-  "name": "JuegoDeCompeticionLiga",
-  "plural": "JuegosDeCompeticionLiga",
+  "name": "JuegoDeCompeticionFormulaUno",
+  "plural": "JuegosDecompeticionFormulaUno",
   "base": "Juego",
   "idInjection": true,
   "options": {
@@ -11,6 +11,16 @@
       "type": "number",
       "required": true
     },
+    "NumeroParticipantesPuntuan": {
+      "type": "number",
+      "required": true
+    },
+    "Puntos": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
     "NombreJuego": {
       "type": "string",
       "required": true
@@ -18,10 +28,10 @@
   },
   "validations": [],
   "relations": {
-    "jornadasDeCompeticionLiga": {
+    "jornadasDeCompeticionFormulaUno": {
       "type": "hasMany",
-      "model": "JornadaDeCompeticionLiga",
-      "foreignKey": "JuegoDeCompeticionLigaId",
+      "model": "JornadaDeCompeticionFormulaUno",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
       "options": {
         "nestRemoting": true
       }
@@ -29,20 +39,20 @@
     "alumnos": {
       "type": "hasMany",
       "model": "Alumno",
-      "foreignKey": "JuegoDeCompeticionLigaId",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
       "options": {
         "nestRemoting": true
       },
-      "through": "AlumnoJuegoDeCompeticionLiga"
+      "through": "AlumnoJuegoDeCompeticionFormulaUno"
     },
     "equipos": {
       "type": "hasMany",
       "model": "Equipo",
-      "foreignKey": "JuegoDeCompeticionLigaId",
+      "foreignKey": "JuegoDeCompeticionFormulaUnoId",
       "options": {
         "nestRemoting": true
       },
-      "through": "EquipoJuegoDeCompeticionLiga"
+      "through": "EquipoJuegoDeCompeticionFormulaUno"
     }
   },
   "acls": [],

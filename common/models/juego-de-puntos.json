@@ -6,7 +6,12 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "NombreJuego": {
+      "type": "string",
+      "required": true
+    }
+  },
   "validations": [],
   "relations": {
     "nivels": {
