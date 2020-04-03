@@ -2,7 +2,7 @@
   "ids": {
     "Profesor": 3,
     "Alumno": 25,
-    "Grupo": 19,
+    "Grupo": 22,
     "Punto": 33,
     "Coleccion": 3,
     "Cromo": 21,
@@ -12,7 +12,7 @@
     "JuegoDeCompeticion": 1,
     "Liga": 1,
     "JuegoDeColeccion": 21,
-    "Matricula": 58,
+    "Matricula": 59,
     "AsignacionEquipo": 48,
     "AsignacionPuntoJuego": 64,
     "Nivel": 18,
@@ -30,9 +30,9 @@
     "JornadaDeCompeticionLiga": 25,
     "EnfrentamientoLiga": 6,
     "AlumnoJuegoDeCompeticionLiga": 38,
-    "Pregunta": 3,
-    "Cuestionario": 2,
-    "PreguntaDelCuestionario": 2
+    "Pregunta": 9,
+    "Cuestionario": 16,
+    "PreguntaDelCuestionario": 16
   },
   "models": {
     "Profesor": {
@@ -47,7 +47,6 @@
       "5": "{\"Nombre\":\"Berta\",\"PrimerApellido\":\"Junqué\",\"SegundoApellido\":\"Llaudet\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":5}",
       "6": "{\"Nombre\":\"Victor\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":6}",
       "7": "{\"Nombre\":\"David\",\"PrimerApellido\":\"Balboa\",\"SegundoApellido\":\"Mato\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":7}",
-      "8": "{\"Nombre\":\"Adrià\",\"PrimerApellido\":\"Espinosa\",\"SegundoApellido\":\"Miguel\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":8}",
       "9": "{\"Nombre\":\"Alex\",\"PrimerApellido\":\"Peinado\",\"SegundoApellido\":\"Alcaide\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":9}",
       "10": "{\"Nombre\":\"Francesc\",\"PrimerApellido\":\"Torrens\",\"SegundoApellido\":\"García\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":10}",
       "11": "{\"Nombre\":\"Juan\",\"PrimerApellido\":\"Garcia\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":11}",
@@ -63,7 +62,9 @@
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Castellano 1º ESO\",\"profesorId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"Grupo 5\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":3}",
-      "17": "{\"Nombre\":\"Filosofia\",\"Descripcion\":\"Lo mejor de la filo\",\"profesorId\":1,\"id\":17}"
+      "17": "{\"Nombre\":\"Filosofia\",\"Descripcion\":\"Lo mejor de la filo\",\"profesorId\":1,\"id\":17}",
+      "19": "{\"Nombre\":\"3\",\"Descripcion\":\"4\",\"profesorId\":1,\"id\":19}",
+      "20": "{\"Nombre\":\"Matematicos\",\"Descripcion\":\"Nos gustan las Mates\",\"profesorId\":1,\"id\":20}"
     },
     "Punto": {
       "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
@@ -130,7 +131,8 @@
       "53": "{\"alumnoId\":17,\"grupoId\":17,\"id\":53}",
       "54": "{\"alumnoId\":7,\"grupoId\":17,\"id\":54}",
       "55": "{\"alumnoId\":23,\"grupoId\":17,\"id\":55}",
-      "56": "{\"alumnoId\":15,\"grupoId\":17,\"id\":56}"
+      "56": "{\"alumnoId\":15,\"grupoId\":17,\"id\":56}",
+      "58": "{\"alumnoId\":12,\"grupoId\":19,\"id\":58}"
     },
     "AsignacionEquipo": {
       "8": "{\"alumnoId\":4,\"equipoId\":2,\"grupoId\":1,\"id\":8}",
@@ -451,13 +453,32 @@
     },
     "Pregunta": {
       "1": "{\"Titulo\":\"Hola\",\"Pregunta\":\"3+3\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"6\",\"RespuestaIncorrecta1\":\"4\",\"RespuestaIncorrecta2\":\"5\",\"RespuestaIncorrecta3\":\"7\",\"FeedbackCorrecto\":\"Ole\",\"FeedbackIncorrecto\":\"Mal\",\"id\":1}",
-      "2": "{\"Titulo\":\"Hola2\",\"Pregunta\":\"3+4\",\"Tematica\":\"string\",\"RespuestaCorrecta\":\"7\",\"RespuestaIncorrecta1\":\"6\",\"RespuestaIncorrecta2\":\"5\",\"RespuestaIncorrecta3\":\"4\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1,\"id\":2}"
+      "3": "{\"Titulo\":\"Color de algo\",\"Pregunta\":\"¿Cual es el color del mar?\",\"Tematica\":\"Biologia\",\"RespuestaCorrecta\":\"Blanco\",\"RespuestaIncorrecta1\":\"Azul\",\"RespuestaIncorrecta2\":\"Gris\",\"RespuestaIncorrecta3\":\"Rojo\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1,\"id\":3}",
+      "4": "{\"id\":4,\"Titulo\":\"Levantamiento de peso\",\"Pregunta\":\"¿Que animal puede levantar 1000 veces su peso?\",\"Tematica\":\"Biologia\",\"RespuestaCorrecta\":\"Hormiga\",\"RespuestaIncorrecta1\":\"Elefante\",\"RespuestaIncorrecta2\":\"Girafa\",\"RespuestaIncorrecta3\":\"Tortuga\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1}",
+      "5": "{\"Titulo\":\"Mates de tercero\",\"Pregunta\":\"¿Cuanto es el cuadrado de 2?\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"4\",\"RespuestaIncorrecta1\":\"2\",\"RespuestaIncorrecta2\":\"8\",\"RespuestaIncorrecta3\":\"3\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1,\"id\":5}",
+      "6": "{\"Titulo\":\"Ciencia de primero\",\"Pregunta\":\"¿Cual es el color que se forma a partir de todos los colores?\",\"Tematica\":\"Cienca\",\"RespuestaCorrecta\":\"Blanco\",\"RespuestaIncorrecta1\":\"Negro\",\"RespuestaIncorrecta2\":\"Azul\",\"RespuestaIncorrecta3\":\"Amarillo\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Repasa los temas de la leccion 3\",\"profesorId\":1,\"id\":6}",
+      "8": "{\"Titulo\":\"2\",\"Pregunta\":\"1\",\"Tematica\":\"1\",\"RespuestaCorrecta\":\"1\",\"RespuestaIncorrecta1\":\"2\",\"RespuestaIncorrecta2\":\"3\",\"RespuestaIncorrecta3\":\"4\",\"FeedbackCorrecto\":\"bien\",\"FeedbackIncorrecto\":\"mal\",\"profesorId\":1,\"id\":8}"
     },
     "Cuestionario": {
-      "1": "{\"Titulo\":\"El mas chungo\",\"Descripcion\":\"Apruebalo\",\"profesorId\":1,\"id\":1}"
+      "1": "{\"Titulo\":\"El mas chungo\",\"Descripcion\":\"Apruebalo\",\"profesorId\":1,\"id\":1}",
+      "2": "{\"Titulo\":\"Mates de tercero\",\"Descripcion\":\"SI podeis realizar el siguiente cuestionario aprobais\",\"profesorId\":1,\"id\":2}",
+      "3": "{\"Titulo\":\"Cuestionario final\",\"Descripcion\":\"Si sacáis un 6 o mas aprobáis la asignatura\",\"profesorId\":1,\"id\":3}",
+      "4": "{\"Titulo\":\"Test\",\"Descripcion\":\"Test\",\"profesorId\":1,\"id\":4}",
+      "6": "{\"Titulo\":\"Filósofos del mundo\",\"Descripcion\":\"Filosofia\",\"profesorId\":1,\"id\":6}",
+      "7": "{\"Titulo\":\"Cuestionario mas importante\",\"Descripcion\":\"Acertar todo\",\"profesorId\":1,\"id\":7}",
+      "8": "{\"Titulo\":\"Prueba\",\"Descripcion\":\"Prueba2\",\"profesorId\":1,\"id\":8}",
+      "14": "{\"Titulo\":\"Ciencias del mundo\",\"Descripcion\":\"¿Que es lo que sabes?\",\"profesorId\":1,\"id\":14}"
     },
     "PreguntaDelCuestionario": {
-      "1": "{\"preguntaId\":1,\"cuestionarioId\":1,\"id\":1}"
+      "1": "{\"preguntaId\":1,\"cuestionarioId\":1,\"id\":1}",
+      "2": "{\"preguntaId\":2,\"cuestionarioId\":1,\"id\":2}",
+      "3": "{\"preguntaId\":6,\"cuestionarioId\":6,\"id\":3}",
+      "4": "{\"preguntaId\":3,\"cuestionarioId\":6,\"id\":4}",
+      "6": "{\"preguntaId\":6,\"cuestionarioId\":7,\"id\":6}",
+      "7": "{\"preguntaId\":5,\"cuestionarioId\":7,\"id\":7}",
+      "10": "{\"preguntaId\":6,\"cuestionarioId\":14,\"id\":10}",
+      "13": "{\"preguntaId\":4,\"cuestionarioId\":6,\"id\":13}",
+      "14": "{\"preguntaId\":3,\"cuestionarioId\":1,\"id\":14}"
     }
   }
 }
