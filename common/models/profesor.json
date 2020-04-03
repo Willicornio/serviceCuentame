@@ -57,6 +57,16 @@
       "type": "hasMany",
       "model": "Insignia",
       "foreignKey": "profesorId"
+    },
+    "preguntas": {
+      "type": "hasMany",
+      "model": "Pregunta",
+      "foreignKey": "profesorId"
+    },
+    "cuestionarios": {
+      "type": "hasMany",
+      "model": "Cuestionario",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],
