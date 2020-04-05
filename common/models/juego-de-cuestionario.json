@@ -1,0 +1,37 @@
+{
+  "name": "JuegoDeCuestionario",
+  "plural": "JuegosDeCuestionario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "PuntuacionCorrecta": {
+      "type": "number",
+      "required": true
+    },
+    "PuntuacionIncorrecta": {
+      "type": "number",
+      "required": true
+    },
+    "Orden": {
+      "type": "number",
+      "required": true
+    },
+    "JuegoActivo": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "JuegoTerminado": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

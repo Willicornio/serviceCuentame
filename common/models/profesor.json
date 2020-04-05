@@ -67,6 +67,11 @@
       "type": "hasMany",
       "model": "Cuestionario",
       "foreignKey": "profesorId"
+    },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],

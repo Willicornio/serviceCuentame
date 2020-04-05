@@ -183,7 +183,6 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-
   "JuegoDeCompeticionFormulaUno": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
@@ -209,6 +208,10 @@
     "public": true
   },
   "PreguntaDelCuestionario": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeCuestionario": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
   }
