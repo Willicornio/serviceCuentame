@@ -1,0 +1,36 @@
+{
+  "name": "AlumnoJuegoDeCuestionario",
+  "plural": "AlumnosJuegoDeCuestionario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nota": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "alumno": {
+      "type": "belongsTo",
+      "model": "Alumno",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "juegoDeCuestionario": {
+      "type": "belongsTo",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "juegoDeCuestionarioId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

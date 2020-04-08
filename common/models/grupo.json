@@ -67,6 +67,11 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],

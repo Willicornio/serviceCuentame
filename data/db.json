@@ -7,11 +7,11 @@
     "Coleccion": 3,
     "Cromo": 21,
     "Equipo": 10,
-    "JuegoDePuntos": 4,
+    "JuegoDePuntos": 5,
     "JuegoDeColeccion": 2,
     "Matricula": 22,
     "AsignacionEquipo": 20,
-    "AsignacionPuntoJuego": 19,
+    "AsignacionPuntoJuego": 21,
     "Nivel": 4,
     "AlumnoJuegoDePuntos": 21,
     "EquipoJuegoDePuntos": 4,
@@ -34,7 +34,8 @@
     "Pregunta": 10,
     "Cuestionario": 17,
     "PreguntaDelCuestionario": 18,
-    "JuegoDeCuestionario": 2
+    "JuegoDeCuestionario": 3,
+    "AlumnoJuegoDeCuestionario": 2
   },
   "models": {
     "Profesor": {
@@ -111,7 +112,8 @@
     "JuegoDePuntos": {
       "1": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
       "2": "{\"NombreJuego\":\"Prueba Puntos 2\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2}",
-      "3": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}"
+      "3": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}",
+      "4": "{\"NombreJuego\":\"Filosofia\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":4}"
     },
     "JuegoDeColeccion": {
       "1": "{\"NombreJuego\":\"Prueba Colección 1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1,\"coleccionId\":2}"
@@ -177,7 +179,9 @@
       "15": "{\"juegoDePuntosId\":3,\"puntoId\":2,\"id\":15}",
       "16": "{\"juegoDePuntosId\":3,\"puntoId\":3,\"id\":16}",
       "17": "{\"juegoDePuntosId\":3,\"puntoId\":4,\"id\":17}",
-      "18": "{\"juegoDePuntosId\":3,\"puntoId\":5,\"id\":18}"
+      "18": "{\"juegoDePuntosId\":3,\"puntoId\":5,\"id\":18}",
+      "19": "{\"juegoDePuntosId\":4,\"puntoId\":6,\"id\":19}",
+      "20": "{\"juegoDePuntosId\":4,\"puntoId\":3,\"id\":20}"
     },
     "Nivel": {
       "1": "{\"Nombre\":\"Bronce\",\"PuntosAlcanzar\":10,\"PrivilegiosDelNivel\":\"Pueden salir 5 minutos antes al patio\",\"Imagen\":\"Bronze-Level.png\",\"juegoDePuntosId\":1,\"id\":1}",
@@ -466,7 +470,10 @@
       "14": "{\"preguntaId\":3,\"cuestionarioId\":1,\"id\":14}"
     },
     "JuegoDeCuestionario": {
-      "1": "{\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":0,\"Orden\":1,\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"cuestionarioId\":1,\"id\":1}"
+      "2": "{\"NombreJuego\":\"Hola\",\"PuntuacionCorrecta\":1,\"PuntuacionIncorrecta\":0,\"Presentacion\":\"Igual\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":2}"
+    },
+    "AlumnoJuegoDeCuestionario": {
+      "1": "{\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":2,\"id\":1}"
     }
   }
 }

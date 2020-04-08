@@ -214,5 +214,9 @@
   "JuegoDeCuestionario": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "AlumnoJuegoDeCuestionario": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

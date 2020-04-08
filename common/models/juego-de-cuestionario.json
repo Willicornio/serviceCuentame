@@ -7,6 +7,10 @@
     "validateUpsert": true
   },
   "properties": {
+    "NombreJuego": {
+      "type": "string",
+      "required": true
+    },
     "PuntuacionCorrecta": {
       "type": "number",
       "required": true
@@ -15,8 +19,8 @@
       "type": "number",
       "required": true
     },
-    "Orden": {
-      "type": "number",
+    "Presentacion": {
+      "type": "string",
       "required": true
     },
     "JuegoActivo": {
@@ -31,7 +35,17 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDeCuestionarioId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeCuestionario"
+    }
+  },
   "acls": [],
   "methods": {}
 }
