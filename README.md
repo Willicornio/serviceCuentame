@@ -12,6 +12,14 @@ The software architecture is composed by two mobile applications for performing 
 ## Classpip-services
 This repository contains the service-oriented application that exposes the main methods for data manipulation.
 
+## Git and GitHub
+
+You need to install Git and have an account in GitHub:
+ 
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+ 
+https://github.com/
+ 
 ## NodeJS
 
 Make sure you have NodeJS installed. Download the installer or use your favorite package manager. It's best to get the 10x version of node. This offers the best in stability and speed for building.
