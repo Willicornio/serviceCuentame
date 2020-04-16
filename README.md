@@ -41,7 +41,7 @@ sudo apt-get install gcc g++ make
 ### To build native addons on Windows
 
 ```
-npm install -g windows-build-tools@~5.1.0
+npm install -g windows-build-tools@5.1.0
 ```
 
 ## Global dependencies
