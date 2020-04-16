@@ -49,8 +49,8 @@ npm install -g windows-build-tools@~5.1.0
 You have to install LoopBack tooling for managing the model:
 
 ```
-npm install -g strongloop@~6.0.3
-npm install -g loopback/cli~@5.0.0
+npm install -g strongloop@6.0.3
+npm install -g loopback-cli@5.0.0
 ```
 
 ## Local dependencies
