@@ -13,6 +13,9 @@ The software architecture is composed by two mobile applications for performing 
 ## Classpip-services
 This repository contains the service-oriented application that exposes the main methods for data manipulation.
 
+## Current models
+Consult here the [current data models](https://github.com/rocmeseguer/classpip-services/blob/master/ModelosClasspip.pdf) for Classpip.
+
 ## Git and GitHub
 
 You need to install Git and have an account in GitHub:
