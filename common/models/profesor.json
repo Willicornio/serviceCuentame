@@ -1,3 +1,4 @@
+
 {
   "name": "Profesor",
   "plural": "Profesores",
@@ -72,6 +73,11 @@
       "type": "hasMany",
       "model": "JuegoDeCuestionario",
       "foreignKey": "profesorId"
+    },
+    "familiaAvatares":{
+      "type":"hasMany",
+      "model":"FamiliaAvatares",
+      "foreignKey":"profesorId"
     }
   },
   "acls": [],

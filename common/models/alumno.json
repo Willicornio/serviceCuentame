@@ -1,3 +1,4 @@
+
 {
   "name": "Alumno",
   "plural": "Alumnos",
@@ -89,7 +90,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeCuestionario"
-    }
+    },
+     "juegoDeAvatars":{
+       "type":"hasMany",
+       "model":"JuegoDeAvatar",
+       "foreignKey":"alumnoId",
+       "options":{
+         "nestRemoting":true},
+       "through":"AlumnoJuegoDeAvatar"
+     }
   },
   "acls": [],
   "methods": {}

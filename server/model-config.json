@@ -1,3 +1,4 @@
+
 {
   "_meta": {
     "sources": [
@@ -218,5 +219,11 @@
   "AlumnoJuegoDeCuestionario": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
-  }
+  },
+  "SesionClase":{"dataSource":"baseDatosEnMemoria","public":true},
+  "AsistenciaClase":{"dataSource":"baseDatosEnMemoria","public":true},
+  "FamiliaAvatares":{"dataSource":"baseDatosEnMemoria","public":true},
+  "JuegoDeAvatar":{"dataSource":"baseDatosEnMemoria","public":true},
+  "AlumnoJuegoDeAvatar":{"dataSource":"baseDatosEnMemoria","public":true}
 }
+
