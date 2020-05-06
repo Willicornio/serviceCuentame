@@ -2,14 +2,14 @@
   "ids": {
     "Profesor": 3,
     "Alumno": 23,
-    "Grupo": 37,
+    "Grupo": 39,
     "Punto": 7,
     "Coleccion": 3,
     "Cromo": 21,
     "Equipo": 10,
     "JuegoDePuntos": 18,
-    "JuegoDeColeccion": 12,
-    "Matricula": 110,
+    "JuegoDeColeccion": 13,
+    "Matricula": 117,
     "AsignacionEquipo": 20,
     "AsignacionPuntoJuego": 60,
     "Nivel": 13,
@@ -18,7 +18,7 @@
     "HistorialPuntosAlumno": 40,
     "Insignia": 1,
     "HistorialPuntosEquipo": 1,
-    "AlumnoJuegoDeColeccion": 29,
+    "AlumnoJuegoDeColeccion": 40,
     "EquipoJuegoDeColeccion": 1,
     "Album": 11,
     "AlbumEquipo": 1,
@@ -34,8 +34,11 @@
     "Pregunta": 11,
     "Cuestionario": 17,
     "PreguntaDelCuestionario": 20,
-    "SesionClase": 26,
-    "AsistenciaClase": 54
+    "SesionClase": 27,
+    "AsistenciaClase": 61,
+    "FamiliaAvatares": 26,
+    "JuegoDeAvatar": 20,
+    "AlumnoJuegoDeAvatar": 23
   },
   "models": {
     "Profesor": {
@@ -130,7 +133,8 @@
       "1": "{\"NombreJuego\":\"Prueba Colección 1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1,\"coleccionId\":2}",
       "9": "{\"NombreJuego\":\"dsdsd\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":32,\"id\":9,\"coleccionId\":2}",
       "10": "{\"NombreJuego\":\"col\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":32,\"id\":10,\"coleccionId\":2}",
-      "11": "{\"NombreJuego\":\"col\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":32,\"id\":11,\"coleccionId\":2}"
+      "11": "{\"NombreJuego\":\"col\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":32,\"id\":11,\"coleccionId\":2}",
+      "12": "{\"NombreJuego\":\"fddf\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":12,\"coleccionId\":1}"
     },
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
@@ -337,7 +341,18 @@
       "25": "{\"alumnoId\":12,\"juegoDeColeccionId\":10,\"id\":25}",
       "26": "{\"alumnoId\":7,\"juegoDeColeccionId\":10,\"id\":26}",
       "27": "{\"alumnoId\":12,\"juegoDeColeccionId\":11,\"id\":27}",
-      "28": "{\"alumnoId\":7,\"juegoDeColeccionId\":11,\"id\":28}"
+      "28": "{\"alumnoId\":7,\"juegoDeColeccionId\":11,\"id\":28}",
+      "29": "{\"alumnoId\":16,\"juegoDeColeccionId\":12,\"id\":29}",
+      "30": "{\"alumnoId\":7,\"juegoDeColeccionId\":12,\"id\":30}",
+      "31": "{\"alumnoId\":14,\"juegoDeColeccionId\":12,\"id\":31}",
+      "32": "{\"alumnoId\":4,\"juegoDeColeccionId\":12,\"id\":32}",
+      "33": "{\"alumnoId\":5,\"juegoDeColeccionId\":12,\"id\":33}",
+      "34": "{\"alumnoId\":3,\"juegoDeColeccionId\":12,\"id\":34}",
+      "35": "{\"alumnoId\":1,\"juegoDeColeccionId\":12,\"id\":35}",
+      "36": "{\"alumnoId\":10,\"juegoDeColeccionId\":12,\"id\":36}",
+      "37": "{\"alumnoId\":17,\"juegoDeColeccionId\":12,\"id\":37}",
+      "38": "{\"alumnoId\":2,\"juegoDeColeccionId\":12,\"id\":38}",
+      "39": "{\"alumnoId\":12,\"juegoDeColeccionId\":12,\"id\":39}"
     },
     "EquipoJuegoDeColeccion": {},
     "Album": {
@@ -621,7 +636,8 @@
       "19": "{\"preguntaId\":5,\"cuestionarioId\":16,\"id\":19}"
     },
     "SesionClase": {
-      "1": "{\"id\":1}"
+      "1": "{\"id\":1}",
+      "26": "{\"Descripcion\":\"calse de teoria\",\"Dia\":\"2020-04-27T22:00:00.000Z\",\"Hora\":\"10:00\",\"grupoId\":1,\"id\":26}"
     },
     "AsistenciaClase": {
       "1": "{\"id\":1}",
@@ -642,7 +658,36 @@
       "16": "{\"Hora\":\"23:43\",\"sesionClaseId\":13,\"matriculaId\":28,\"id\":16}",
       "17": "{\"Hora\":\"23:43\",\"sesionClaseId\":14,\"matriculaId\":26,\"id\":17}",
       "18": "{\"Hora\":\"23:43\",\"sesionClaseId\":14,\"matriculaId\":27,\"id\":18}",
-      "19": "{\"Hora\":\"23:43\",\"sesionClaseId\":14,\"matriculaId\":28,\"id\":19}"
-    }
+      "19": "{\"Hora\":\"23:43\",\"sesionClaseId\":14,\"matriculaId\":28,\"id\":19}",
+      "54": "{\"sesionClaseId\":26,\"matriculaId\":1,\"id\":54}",
+      "55": "{\"sesionClaseId\":26,\"matriculaId\":6,\"id\":55}",
+      "56": "{\"sesionClaseId\":26,\"matriculaId\":7,\"id\":56}",
+      "57": "{\"Hora\":\"13:29\",\"sesionClaseId\":26,\"matriculaId\":4,\"id\":57}",
+      "58": "{\"Hora\":\"13:29\",\"sesionClaseId\":26,\"matriculaId\":2,\"id\":58}",
+      "59": "{\"Hora\":\"13:29\",\"sesionClaseId\":26,\"matriculaId\":3,\"id\":59}",
+      "60": "{\"sesionClaseId\":26,\"matriculaId\":5,\"id\":60}"
+    },
+    "FamiliaAvatares": {
+      "14": "{\"profesorId\":1,\"NombreFamilia\":\"Ejemplo1\",\"Silueta\":\"busto.png\",\"NombreComplemento1\":\"Sombreros\",\"Complemento1\":[\"familia4_sombrero1.png\",\"familia4_sombrero2.png\",\"familia4_sombrero3.png\",\"familia4_sombrero4.png\"],\"NombreComplemento2\":\"Gafas\",\"Complemento2\":[\"familia4_gafas1.png\",\"familia4_gafas2.png\",\"familia4_gafas3.png\",\"familia4_gafas4.png\",\"familia4_gafas5.png\"],\"NombreComplemento3\":\"Camisas\",\"Complemento3\":[\"familia4_cuello1.png\",\"familia4_cuello2.png\",\"familia4_cuello3.png\",\"familia4_cuello4.png\"],\"NombreComplemento4\":\"Pelos\",\"Complemento4\":[\"familia4_pelo1.png\",\"familia4_pelo2.png\",\"familia4_pelo3.png\"],\"id\":14}",
+      "15": "{\"profesorId\":1,\"NombreFamilia\":\"Ejemplo2\",\"Silueta\":\"familia2_busto.png\",\"NombreComplemento1\":\"Pelos\",\"Complemento1\":[\"familia2_pelo1.png\",\"familia2_pelo2.png\",\"familia2_pelo3.png\",\"familia2_pelo4.png\"],\"NombreComplemento2\":\"Bocas\",\"Complemento2\":[\"familia2_boca1.png\",\"familia2_boca2.png\",\"familia2_boca3.png\"],\"NombreComplemento3\":\"Ojos\",\"Complemento3\":[\"familia2_ojos1.png\",\"familia2_ojos2.png\",\"familia2_ojos3.png\",\"familia2_ojos4.png\"],\"NombreComplemento4\":\"Gafas\",\"Complemento4\":[\"familia2_gafas1.png\",\"familia2_gafas2.png\"],\"id\":15}",
+      "16": "{\"profesorId\":1,\"NombreFamilia\":\"Ejemplo3\",\"Silueta\":\"hombres_busto.png\",\"NombreComplemento1\":\"Pelos\",\"Complemento1\":[\"hombres_pelos_1.png\",\"hombres_pelos_2.png\",\"hombres_pelos_3.png\",\"hombres_pelos_4.png\"],\"NombreComplemento2\":\"Camisas\",\"Complemento2\":[\"hombres_camisa_1.png\",\"hombres_camisa_2.png\",\"hombres_camisa_3.png\",\"hombres_camisa_4.png\"],\"NombreComplemento3\":\"Caras\",\"Complemento3\":[\"hombres_ojos_1.png\",\"hombres_ojos_2.png\",\"hombres_ojos_3.png\",\"hombres_ojos_4.png\"],\"NombreComplemento4\":\"Gafas\",\"Complemento4\":[\"hombres_gafas_1.png\",\"hombres_gafas_2.png\"],\"id\":16}",
+      "17": "{\"profesorId\":1,\"NombreFamilia\":\"Nueva\",\"Silueta\":\"persona.png\",\"NombreComplemento1\":\"anumal\",\"Complemento1\":[\"animal1.png\",\"animal2.png\"],\"NombreComplemento2\":\"monstruo\",\"Complemento2\":[\"monstruo1.png\",\"monstruo2.png\"],\"NombreComplemento3\":\"ciudad\",\"Complemento3\":[\"egipto.png\",\"NY.png\"],\"NombreComplemento4\":\"ciudad\",\"Complemento4\":[\"NY.png\"],\"id\":17}",
+      "18": "{\"profesorId\":1,\"NombreFamilia\":\"Otra Nueva\",\"Silueta\":\"persona.png\",\"NombreComplemento1\":\"avion\",\"Complemento1\":[\"avion2.png\",\"avion1.png\"],\"NombreComplemento2\":\"ciudad\",\"Complemento2\":[\"NY.png\",\"egipto.png\"],\"NombreComplemento3\":\"monstruo\",\"Complemento3\":[\"monstruo1.png\",\"monstruo2.png\"],\"NombreComplemento4\":\"otro\",\"Complemento4\":[\"animal1.png\"],\"id\":18}",
+      "19": "{\"profesorId\":1,\"NombreFamilia\":\"Ejemplo5\",\"Silueta\":\"busto.png\",\"NombreComplemento1\":\"Sombreros\",\"Complemento1\":[\"familia4_sombrero1.png\",\"familia4_sombrero2.png\",\"familia4_sombrero3.png\",\"familia4_sombrero4.png\"],\"NombreComplemento2\":\"Gafas\",\"Complemento2\":[\"familia4_gafas1.png\",\"familia4_gafas2.png\",\"familia4_gafas3.png\",\"familia4_gafas4.png\",\"familia4_gafas5.png\"],\"NombreComplemento3\":\"Pelos\",\"Complemento3\":[\"familia4_pelo1.png\",\"familia4_pelo2.png\",\"familia4_pelo3.png\"],\"NombreComplemento4\":\"Camisa\",\"Complemento4\":[\"familia4_cuello1.png\",\"familia4_cuello2.png\",\"familia4_cuello3.png\",\"familia4_cuello4.png\",\"familia4_cuello2.png\"],\"id\":19}",
+      "20": "{\"profesorId\":1,\"NombreFamilia\":\"Power Girl\",\"Silueta\":\"poeergirl_busto.jpg\",\"NombreComplemento1\":\"Camisa\",\"Complemento1\":[\"powergirl_pelo1.png\"],\"NombreComplemento2\":\"pantalon\",\"Complemento2\":[\"powergirl_pantalon1.png\"],\"NombreComplemento3\":\"sdsdd\",\"Complemento3\":[\"powergirl_pelo1.png\"],\"NombreComplemento4\":\"dsds\",\"Complemento4\":[\"powergirl_pelo1.png\"],\"id\":20}",
+      "23": "{\"profesorId\":1,\"NombreFamilia\":\"PowerGirl\",\"Silueta\":\"powergirl_fondo.png\",\"NombreComplemento1\":\"Caras\",\"Complemento1\":[\"poeergirl_cara1.png\",\"poeergirl_cara2.png\",\"poeergirl_cara3.png\"],\"NombreComplemento2\":\"Camisa\",\"Complemento2\":[\"powergirl_camisa1.png\",\"powergirl_camisa2.png\",\"powergirl_camisa3.png\"],\"NombreComplemento3\":\"Pelos\",\"Complemento3\":[\"powergirl_pelo1.png\",\"powergirl_pelo2.png\",\"powergirl_pelo3.png\"],\"NombreComplemento4\":\"Pantalon\",\"Complemento4\":[\"powergirl_pantalon1.png\",\"powergirl_pantalon2.png\",\"powergirl_pantalon3.png\"],\"id\":23}",
+      "25": "{\"profesorId\":1,\"NombreFamilia\":\"Monstruo\",\"Silueta\":\"silueta.png\",\"NombreComplemento1\":\"Ojos\",\"Complemento1\":[\"monstruo_ojos1.png\",\"monstruo_ojos2.png\",\"monstruo_ojos3.png\",\"monstruo_ojos4.png\"],\"NombreComplemento2\":\"Cuernos\",\"Complemento2\":[\"monstruo_cuernos2.png\",\"monstruo_cuernos1.png\"],\"NombreComplemento3\":\"Bocas\",\"Complemento3\":[\"monstruo_boca1.png\",\"monstruo_boca2.png\",\"monstruo_boca3.png\",\"monstruo_boca4.png\"],\"NombreComplemento4\":\"Hijos\",\"Complemento4\":[\"monstruo_hijo2.png\",\"monstruo_hijo3.png\",\"monstruo_hijo4.png\",\"monstruo_hijo5.png\"],\"id\":25}"
+    },
+    "JuegoDeAvatar": {
+      "1": "{\"NombreJuego\":\"aaa\",\"Tipo\":\"strassaing\",\"Modo\":\"ssa\",\"JuegoActivo\":true,\"Familias\":[0],\"CriteriosPrivilegioComplemento1\":\"string\",\"CriteriosPrivilegioComplemento2\":\"string\",\"CriteriosPrivilegioComplemento3\":\"string\",\"CriteriosPrivilegioComplemento4\":\"string\",\"CriteriosPrivilegioVoz\":\"string\",\"CriteriosPrivilegioVerTodos\":\"string\",\"grupoId\":2,\"id\":1}",
+      "2": "{\"NombreJuego\":\"Prueba1\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[1],\"CriteriosPrivilegioComplemento1\":\"criterio1\",\"CriteriosPrivilegioComplemento2\":\"criterio1\",\"CriteriosPrivilegioComplemento3\":\"criterio1\",\"CriteriosPrivilegioComplemento4\":\"criterio1\",\"CriteriosPrivilegioVoz\":\"criterio1\",\"CriteriosPrivilegioVerTodos\":\"criterio\",\"grupoId\":2,\"id\":2}",
+      "4": "{\"NombreJuego\":\"AAAAAAAAAAAAAAAA\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[14,15,16],\"CriteriosPrivilegioComplemento1\":\"aaaaaaaa\",\"CriteriosPrivilegioComplemento2\":\"bbbbbbbbbbbbbbbbbbb\",\"CriteriosPrivilegioComplemento3\":\"cccccccccccccccccc\",\"CriteriosPrivilegioComplemento4\":\"ddddddddddddddddddddddd\",\"CriteriosPrivilegioVoz\":\"eeeeeeeeeeeeeeeeeeeee\",\"CriteriosPrivilegioVerTodos\":\"fffffffffffffffffffff\",\"grupoId\":2,\"id\":4}",
+      "5": "{\"NombreJuego\":\"Juego de avatar sabado\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[14,15,16],\"CriteriosPrivilegioComplemento1\":\"aaaa\",\"CriteriosPrivilegioComplemento2\":\"bbbb\",\"CriteriosPrivilegioComplemento3\":\"ccc\",\"CriteriosPrivilegioComplemento4\":\"dddd\",\"CriteriosPrivilegioVoz\":\"eeee\",\"CriteriosPrivilegioVerTodos\":\"ffff\",\"grupoId\":2,\"id\":5}",
+      "6": "{\"NombreJuego\":\"Juego Avatar sabado\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[14,15,16],\"CriteriosPrivilegioComplemento1\":\"aa\",\"CriteriosPrivilegioComplemento2\":\"ss\",\"CriteriosPrivilegioComplemento3\":\"ddd\",\"CriteriosPrivilegioComplemento4\":\"fff\",\"CriteriosPrivilegioVoz\":\"ggg\",\"CriteriosPrivilegioVerTodos\":\"hhh\",\"grupoId\":1,\"id\":6}",
+      "7": "{\"NombreJuego\":\"Juego Avatar sabado\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[14,15,16],\"CriteriosPrivilegioComplemento1\":\"a\",\"CriteriosPrivilegioComplemento2\":\"s\",\"CriteriosPrivilegioComplemento3\":\"d\",\"CriteriosPrivilegioComplemento4\":\"f\",\"CriteriosPrivilegioVoz\":\"g\",\"CriteriosPrivilegioVerTodos\":\"h\",\"grupoId\":2,\"id\":7}",
+      "8": "{\"NombreJuego\":\"otro juego avatar\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[14,15,16],\"CriteriosPrivilegioComplemento1\":\"ds\",\"CriteriosPrivilegioComplemento2\":\"ds\",\"CriteriosPrivilegioComplemento3\":\"sd\",\"CriteriosPrivilegioComplemento4\":\"ds\",\"CriteriosPrivilegioVoz\":\"sd\",\"CriteriosPrivilegioVerTodos\":\"sd\",\"grupoId\":2,\"id\":8}",
+      "9": "{\"NombreJuego\":\"otro mas\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[14,15,16],\"CriteriosPrivilegioComplemento1\":\"df\",\"CriteriosPrivilegioComplemento2\":\"df\",\"CriteriosPrivilegioComplemento3\":\"dfdf\",\"CriteriosPrivilegioComplemento4\":\"dfdf\",\"CriteriosPrivilegioVoz\":\"fddffd\",\"CriteriosPrivilegioVerTodos\":\"fddfdf\",\"grupoId\":2,\"id\":9}"
+    },
+    "AlumnoJuegoDeAvatar": {}
   }
 }
