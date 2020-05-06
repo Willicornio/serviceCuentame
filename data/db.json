@@ -7,13 +7,13 @@
     "Coleccion": 3,
     "Cromo": 21,
     "Equipo": 10,
-    "JuegoDePuntos": 4,
+    "JuegoDePuntos": 6,
     "JuegoDeColeccion": 2,
     "Matricula": 22,
     "AsignacionEquipo": 20,
-    "AsignacionPuntoJuego": 19,
+    "AsignacionPuntoJuego": 24,
     "Nivel": 4,
-    "AlumnoJuegoDePuntos": 21,
+    "AlumnoJuegoDePuntos": 28,
     "EquipoJuegoDePuntos": 4,
     "HistorialPuntosAlumno": 1,
     "Insignia": 1,
@@ -31,10 +31,11 @@
     "JornadaDeCompeticionFormulaUno": 16,
     "AlumnoJuegoDeCompeticionFormulaUno": 21,
     "EquipoJuegoDeCompeticionFormulaUno": 7,
-    "Pregunta": 9,
-    "Cuestionario": 16,
-    "PreguntaDelCuestionario": 16
-
+    "Pregunta": 11,
+    "Cuestionario": 19,
+    "PreguntaDelCuestionario": 22,
+    "JuegoDeCuestionario": 13,
+    "AlumnoJuegoDeCuestionario": 51
   },
   "models": {
     "Profesor": {
@@ -63,7 +64,6 @@
     "Grupo": {
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":2}"
-
     },
     "Punto": {
       "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
@@ -112,7 +112,9 @@
     "JuegoDePuntos": {
       "1": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
       "2": "{\"NombreJuego\":\"Prueba Puntos 2\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2}",
-      "3": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}"
+      "3": "{\"NombreJuego\":\"Prueba Puntos 1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":3}",
+      "4": "{\"NombreJuego\":\"Filosofia\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":4}",
+      "5": "{\"NombreJuego\":\"Competi de Puntos\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":5}"
     },
     "JuegoDeColeccion": {
       "1": "{\"NombreJuego\":\"Prueba Colección 1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1,\"coleccionId\":2}"
@@ -178,7 +180,12 @@
       "15": "{\"juegoDePuntosId\":3,\"puntoId\":2,\"id\":15}",
       "16": "{\"juegoDePuntosId\":3,\"puntoId\":3,\"id\":16}",
       "17": "{\"juegoDePuntosId\":3,\"puntoId\":4,\"id\":17}",
-      "18": "{\"juegoDePuntosId\":3,\"puntoId\":5,\"id\":18}"
+      "18": "{\"juegoDePuntosId\":3,\"puntoId\":5,\"id\":18}",
+      "19": "{\"juegoDePuntosId\":4,\"puntoId\":6,\"id\":19}",
+      "20": "{\"juegoDePuntosId\":4,\"puntoId\":3,\"id\":20}",
+      "21": "{\"juegoDePuntosId\":5,\"puntoId\":6,\"id\":21}",
+      "22": "{\"juegoDePuntosId\":5,\"puntoId\":2,\"id\":22}",
+      "23": "{\"juegoDePuntosId\":5,\"puntoId\":3,\"id\":23}"
     },
     "Nivel": {
       "1": "{\"Nombre\":\"Bronce\",\"PuntosAlcanzar\":10,\"PrivilegiosDelNivel\":\"Pueden salir 5 minutos antes al patio\",\"Imagen\":\"Bronze-Level.png\",\"juegoDePuntosId\":1,\"id\":1}",
@@ -190,7 +197,7 @@
       "2": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":2,\"id\":2}",
       "3": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":3,\"juegoDePuntosId\":2,\"id\":3}",
       "4": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":4,\"juegoDePuntosId\":2,\"id\":4}",
-      "5": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":5,\"juegoDePuntosId\":2,\"id\":5}",
+      "5": "{\"PuntosTotalesAlumno\":10,\"alumnoId\":5,\"juegoDePuntosId\":2,\"id\":5}",
       "6": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":6,\"juegoDePuntosId\":2,\"id\":6}",
       "7": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":7,\"juegoDePuntosId\":2,\"id\":7}",
       "8": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":8,\"juegoDePuntosId\":2,\"id\":8}",
@@ -205,7 +212,14 @@
       "17": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":3,\"juegoDePuntosId\":3,\"id\":17}",
       "18": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":1,\"juegoDePuntosId\":3,\"id\":18}",
       "19": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":10,\"juegoDePuntosId\":3,\"id\":19}",
-      "20": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":3,\"id\":20}"
+      "20": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":3,\"id\":20}",
+      "21": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":1,\"juegoDePuntosId\":5,\"id\":21}",
+      "22": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":5,\"id\":22}",
+      "23": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":3,\"juegoDePuntosId\":5,\"id\":23}",
+      "24": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":4,\"juegoDePuntosId\":5,\"id\":24}",
+      "25": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":5,\"juegoDePuntosId\":5,\"id\":25}",
+      "26": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":6,\"juegoDePuntosId\":5,\"id\":26}",
+      "27": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":7,\"juegoDePuntosId\":5,\"id\":27}"
     },
     "EquipoJuegoDePuntos": {
       "1": "{\"PuntosTotalesEquipo\":0,\"equipoId\":1,\"juegoDePuntosId\":1,\"id\":1}",
@@ -229,7 +243,7 @@
     "Album": {},
     "AlbumEquipo": {},
     "JuegoDeCompeticionLiga": {
-      "1": "{\"NumeroTotalJornadas\":7,\"NombreJuego\":\"Prueba Liga 1\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":1}",
+      "1": "{\"NumeroTotalJornadas\":7,\"NombreJuego\":\"Prueba Liga 1\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":1}",
       "2": "{\"NumeroTotalJornadas\":3,\"NombreJuego\":\"Prueba Liga 2\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":2}",
       "3": "{\"NumeroTotalJornadas\":11,\"NombreJuego\":\"Prueba Liga 1\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"TipoJuegoCompeticion\":\"Liga\",\"id\":3}"
     },
@@ -285,10 +299,10 @@
       "26": "{\"JugadorUno\":5,\"JugadorDos\":3,\"JornadaDeCompeticionLigaId\":7,\"id\":26}",
       "27": "{\"JugadorUno\":6,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":7,\"id\":27}",
       "28": "{\"JugadorUno\":7,\"JugadorDos\":1,\"JornadaDeCompeticionLigaId\":7,\"id\":28}",
-      "29": "{\"JugadorUno\":2,\"JugadorDos\":3,\"JornadaDeCompeticionLigaId\":8,\"id\":29}",
+      "29": "{\"id\":29,\"JugadorUno\":2,\"JugadorDos\":3,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":8}",
       "30": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":9,\"id\":30}",
       "31": "{\"JugadorUno\":3,\"JugadorDos\":1,\"JornadaDeCompeticionLigaId\":10,\"id\":31}",
-      "32": "{\"JugadorUno\":1,\"JugadorDos\":3,\"JornadaDeCompeticionLigaId\":8,\"id\":32}",
+      "32": "{\"id\":32,\"JugadorUno\":1,\"JugadorDos\":3,\"Ganador\":0,\"JornadaDeCompeticionLigaId\":8}",
       "33": "{\"JugadorUno\":3,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":9,\"id\":33}",
       "34": "{\"JugadorUno\":1,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":10,\"id\":34}",
       "35": "{\"JugadorUno\":16,\"JugadorDos\":2,\"JornadaDeCompeticionLigaId\":11,\"id\":35}",
@@ -381,9 +395,9 @@
       "20": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":2,\"JuegoDeCompeticionLigaId\":3,\"id\":20}"
     },
     "EquipoJuegoDeCompeticionLiga": {
-      "1": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":1,\"JuegoDeCompeticionLigaId\":2,\"id\":1}",
-      "2": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":2,\"JuegoDeCompeticionLigaId\":2,\"id\":2}",
-      "3": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":3,\"JuegoDeCompeticionLigaId\":2,\"id\":3}"
+      "1": "{\"id\":1,\"PuntosTotalesEquipo\":1,\"EquipoId\":1,\"JuegoDeCompeticionLigaId\":2}",
+      "2": "{\"id\":2,\"PuntosTotalesEquipo\":1,\"EquipoId\":2,\"JuegoDeCompeticionLigaId\":2}",
+      "3": "{\"id\":3,\"PuntosTotalesEquipo\":1,\"EquipoId\":3,\"JuegoDeCompeticionLigaId\":2}"
     },
     "JuegoDeCompeticionFormulaUno": {
       "1": "{\"NumeroTotalJornadas\":5,\"NumeroParticipantesPuntuan\":3,\"Puntos\":[100,75,50],\"NombreJuego\":\"Prueba F1 1\",\"Tipo\":\"Juego De Competición Fórmula Uno\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
@@ -436,25 +450,25 @@
       "4": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":7,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":4}",
       "5": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":8,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":5}",
       "6": "{\"PuntosTotalesEquipo\":0,\"EquipoId\":9,\"JuegoDeCompeticionFormulaUnoId\":3,\"id\":6}"
-
     },
-  "Pregunta": {
+    "Pregunta": {
       "1": "{\"Titulo\":\"Hola\",\"Pregunta\":\"3+3\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"6\",\"RespuestaIncorrecta1\":\"4\",\"RespuestaIncorrecta2\":\"5\",\"RespuestaIncorrecta3\":\"7\",\"FeedbackCorrecto\":\"Ole\",\"FeedbackIncorrecto\":\"Mal\",\"id\":1}",
       "3": "{\"Titulo\":\"Color de algo\",\"Pregunta\":\"¿Cual es el color del mar?\",\"Tematica\":\"Biologia\",\"RespuestaCorrecta\":\"Blanco\",\"RespuestaIncorrecta1\":\"Azul\",\"RespuestaIncorrecta2\":\"Gris\",\"RespuestaIncorrecta3\":\"Rojo\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1,\"id\":3}",
       "4": "{\"id\":4,\"Titulo\":\"Levantamiento de peso\",\"Pregunta\":\"¿Que animal puede levantar 1000 veces su peso?\",\"Tematica\":\"Biologia\",\"RespuestaCorrecta\":\"Hormiga\",\"RespuestaIncorrecta1\":\"Elefante\",\"RespuestaIncorrecta2\":\"Girafa\",\"RespuestaIncorrecta3\":\"Tortuga\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1}",
       "5": "{\"Titulo\":\"Mates de tercero\",\"Pregunta\":\"¿Cuanto es el cuadrado de 2?\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"4\",\"RespuestaIncorrecta1\":\"2\",\"RespuestaIncorrecta2\":\"8\",\"RespuestaIncorrecta3\":\"3\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1,\"id\":5}",
       "6": "{\"Titulo\":\"Ciencia de primero\",\"Pregunta\":\"¿Cual es el color que se forma a partir de todos los colores?\",\"Tematica\":\"Cienca\",\"RespuestaCorrecta\":\"Blanco\",\"RespuestaIncorrecta1\":\"Negro\",\"RespuestaIncorrecta2\":\"Azul\",\"RespuestaIncorrecta3\":\"Amarillo\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Repasa los temas de la leccion 3\",\"profesorId\":1,\"id\":6}",
-      "8": "{\"Titulo\":\"2\",\"Pregunta\":\"1\",\"Tematica\":\"1\",\"RespuestaCorrecta\":\"1\",\"RespuestaIncorrecta1\":\"2\",\"RespuestaIncorrecta2\":\"3\",\"RespuestaIncorrecta3\":\"4\",\"FeedbackCorrecto\":\"bien\",\"FeedbackIncorrecto\":\"mal\",\"profesorId\":1,\"id\":8}"
+      "10": "{\"Titulo\":\"Ciencia del mar\",\"Pregunta\":\"¿A que profundidad esta la termoclina?\",\"Tematica\":\"Naturales\",\"RespuestaCorrecta\":\"200-1000m\",\"RespuestaIncorrecta1\":\"100-200m\",\"RespuestaIncorrecta2\":\"50-5000m\",\"RespuestaIncorrecta3\":\"10-10m\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Mira el capitulo 2 del libro\",\"profesorId\":1,\"id\":10}"
     },
     "Cuestionario": {
-      "1": "{\"Titulo\":\"El mas chungo\",\"Descripcion\":\"Apruebalo\",\"profesorId\":1,\"id\":1}",
+      "1": "{\"Titulo\":\"El mas chungo\",\"Descripcion\":\"Apruebalo para poder conseguir un punto mas en la asignatura\",\"profesorId\":1,\"id\":1}",
       "2": "{\"Titulo\":\"Mates de tercero\",\"Descripcion\":\"SI podeis realizar el siguiente cuestionario aprobais\",\"profesorId\":1,\"id\":2}",
       "3": "{\"Titulo\":\"Cuestionario final\",\"Descripcion\":\"Si sacáis un 6 o mas aprobáis la asignatura\",\"profesorId\":1,\"id\":3}",
       "4": "{\"Titulo\":\"Test\",\"Descripcion\":\"Test\",\"profesorId\":1,\"id\":4}",
       "6": "{\"Titulo\":\"Filósofos del mundo\",\"Descripcion\":\"Filosofia\",\"profesorId\":1,\"id\":6}",
       "7": "{\"Titulo\":\"Cuestionario mas importante\",\"Descripcion\":\"Acertar todo\",\"profesorId\":1,\"id\":7}",
       "8": "{\"Titulo\":\"Prueba\",\"Descripcion\":\"Prueba2\",\"profesorId\":1,\"id\":8}",
-      "14": "{\"Titulo\":\"Ciencias del mundo\",\"Descripcion\":\"¿Que es lo que sabes?\",\"profesorId\":1,\"id\":14}"
+      "14": "{\"Titulo\":\"Ciencias del mundo\",\"Descripcion\":\"¿Que es lo que sabes?\",\"profesorId\":1,\"id\":14}",
+      "18": "{\"Titulo\":\"Mates tema 3\",\"Descripcion\":\"Si habéis estudiado sacareis nota\",\"profesorId\":1,\"id\":18}"
     },
     "PreguntaDelCuestionario": {
       "1": "{\"preguntaId\":1,\"cuestionarioId\":1,\"id\":1}",
@@ -465,7 +479,39 @@
       "7": "{\"preguntaId\":5,\"cuestionarioId\":7,\"id\":7}",
       "10": "{\"preguntaId\":6,\"cuestionarioId\":14,\"id\":10}",
       "13": "{\"preguntaId\":4,\"cuestionarioId\":6,\"id\":13}",
-      "14": "{\"preguntaId\":3,\"cuestionarioId\":1,\"id\":14}"
+      "14": "{\"preguntaId\":3,\"cuestionarioId\":1,\"id\":14}",
+      "19": "{\"preguntaId\":5,\"cuestionarioId\":18,\"id\":19}",
+      "20": "{\"preguntaId\":4,\"cuestionarioId\":1,\"id\":20}",
+      "21": "{\"preguntaId\":6,\"cuestionarioId\":1,\"id\":21}"
+    },
+    "JuegoDeCuestionario": {
+      "3": "{\"NombreJuego\":\"Primer Juego de Cuestionario\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":1,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":3}",
+      "7": "{\"NombreJuego\":\"Cuestionario final\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":0,\"Presentacion\":\"Preguntas desordenadas\",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":7}",
+      "10": "{\"NombreJuego\":\"Cuestionario dificil\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":1,\"Presentacion\":\"Preguntas y respuestas desordenadas\",\"JuegoActivo\":true,\"JuegoTerminado\":false,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":10}",
+      "12": "{\"NombreJuego\":\"Test\",\"PuntuacionCorrecta\":2,\"PuntuacionIncorrecta\":0,\"Presentacion\":\"Mismo orden para todos\",\"JuegoActivo\":false,\"JuegoTerminado\":true,\"profesorId\":1,\"grupoId\":1,\"cuestionarioId\":1,\"id\":12}"
+    },
+    "AlumnoJuegoDeCuestionario": {
+      "1": "{\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":2,\"id\":1}",
+      "9": "{\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":7,\"id\":9}",
+      "10": "{\"Nota\":0,\"alumnoId\":2,\"juegoDeCuestionarioId\":7,\"id\":10}",
+      "11": "{\"Nota\":0,\"alumnoId\":3,\"juegoDeCuestionarioId\":7,\"id\":11}",
+      "12": "{\"Nota\":10,\"alumnoId\":0,\"juegoDeCuestionarioId\":7,\"id\":12}",
+      "13": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":7,\"id\":13}",
+      "14": "{\"Nota\":6,\"alumnoId\":6,\"juegoDeCuestionarioId\":7,\"id\":14}",
+      "15": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":7,\"id\":15}",
+      "30": "{\"id\":30,\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":10}",
+      "31": "{\"Nota\":0,\"alumnoId\":2,\"juegoDeCuestionarioId\":10,\"id\":31}",
+      "32": "{\"Nota\":0,\"alumnoId\":3,\"juegoDeCuestionarioId\":10,\"id\":32}",
+      "33": "{\"Nota\":0,\"alumnoId\":4,\"juegoDeCuestionarioId\":10,\"id\":33}",
+      "34": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":10,\"id\":34}",
+      "35": "{\"Nota\":0,\"alumnoId\":6,\"juegoDeCuestionarioId\":10,\"id\":35}",
+      "43": "{\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":12,\"id\":43}",
+      "44": "{\"Nota\":0,\"alumnoId\":2,\"juegoDeCuestionarioId\":12,\"id\":44}",
+      "45": "{\"Nota\":0,\"alumnoId\":3,\"juegoDeCuestionarioId\":12,\"id\":45}",
+      "46": "{\"Nota\":0,\"alumnoId\":4,\"juegoDeCuestionarioId\":12,\"id\":46}",
+      "47": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":12,\"id\":47}",
+      "48": "{\"Nota\":0,\"alumnoId\":6,\"juegoDeCuestionarioId\":12,\"id\":48}",
+      "49": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":12,\"id\":49}"
     }
   }
 }

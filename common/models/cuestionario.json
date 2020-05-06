@@ -26,6 +26,11 @@
         "nestRemoting": true
       },
       "through": "PreguntaDelCuestionario"
+    },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "cuestionarioId"
     }
   },
   "acls": [],

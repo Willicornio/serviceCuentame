@@ -80,6 +80,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeCompeticionFormulaUno"
+    },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeCuestionario"
     }
   },
   "acls": [],
