@@ -9,7 +9,7 @@
     "Equipo": 10,
     "JuegoDePuntos": 19,
     "JuegoDeColeccion": 13,
-    "Matricula": 125,
+    "Matricula": 117,
     "AsignacionEquipo": 20,
     "AsignacionPuntoJuego": 65,
     "Nivel": 13,
@@ -31,7 +31,12 @@
     "JornadaDeCompeticionFormulaUno": 33,
     "AlumnoJuegoDeCompeticionFormulaUno": 45,
     "EquipoJuegoDeCompeticionFormulaUno": 7,
+
+
+    "Escenario": 13,
+    "PuntoGeolocalizable": 25
     "Pregunta": 12,
+
     "Cuestionario": 19,
     "PreguntaDelCuestionario": 25,
     "SesionClase": 27,
@@ -69,8 +74,13 @@
     "Grupo": {
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":2}",
+
       "39": "{\"Nombre\":\"Prueba asignacion puntos\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":39}",
       "40": "{\"Nombre\":\"Demo avatares\",\"Descripcion\":\"Demo avatares\",\"profesorId\":1,\"id\":40}"
+
+      "32": "{\"Nombre\":\"sd\",\"Descripcion\":\"dsds\",\"profesorId\":1,\"id\":32}"
+
+
     },
     "Punto": {
       "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
@@ -135,7 +145,17 @@
     },
     "JuegoDeColeccion": {
       "1": "{\"NombreJuego\":\"Prueba Colección 1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1,\"coleccionId\":2}",
+
+      "2": "{\"NombreJuego\":\"a\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2,\"coleccionId\":1}",
+      "3": "{\"NombreJuego\":\"vb\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":3,\"coleccionId\":1}",
+      "4": "{\"NombreJuego\":\"d\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":4}",
+
+      "9": "{\"NombreJuego\":\"dsdsd\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":32,\"id\":9,\"coleccionId\":2}",
+      "10": "{\"NombreJuego\":\"col\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":32,\"id\":10,\"coleccionId\":2}",
+      "11": "{\"NombreJuego\":\"col\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":32,\"id\":11,\"coleccionId\":2}",
+
       "12": "{\"NombreJuego\":\"fddf\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":12,\"coleccionId\":1}"
+
     },
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
@@ -347,7 +367,31 @@
       "4": "{\"alumnoId\":4,\"juegoDeColeccionId\":1,\"id\":4}",
       "5": "{\"alumnoId\":5,\"juegoDeColeccionId\":1,\"id\":5}",
       "6": "{\"alumnoId\":6,\"juegoDeColeccionId\":1,\"id\":6}",
+      "7": "{\"alumnoId\":7,\"juegoDeColeccionId\":1,\"id\":7}",
       "8": "{\"alumnoId\":8,\"juegoDeColeccionId\":1,\"id\":8}",
+      "9": "{\"alumnoId\":1,\"juegoDeColeccionId\":2,\"id\":9}",
+      "10": "{\"alumnoId\":2,\"juegoDeColeccionId\":2,\"id\":10}",
+      "11": "{\"alumnoId\":3,\"juegoDeColeccionId\":2,\"id\":11}",
+      "12": "{\"alumnoId\":4,\"juegoDeColeccionId\":2,\"id\":12}",
+      "13": "{\"alumnoId\":5,\"juegoDeColeccionId\":2,\"id\":13}",
+      "14": "{\"alumnoId\":6,\"juegoDeColeccionId\":2,\"id\":14}",
+      "15": "{\"alumnoId\":7,\"juegoDeColeccionId\":2,\"id\":15}"
+    },
+    "EquipoJuegoDeColeccion": {
+      "1": "{\"juegoDeColeccionId\":3,\"equipoId\":1,\"id\":1}",
+      "2": "{\"juegoDeColeccionId\":3,\"equipoId\":2,\"id\":2}",
+      "3": "{\"juegoDeColeccionId\":3,\"equipoId\":3,\"id\":3}"
+    },
+    "Album": {},
+
+      "1": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":9,\"id\":1}",
+      "2": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":10,\"id\":2}",
+      "3": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":11,\"id\":3}",
+      "4": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":12,\"id\":4}",
+      "5": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":13,\"id\":5}",
+      "6": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":14,\"id\":6}",
+      "7": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":15,\"id\":7}",
+      "8": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":16,\"id\":8}",
       "9": "{\"alumnoId\":12,\"juegoDeColeccionId\":2,\"id\":9}",
       "10": "{\"alumnoId\":7,\"juegoDeColeccionId\":2,\"id\":10}",
       "11": "{\"alumnoId\":12,\"juegoDeColeccionId\":3,\"id\":11}",
@@ -363,17 +407,7 @@
       "38": "{\"alumnoId\":2,\"juegoDeColeccionId\":12,\"id\":38}",
       "39": "{\"alumnoId\":12,\"juegoDeColeccionId\":12,\"id\":39}"
     },
-    "EquipoJuegoDeColeccion": {},
-    "Album": {
-      "1": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":9,\"id\":1}",
-      "2": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":10,\"id\":2}",
-      "3": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":11,\"id\":3}",
-      "4": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":12,\"id\":4}",
-      "5": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":13,\"id\":5}",
-      "6": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":14,\"id\":6}",
-      "7": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":15,\"id\":7}",
-      "8": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":16,\"id\":8}"
-    },
+
     "AlbumEquipo": {},
     "JuegoDeCompeticionLiga": {
       "1": "{\"NumeroTotalJornadas\":7,\"NombreJuego\":\"Prueba Liga 1\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":1}",
@@ -615,6 +649,7 @@
       "4": "{\"id\":4,\"Titulo\":\"Levantamiento de peso\",\"Pregunta\":\"¿Que animal puede levantar 1000 veces su peso?\",\"Tematica\":\"Biologia\",\"RespuestaCorrecta\":\"Hormiga\",\"RespuestaIncorrecta1\":\"Elefante\",\"RespuestaIncorrecta2\":\"Girafa\",\"RespuestaIncorrecta3\":\"Tortuga\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1}",
       "5": "{\"Titulo\":\"Mates de tercero\",\"Pregunta\":\"¿Cuanto es el cuadrado de 2?\",\"Tematica\":\"Mates\",\"RespuestaCorrecta\":\"4\",\"RespuestaIncorrecta1\":\"2\",\"RespuestaIncorrecta2\":\"8\",\"RespuestaIncorrecta3\":\"3\",\"FeedbackCorrecto\":\"Bien\",\"FeedbackIncorrecto\":\"Mal\",\"profesorId\":1,\"id\":5}",
       "6": "{\"Titulo\":\"Ciencia de primero\",\"Pregunta\":\"¿Cual es el color que se forma a partir de todos los colores?\",\"Tematica\":\"Cienca\",\"RespuestaCorrecta\":\"Blanco\",\"RespuestaIncorrecta1\":\"Negro\",\"RespuestaIncorrecta2\":\"Azul\",\"RespuestaIncorrecta3\":\"Amarillo\",\"FeedbackCorrecto\":\"Muy bien\",\"FeedbackIncorrecto\":\"Repasa los temas de la leccion 3\",\"profesorId\":1,\"id\":6}",
+      "8": "{\"Titulo\":\"2\",\"Pregunta\":\"1\",\"Tematica\":\"1\",\"RespuestaCorrecta\":\"1\",\"RespuestaIncorrecta1\":\"2\",\"RespuestaIncorrecta2\":\"3\",\"RespuestaIncorrecta3\":\"4\",\"FeedbackCorrecto\":\"bien\",\"FeedbackIncorrecto\":\"mal\",\"profesorId\":1,\"id\":8}",
       "9": "{\"Titulo\":\"aa\",\"Pregunta\":\"aaa\",\"Tematica\":\"aaa\",\"RespuestaCorrecta\":\"1\",\"RespuestaIncorrecta1\":\"2\",\"RespuestaIncorrecta2\":\"3\",\"RespuestaIncorrecta3\":\"4\",\"FeedbackCorrecto\":\"dsds\",\"FeedbackIncorrecto\":\"dds\",\"profesorId\":1,\"id\":9}",
       "10": "{\"Titulo\":\"Nueva pregunta\",\"Pregunta\":\"Como me llamo\",\"Tematica\":\"Personal\",\"RespuestaCorrecta\":\"Miguel\",\"RespuestaIncorrecta1\":\"Carlos\",\"RespuestaIncorrecta2\":\"Juan\",\"RespuestaIncorrecta3\":\"Pedro\",\"FeedbackCorrecto\":\"OK\",\"FeedbackIncorrecto\":\"Inutil\",\"profesorId\":1,\"id\":10}",
       "11": "{\"Titulo\":\"6\",\"Pregunta\":\"6\",\"Tematica\":\"6\",\"RespuestaCorrecta\":\"6\",\"RespuestaIncorrecta1\":\"6\",\"RespuestaIncorrecta2\":\"6\",\"RespuestaIncorrecta3\":\"6\",\"FeedbackCorrecto\":\"6\",\"FeedbackIncorrecto\":\"7\",\"profesorId\":1,\"id\":11}"
@@ -640,6 +675,7 @@
       "7": "{\"preguntaId\":5,\"cuestionarioId\":7,\"id\":7}",
       "10": "{\"preguntaId\":6,\"cuestionarioId\":14,\"id\":10}",
       "13": "{\"preguntaId\":4,\"cuestionarioId\":6,\"id\":13}",
+
       "14": "{\"preguntaId\":3,\"cuestionarioId\":1,\"id\":14}",
       "16": "{\"preguntaId\":10,\"cuestionarioId\":1,\"id\":16}",
       "17": "{\"preguntaId\":3,\"cuestionarioId\":16,\"id\":17}",
@@ -647,6 +683,32 @@
       "22": "{\"preguntaId\":9,\"cuestionarioId\":4,\"id\":22}",
       "23": "{\"preguntaId\":6,\"cuestionarioId\":4,\"id\":23}",
       "24": "{\"preguntaId\":3,\"cuestionarioId\":4,\"id\":24}"
+    },
+    "Escenario": {
+      "10": "{\"Mapa\":\"m1\",\"Descripcion\":\"d1\",\"profesorId\":1,\"id\":10}",
+      "11": "{\"Mapa\":\"m2\",\"Descripcion\":\"d2\",\"profesorId\":1,\"id\":11}"
+    },
+    "PuntoGeolocalizable": {
+      "1": "{\"Latitud\":\"lat1\",\"Longitud\":\"lon1\",\"PistaFacil\":\"pf1\",\"PistaDificil\":\"pd1\",\"idescenario\":1,\"id\":1}",
+      "2": "{\"Latitud\":\"lat2\",\"Longitud\":\"long2\",\"PistaFacil\":\"pf2\",\"PistaDificil\":\"pd2\",\"idescenario\":1,\"id\":2}",
+      "3": "{\"Latitud\":\"c\",\"Longitud\":\"d\",\"PistaFacil\":\"e\",\"PistaDificil\":\"f\",\"idescenario\":2,\"id\":3}",
+      "4": "{\"Latitud\":\"c\",\"Longitud\":\"d\",\"PistaFacil\":\"e\",\"PistaDificil\":\"f\",\"idescenario\":2,\"id\":4}",
+      "5": "{\"Latitud\":\"a\",\"Longitud\":\"b\",\"PistaFacil\":\"c\",\"PistaDificil\":\"d\",\"idescenario\":3,\"id\":5}",
+      "6": "{\"Latitud\":\"e\",\"Longitud\":\"f\",\"PistaFacil\":\"g\",\"PistaDificil\":\"h\",\"idescenario\":3,\"id\":6}",
+      "8": "{\"Latitud\":\"prueba1_latitud\",\"Longitud\":\"prueba1_longitud\",\"PistaFacil\":\"prueba1_pf\",\"PistaDificil\":\"prueba1_pd\",\"idescenario\":4,\"id\":8}",
+      "9": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":4,\"id\":9}",
+      "10": "{\"Latitud\":\"djv\",\"Longitud\":\"jv\",\"PistaFacil\":\"jd\",\"PistaDificil\":\"bfj\",\"idescenario\":6,\"id\":10}",
+      "14": "{\"Latitud\":\"1\",\"Longitud\":\"1\",\"PistaFacil\":\"1\",\"PistaDificil\":\"1\",\"idescenario\":10,\"id\":14}",
+      "15": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":10,\"id\":15}",
+      "16": "{\"Latitud\":\"3\",\"Longitud\":\"3\",\"PistaFacil\":\"3\",\"PistaDificil\":\"3\",\"idescenario\":10,\"id\":16}",
+      "17": "{\"Latitud\":\"1\",\"Longitud\":\"1\",\"PistaFacil\":\"1\",\"PistaDificil\":\"1\",\"idescenario\":11,\"id\":17}",
+      "18": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":11,\"id\":18}",
+      "19": "{\"Latitud\":\"5\",\"Longitud\":\"5\",\"PistaFacil\":\"5\",\"PistaDificil\":\"5\",\"idescenario\":10,\"id\":19}",
+      "20": "{\"Latitud\":\"afa\",\"Longitud\":\"ds\",\"PistaFacil\":\"gw\",\"PistaDificil\":\"few\",\"idescenario\":10,\"id\":20}",
+      "21": "{\"Latitud\":\"gs\",\"Longitud\":\"ew\",\"PistaFacil\":\"ew\",\"PistaDificil\":\"ewf\",\"idescenario\":10,\"id\":21}",
+      "22": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":10,\"id\":22}",
+      "23": "{\"Latitud\":\"d\",\"Longitud\":\"f\",\"PistaFacil\":\"f\",\"PistaDificil\":\"f\",\"idescenario\":12,\"id\":23}",
+      "24": "{\"Latitud\":\"l\",\"Longitud\":\"a\",\"PistaFacil\":\"d\",\"PistaDificil\":\"f\",\"idescenario\":12,\"id\":24}"
     },
     "SesionClase": {
       "1": "{\"id\":1}",
