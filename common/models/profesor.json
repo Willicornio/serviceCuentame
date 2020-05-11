@@ -67,6 +67,11 @@
       "type": "hasMany",
       "model": "Cuestionario",
       "foreignKey": "profesorId"
+    },
+    "escenarios": {
+      "type": "hasMany",
+      "model": "Escenario",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],
