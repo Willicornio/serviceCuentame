@@ -1,3 +1,4 @@
+
 {
   "name": "Grupo",
   "plural": "Grupos",
@@ -67,8 +68,19 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "juegosDeCuestionario": {
+      "type": "hasMany",
+      "model": "JuegoDeCuestionario",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeAvatars":{
+      "type":"hasMany",
+      "model":"JuegoDeAvatar",
+      "foreignKey":"grupoId"
     }
   },
   "acls": [],
   "methods": {}
 }
+
