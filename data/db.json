@@ -34,7 +34,7 @@
 
 
     "Escenario": 13,
-    "PuntoGeolocalizable": 25
+    "PuntoGeolocalizable": 25,
     "Pregunta": 12,
 
     "Cuestionario": 19,
@@ -76,7 +76,7 @@
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":2}",
 
       "39": "{\"Nombre\":\"Prueba asignacion puntos\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":39}",
-      "40": "{\"Nombre\":\"Demo avatares\",\"Descripcion\":\"Demo avatares\",\"profesorId\":1,\"id\":40}"
+      "40": "{\"Nombre\":\"Demo avatares\",\"Descripcion\":\"Demo avatares\",\"profesorId\":1,\"id\":40}",
 
       "32": "{\"Nombre\":\"sd\",\"Descripcion\":\"dsds\",\"profesorId\":1,\"id\":32}"
 
@@ -382,7 +382,7 @@
       "2": "{\"juegoDeColeccionId\":3,\"equipoId\":2,\"id\":2}",
       "3": "{\"juegoDeColeccionId\":3,\"equipoId\":3,\"id\":3}"
     },
-    "Album": {},
+    "Album": {
 
       "1": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":9,\"id\":1}",
       "2": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":10,\"id\":2}",
