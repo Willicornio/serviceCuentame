@@ -1,32 +1,35 @@
 {
-  "name": "EquipoJuegoDeCompeticionLiga",
-  "plural": "EquiposJuegoDeCompeticionLiga",
+  "name": "AlumnoJuegoDeGeocaching",
+  "plural": "AlumnosJuegoDeGeocaching",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "PuntosTotalesEquipo": {
+    "Puntuacion": {
       "type": "number",
-      "required": true,
-      "default": 0
+      "required": true
+    },
+    "Etapa": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
   "relations": {
-    "equipo": {
+    "alumno": {
       "type": "belongsTo",
-      "model": "Equipo",
-      "foreignKey": "EquipoId",
+      "model": "Alumno",
+      "foreignKey": "AlumnoId",
       "options": {
         "nestRemoting": true
       }
     },
-    "juegoDeCompeticionLiga": {
+    "juegoDeGeocaching": {
       "type": "belongsTo",
-      "model": "JuegoDeCompeticionLiga",
-      "foreignKey": "JuegoDeCompeticionLigaId",
+      "model": "JuegoDeGeocaching",
+      "foreignKey": "juegodeGeocachingId",
       "options": {
         "nestRemoting": true
       }
