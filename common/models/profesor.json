@@ -1,4 +1,3 @@
-
 {
   "name": "Profesor",
   "plural": "Profesores",
@@ -69,23 +68,25 @@
       "model": "Cuestionario",
       "foreignKey": "profesorId"
     },
-
     "escenarios": {
       "type": "hasMany",
       "model": "Escenario",
       "foreignKey": "profesorId"
     },
-
     "juegosDeCuestionario": {
       "type": "hasMany",
       "model": "JuegoDeCuestionario",
       "foreignKey": "profesorId"
     },
-    "familiaAvatares":{
-      "type":"hasMany",
-      "model":"FamiliaAvatares",
-      "foreignKey":"profesorId"
-
+    "familiaAvatares": {
+      "type": "hasMany",
+      "model": "FamiliaAvatares",
+      "foreignKey": "profesorId"
+    },
+    "JuegosDeGeocaching": {
+      "type": "hasMany",
+      "model": "JuegoDeGeocaching",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],

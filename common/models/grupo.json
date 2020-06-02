@@ -1,4 +1,3 @@
-
 {
   "name": "Grupo",
   "plural": "Grupos",
@@ -74,13 +73,17 @@
       "model": "JuegoDeCuestionario",
       "foreignKey": "grupoId"
     },
-    "juegoDeAvatars":{
-      "type":"hasMany",
-      "model":"JuegoDeAvatar",
-      "foreignKey":"grupoId"
+    "juegoDeAvatars": {
+      "type": "hasMany",
+      "model": "JuegoDeAvatar",
+      "foreignKey": "grupoId"
+    },
+    "juegosDeGeocaching": {
+      "type": "hasMany",
+      "model": "JuegoDeGeocaching",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],
   "methods": {}
 }
-

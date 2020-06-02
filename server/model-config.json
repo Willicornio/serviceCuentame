@@ -1,4 +1,3 @@
-
 {
   "_meta": {
     "sources": [
@@ -212,7 +211,6 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-
   "PuntoGeolocalizable": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
@@ -221,7 +219,6 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-
   "JuegoDeCuestionario": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
@@ -230,11 +227,36 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-  "SesionClase":{"dataSource":"baseDatosEnMemoria","public":true},
-  "AsistenciaClase":{"dataSource":"baseDatosEnMemoria","public":true},
-  "FamiliaAvatares":{"dataSource":"baseDatosEnMemoria","public":true},
-  "JuegoDeAvatar":{"dataSource":"baseDatosEnMemoria","public":true},
-  "AlumnoJuegoDeAvatar":{"dataSource":"baseDatosEnMemoria","public":true}
-
+  "SesionClase": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AsistenciaClase": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "FamiliaAvatares": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeAvatar": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlumnoJuegoDeAvatar": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeGeocaching": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlumnoJuegoDeGeocaching": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeGeocachingPregunta": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  }
 }
-

@@ -42,7 +42,9 @@
     "JuegoDeAvatar": 28,
     "AlumnoJuegoDeAvatar": 53,
     "JuegoDeCuestionario": 31,
-    "AlumnoJuegoDeCuestionario": 120
+    "AlumnoJuegoDeCuestionario": 120,
+    "JuegoDeGeocaching": 3,
+    "AlumnoJuegoDeGeocaching": 15
   },
   "models": {
     "Profesor": {
@@ -817,6 +819,8 @@
       "117": "{\"Nota\":0,\"alumnoId\":12,\"juegoDeCuestionarioId\":30,\"id\":117}",
       "118": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":30,\"id\":118}",
       "119": "{\"Nota\":0,\"alumnoId\":23,\"juegoDeCuestionarioId\":30,\"id\":119}"
-    }
+    },
+    "JuegoDeGeocaching": {},
+    "AlumnoJuegoDeGeocaching": {}
   }
 }
