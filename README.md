@@ -35,7 +35,7 @@ En la actualidad Classpip tiene 5 módulos:
 Esta es la aplicación que permite exponer los datos en formato API-REST a las diferentes aplicaciones que los van a consumir (Dashboard, mobile-student o mobile-profe).
 
 ## Modelos de datos
-Consulta aquí los [modelos de datos](https://github.com/rocmeseguer/classpip-services/blob/master/ModelosClasspip.pdf) actualesusados en Classpip.
+Consulta aquí los [modelos de datos](https://github.com/rocmeseguer/classpip-services/blob/master/ModelosClasspip.pdf) actuales usados en Classpip.
 
 ## Git y GitHub
 
