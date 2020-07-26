@@ -1,0 +1,57 @@
+{
+  "name": "Libro",
+  "plural": "libro",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  }, "properties": {
+    "titulo": {
+      "type": "string"
+     
+    },
+    "autor": {
+      "type": "string"
+    
+    },
+    "resumen": {
+      "type": "string"
+     
+    },
+    "portada": {
+      "type": "string"
+    },
+    "finalizado": {
+      "type": "boolean"
+    },
+    "puntuacion": {
+      "type": "string"
+    },
+    "idAlumno": {
+      "type": "string"
+    },
+    
+    "numeropag": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "escenas": {
+      "type": "hasMany",
+      "model": "escena",
+      "foreignKey": "libroId",
+      "through": ""
+    }
+  },
+  "alumnos": {
+    "type": "belongsTo",
+    "model": "Alumno",
+    "foreignKey": "libroId",
+    "options": {
+      "nestRemoting": true
+    } 
+},
+  "acls": [],
+  "methods": {}
+}

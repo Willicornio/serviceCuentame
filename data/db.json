@@ -46,7 +46,8 @@
     "JuegoDeGeocaching": 1,
     "AlumnoJuegoDeGeocaching": 1,
     "frame": 60,
-    "escena": 16
+    "escena": 16,
+    "Libro": 6
   },
   "models": {
     "Profesor": {
@@ -175,7 +176,7 @@
       "59": "{\"personajes\":[{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":205.5,\"positionY\":82.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-57.5,\"positionY\":14.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"6\",\"foto\":\"/assets/imgs/evee.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":494.5,\"positionY\":34.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":10,\"escenaid\":15,\"id\":59}"
     },
     "escena": {
-      "1": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":1}",
+      "1": "{\"id\":1,\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":0,\"numeroframeActual\":0,\"numeroEscena\":0}",
       "2": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":2}",
       "3": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":3}",
       "4": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":4}",
@@ -190,6 +191,13 @@
       "13": "{\"id\":13,\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":9,\"numeroframeActual\":5,\"numeroEscena\":0}",
       "14": "{\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":1,\"numeroframeActual\":0,\"numeroEscena\":0,\"id\":14}",
       "15": "{\"id\":15,\"fondo\":\"http://localhost:8100/assets/imgs/2.png\",\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":20,\"numeroframeActual\":4,\"numeroEscena\":0}"
+    },
+    "Libro": {
+      "1": "{\"titulo\":\"alumnoid2\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":2,\"id\":1}",
+      "2": "{\"titulo\":\"alumnoid1\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":1,\"id\":2}",
+      "3": "{\"titulo\":\"alumnoid1libro2\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":1,\"id\":3}",
+      "4": "{\"titulo\":\"alumnoid1libro3niggi\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":1,\"id\":4}",
+      "5": "{\"titulo\":\"librodesdeappniggi\",\"autor\":\"aa\",\"resumen\":\"este resmuen es triste\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"2\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":5}"
     }
   }
 }
