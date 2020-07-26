@@ -44,7 +44,9 @@
     "JuegoDeCuestionario": 1,
     "AlumnoJuegoDeCuestionario": 1,
     "JuegoDeGeocaching": 1,
-    "AlumnoJuegoDeGeocaching": 1
+    "AlumnoJuegoDeGeocaching": 1,
+    "frame": 60,
+    "escena": 16
   },
   "models": {
     "Profesor": {
@@ -68,87 +70,126 @@
       "14": "{\"Nombre\":\"Bea\",\"PrimerApellido\":\"Garcés\",\"SegundoApellido\":\"Peiro\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":14}",
       "15": "{\"Nombre\":\"eeg\",\"PrimerApellido\":\"eggeg\",\"SegundoApellido\":\"Egeo\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":15}"
     },
-    "Grupo": {
-
-    },
-    "Punto": {
-    },
-    "Coleccion": {
-
-    },
-    "Cromo": {
-    },
-    "Equipo": {
-
-    },
-    "JuegoDePuntos": {
-    },
-    "JuegoDeColeccion": {
-    },
-    "Matricula": {
-
-    },
-    "AsignacionEquipo": {
-    },
-    "AsignacionPuntoJuego": {
-
-    },
-    "Nivel": {
-    },
-    "AlumnoJuegoDePuntos": {
-    },
-    "EquipoJuegoDePuntos": {
-    },
-    "HistorialPuntosAlumno": {
-    },
+    "Grupo": {},
+    "Punto": {},
+    "Coleccion": {},
+    "Cromo": {},
+    "Equipo": {},
+    "JuegoDePuntos": {},
+    "JuegoDeColeccion": {},
+    "Matricula": {},
+    "AsignacionEquipo": {},
+    "AsignacionPuntoJuego": {},
+    "Nivel": {},
+    "AlumnoJuegoDePuntos": {},
+    "EquipoJuegoDePuntos": {},
+    "HistorialPuntosAlumno": {},
     "Insignia": {},
     "HistorialPuntosEquipo": {},
-    "AlumnoJuegoDeColeccion": {
-    },
-    "EquipoJuegoDeColeccion": {
-    },
-    "Album": {
-    },
+    "AlumnoJuegoDeColeccion": {},
+    "EquipoJuegoDeColeccion": {},
+    "Album": {},
     "AlbumEquipo": {},
     "JuegoDeCompeticionLiga": {},
     "JornadaDeCompeticionLiga": {},
     "EnfrentamientoLiga": {},
     "AlumnoJuegoDeCompeticionLiga": {},
     "EquipoJuegoDeCompeticionLiga": {},
-    "JuegoDeCompeticionFormulaUno": {
-    },
-    "JornadaDeCompeticionFormulaUno": {
-    },
-    "AlumnoJuegoDeCompeticionFormulaUno": {
-    },
+    "JuegoDeCompeticionFormulaUno": {},
+    "JornadaDeCompeticionFormulaUno": {},
+    "AlumnoJuegoDeCompeticionFormulaUno": {},
     "EquipoJuegoDeCompeticionFormulaUno": {},
-    "Pregunta": {
+    "Pregunta": {},
+    "Cuestionario": {},
+    "PreguntaDelCuestionario": {},
+    "Escenario": {},
+    "PuntoGeolocalizable": {},
+    "SesionClase": {},
+    "AsistenciaClase": {},
+    "FamiliaAvatares": {},
+    "JuegoDeAvatar": {},
+    "AlumnoJuegoDeAvatar": {},
+    "JuegoDeCuestionario": {},
+    "AlumnoJuegoDeCuestionario": {},
+    "JuegoDeGeocaching": {},
+    "AlumnoJuegoDeGeocaching": {},
+    "frame": {
+      "1": "{\"personajes\":\"dsf\",\"textos\":\"dsf\",\"portadaFrame\":\"dsf\",\"numero\":\"dsf\",\"escenaid\":0,\"id\":1}",
+      "2": "{\"personajes\":{},\"textos\":\"ola\",\"portadaFrame\":\"nada\",\"numero\":1,\"escenaid\":5,\"id\":2}",
+      "3": "{\"personajes\":{},\"textos\":\"para ti mi colaa\",\"portadaFrame\":\"nada\",\"numero\":2,\"escenaid\":5,\"id\":3}",
+      "4": "{\"id\":4,\"personajes\":[],\"textos\":{},\"portadaFrame\":{},\"numero\":0,\"escenaid\":6}",
+      "5": "{\"personajes\":[{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-31,\"positionY\":-199.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":7,\"id\":5}",
+      "6": "{\"escenaid\":6,\"id\":6}",
+      "7": "{\"escenaid\":6,\"id\":7}",
+      "8": "{\"escenaid\":6,\"id\":8}",
+      "9": "{\"escenaid\":6,\"id\":9}",
+      "10": "{\"escenaid\":6,\"id\":10}",
+      "11": "{\"escenaid\":6,\"id\":11}",
+      "12": "{\"escenaid\":6,\"id\":12}",
+      "13": "{\"escenaid\":6,\"id\":13}",
+      "14": "{\"escenaid\":6,\"id\":14}",
+      "15": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":8,\"id\":15}",
+      "16": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":3,\"escenaid\":8,\"id\":16}",
+      "17": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":4,\"escenaid\":8,\"id\":17}",
+      "18": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":5,\"escenaid\":8,\"id\":18}",
+      "19": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":6,\"escenaid\":8,\"id\":19}",
+      "20": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":9,\"id\":20}",
+      "21": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":9,\"id\":21}",
+      "22": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":10,\"id\":22}",
+      "23": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":10,\"id\":23}",
+      "24": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":10,\"id\":24}",
+      "25": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":11,\"id\":25}",
+      "26": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":11,\"id\":26}",
+      "27": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":3,\"escenaid\":11,\"id\":27}",
+      "28": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":4,\"escenaid\":11,\"id\":28}",
+      "29": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":5,\"escenaid\":11,\"id\":29}",
+      "30": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":11,\"id\":30}",
+      "31": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":3,\"escenaid\":11,\"id\":31}",
+      "32": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":4,\"escenaid\":11,\"id\":32}",
+      "33": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":5,\"escenaid\":11,\"id\":33}",
+      "34": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":12,\"id\":34}",
+      "35": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":12,\"id\":35}",
+      "36": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":3,\"escenaid\":12,\"id\":36}",
+      "37": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":4,\"escenaid\":12,\"id\":37}",
+      "38": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":13,\"id\":38}",
+      "39": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":13,\"id\":39}",
+      "40": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":3,\"escenaid\":13,\"id\":40}",
+      "41": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":4,\"escenaid\":13,\"id\":41}",
+      "42": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":5,\"escenaid\":13,\"id\":42}",
+      "43": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":6,\"escenaid\":13,\"id\":43}",
+      "44": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":7,\"escenaid\":13,\"id\":44}",
+      "45": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":13,\"id\":45}",
+      "46": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":13,\"id\":46}",
+      "47": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":3,\"escenaid\":13,\"id\":47}",
+      "48": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":4,\"escenaid\":13,\"id\":48}",
+      "49": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":5,\"escenaid\":13,\"id\":49}",
+      "50": "{\"personajes\":[{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":281.5,\"positionY\":137.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-54.5,\"positionY\":57.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":15,\"id\":50}",
+      "51": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"escenaid\":15,\"id\":51}",
+      "52": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":3,\"escenaid\":15,\"id\":52}",
+      "53": "{\"personajes\":[{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":76,\"positionY\":-205.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":4,\"escenaid\":15,\"id\":53}",
+      "54": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":5,\"escenaid\":15,\"id\":54}",
+      "55": "{\"personajes\":[{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":205.5,\"positionY\":82.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":6,\"escenaid\":15,\"id\":55}",
+      "56": "{\"personajes\":[{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":205.5,\"positionY\":82.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":7,\"escenaid\":15,\"id\":56}",
+      "57": "{\"personajes\":[{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":205.5,\"positionY\":82.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":8,\"escenaid\":15,\"id\":57}",
+      "58": "{\"personajes\":[{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":205.5,\"positionY\":82.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":9,\"escenaid\":15,\"id\":58}",
+      "59": "{\"personajes\":[{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":205.5,\"positionY\":82.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-57.5,\"positionY\":14.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"6\",\"foto\":\"/assets/imgs/evee.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":494.5,\"positionY\":34.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":10,\"escenaid\":15,\"id\":59}"
     },
-    "Cuestionario": {
-    },
-    "PreguntaDelCuestionario": {
-    },
-    "Escenario": {
-    },
-    "PuntoGeolocalizable": {
-    },
-    "SesionClase": {
-    },
-    "AsistenciaClase": {
-    },
-    "FamiliaAvatares": {
-    },
-    "JuegoDeAvatar": {
-    },
-    "AlumnoJuegoDeAvatar": {
-    },
-    "JuegoDeCuestionario": {
-    },
-    "AlumnoJuegoDeCuestionario": {
-    },
-    "JuegoDeGeocaching": {
-    },
-    "AlumnoJuegoDeGeocaching": {
+    "escena": {
+      "1": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":1}",
+      "2": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":2}",
+      "3": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":3}",
+      "4": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":4}",
+      "5": "{\"fondo\":\"nada\",\"duracionFrame\":\"2\",\"maximoFrames\":\"10\",\"numeroFrames\":\"0\",\"numeroframeActual\":\"0\",\"numeroEscena\":\"1\",\"id\":5}",
+      "6": "{\"fondo\":{},\"duracionFrame\":10,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":0,\"id\":6}",
+      "7": "{\"fondo\":{},\"duracionFrame\":10,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"id\":7}",
+      "8": "{\"fondo\":{},\"duracionFrame\":10,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"id\":8}",
+      "9": "{\"fondo\":{},\"duracionFrame\":10,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"id\":9}",
+      "10": "{\"fondo\":{},\"duracionFrame\":10,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"id\":10}",
+      "11": "{\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":0,\"numeroframeActual\":0,\"numeroEscena\":0,\"id\":11}",
+      "12": "{\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":0,\"numeroframeActual\":0,\"numeroEscena\":0,\"id\":12}",
+      "13": "{\"id\":13,\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":9,\"numeroframeActual\":5,\"numeroEscena\":0}",
+      "14": "{\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":1,\"numeroframeActual\":0,\"numeroEscena\":0,\"id\":14}",
+      "15": "{\"id\":15,\"fondo\":\"http://localhost:8100/assets/imgs/2.png\",\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":20,\"numeroframeActual\":4,\"numeroEscena\":0}"
     }
   }
 }

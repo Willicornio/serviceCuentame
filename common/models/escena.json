@@ -1,0 +1,47 @@
+{
+  "name": "escena",
+  "plural": "escenas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": { "fondo": {
+    "type": "any",
+    "required": true
+  },
+  "duracionFrame": {
+    "type": "number",
+    "required": true
+  },
+  "maximoFrames": {
+    "type": "number",
+    "required": true
+  },
+  "numeroFrames": {
+    "type": "number",
+    "required": true
+  },
+  "numeroframeActual": {
+    "type": "number",
+    "numeroframeActual": true
+  },
+  "numeroEscena": {
+    "type": "number",
+    "numeroframeActual": true
+  }
+},
+  "validations": [],
+  "relations": {
+    "frames": {
+      "type": "hasMany",
+      "model": "frame",
+      "foreignKey": "escenaid",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
