@@ -7,7 +7,8 @@
     "validateUpsert": true
   }, "properties": {
     "titulo": {
-      "type": "string"
+      "type": "string",
+      "unique" : true
      
     },
     "autor": {
@@ -25,7 +26,7 @@
       "type": "boolean"
     },
     "puntuacion": {
-      "type": "string"
+      "type": "any"
     },
     "idAlumno": {
       "type": "string"
