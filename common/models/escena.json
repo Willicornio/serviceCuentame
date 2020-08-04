@@ -9,7 +9,7 @@
   "properties": {
     "fondo": {
       "type": "any",
-      "required": true
+      "required": false
     },
     "duracionFrame": {
       "type": "number",
