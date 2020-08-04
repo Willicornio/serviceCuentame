@@ -270,5 +270,9 @@
   "frame": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "Libro": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
