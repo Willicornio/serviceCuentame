@@ -1,0 +1,14 @@
+{
+  "name": "alumno-juego-de-libro",
+  "plural": "Alumnojuegolibro",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

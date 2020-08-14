@@ -5,19 +5,25 @@
   "idInjection": true,
   "options": {
     "validateUpsert": true
-  }, "properties": {
+  },
+  "alumnos": {
+    "type": "belongsTo",
+    "model": "Alumno",
+    "foreignKey": "libroId",
+    "options": {
+      "nestRemoting": true
+    }
+  },
+  "properties": {
     "titulo": {
       "type": "string",
-      "unique" : true
-     
+      "unique": true
     },
     "autor": {
       "type": "string"
-    
     },
     "resumen": {
       "type": "string"
-     
     },
     "portada": {
       "type": "string"
@@ -31,7 +37,6 @@
     "idAlumno": {
       "type": "string"
     },
-    
     "numeropag": {
       "type": "string"
     }
@@ -43,16 +48,14 @@
       "model": "escena",
       "foreignKey": "libroId",
       "through": ""
+    },
+    "juegoldelibro": {
+      "type": "belongsTo",
+      "model": "juegodelibro",
+      "foreignKey": "juegodelibroId",
+      "through": ""
     }
   },
-  "alumnos": {
-    "type": "belongsTo",
-    "model": "Alumno",
-    "foreignKey": "libroId",
-    "options": {
-      "nestRemoting": true
-    } 
-},
   "acls": [],
   "methods": {}
 }

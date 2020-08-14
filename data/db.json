@@ -2,14 +2,14 @@
   "ids": {
     "Profesor": 3,
     "Alumno": 16,
-    "Grupo": 1,
+    "Grupo": 2,
     "Punto": 1,
     "Coleccion": 1,
     "Cromo": 1,
     "Equipo": 1,
     "JuegoDePuntos": 1,
     "JuegoDeColeccion": 1,
-    "Matricula": 1,
+    "Matricula": 6,
     "AsignacionEquipo": 1,
     "AsignacionPuntoJuego": 1,
     "Nivel": 1,
@@ -38,16 +38,16 @@
     "PreguntaDelCuestionario": 1,
     "SesionClase": 1,
     "AsistenciaClase": 1,
-    "FamiliaAvatares": 1,
-    "JuegoDeAvatar": 1,
-    "AlumnoJuegoDeAvatar": 1,
+    "FamiliaAvatares": 2,
+    "JuegoDeAvatar": 2,
+    "AlumnoJuegoDeAvatar": 6,
     "JuegoDeCuestionario": 1,
     "AlumnoJuegoDeCuestionario": 1,
     "JuegoDeGeocaching": 1,
     "AlumnoJuegoDeGeocaching": 1,
-    "frame": 96,
-    "escena": 25,
-    "Libro": 22
+    "frame": 102,
+    "escena": 27,
+    "Libro": 26
   },
   "models": {
     "Profesor": {
@@ -71,14 +71,22 @@
       "14": "{\"Nombre\":\"Bea\",\"PrimerApellido\":\"Garcés\",\"SegundoApellido\":\"Peiro\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":14}",
       "15": "{\"Nombre\":\"eeg\",\"PrimerApellido\":\"eggeg\",\"SegundoApellido\":\"Egeo\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":15}"
     },
-    "Grupo": {},
+    "Grupo": {
+      "1": "{\"Nombre\":\"clase 1\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":1}"
+    },
     "Punto": {},
     "Coleccion": {},
     "Cromo": {},
     "Equipo": {},
     "JuegoDePuntos": {},
     "JuegoDeColeccion": {},
-    "Matricula": {},
+    "Matricula": {
+      "1": "{\"alumnoId\":12,\"grupoId\":1,\"id\":1}",
+      "2": "{\"alumnoId\":7,\"grupoId\":1,\"id\":2}",
+      "3": "{\"alumnoId\":15,\"grupoId\":1,\"id\":3}",
+      "4": "{\"alumnoId\":14,\"grupoId\":1,\"id\":4}",
+      "5": "{\"alumnoId\":4,\"grupoId\":1,\"id\":5}"
+    },
     "AsignacionEquipo": {},
     "AsignacionPuntoJuego": {},
     "Nivel": {},
@@ -107,9 +115,19 @@
     "PuntoGeolocalizable": {},
     "SesionClase": {},
     "AsistenciaClase": {},
-    "FamiliaAvatares": {},
-    "JuegoDeAvatar": {},
-    "AlumnoJuegoDeAvatar": {},
+    "FamiliaAvatares": {
+      "1": "{\"profesorId\":1,\"NombreFamilia\":\"prueba\",\"Silueta\":\"manos-pintadas-ninos_29937-3693.jpg\",\"NombreComplemento1\":\"aa\",\"Complemento1\":[\"manos-pintadas-ninos_29937-3693.jpg\"],\"NombreComplemento2\":\"aaaaa\",\"Complemento2\":[\"ninos-saltando-fondo-ninos-felices-jugando-hombres-mujeres-plantilla-juegos-lugar-texto_80590-4915.jpg\"],\"NombreComplemento3\":\"fred\",\"Complemento3\":[\"dia-del-libro-blog.jpg\"],\"NombreComplemento4\":\"wwd\",\"Complemento4\":[\"icono libro.jpg\"],\"id\":1}"
+    },
+    "JuegoDeAvatar": {
+      "1": "{\"NombreJuego\":\"aaa\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[1],\"CriteriosPrivilegioComplemento1\":\"aaa\",\"CriteriosPrivilegioComplemento2\":\"wsqr\",\"CriteriosPrivilegioComplemento3\":\"rer\",\"CriteriosPrivilegioComplemento4\":\"eweqe\",\"CriteriosPrivilegioVoz\":\"ewqreqr\",\"CriteriosPrivilegioVerTodos\":\"qder42regrwt\",\"grupoId\":1,\"id\":1}"
+    },
+    "AlumnoJuegoDeAvatar": {
+      "1": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":12,\"juegoDeAvatarId\":1,\"id\":1}",
+      "2": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":15,\"juegoDeAvatarId\":1,\"id\":2}",
+      "3": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":14,\"juegoDeAvatarId\":1,\"id\":3}",
+      "4": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":4,\"juegoDeAvatarId\":1,\"id\":4}",
+      "5": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":7,\"juegoDeAvatarId\":1,\"id\":5}"
+    },
     "JuegoDeCuestionario": {},
     "AlumnoJuegoDeCuestionario": {},
     "JuegoDeGeocaching": {},
@@ -209,7 +227,13 @@
       "92": "{\"personajes\":[{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":44.5,\"positionY\":26.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":123,\"positionY\":-265.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":278.5,\"positionY\":141.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"1-3-92.png\",\"numero\":3,\"escenaid\":23,\"id\":92}",
       "93": "{\"personajes\":[{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":111,\"positionY\":115,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-1-93.png\",\"numero\":1,\"escenaid\":24,\"id\":93}",
       "94": "{\"personajes\":[{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":111,\"positionY\":115,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"0\",\"foto\":\"/assets/imgs/buena.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":403,\"positionY\":-246,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-2-94.png\",\"numero\":2,\"escenaid\":24,\"id\":94}",
-      "95": "{\"personajes\":[{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":111,\"positionY\":115,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"0\",\"foto\":\"/assets/imgs/buena.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":403,\"positionY\":-246,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-275,\"positionY\":-207.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-3-95.png\",\"numero\":3,\"escenaid\":24,\"id\":95}"
+      "95": "{\"personajes\":[{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":111,\"positionY\":115,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"0\",\"foto\":\"/assets/imgs/buena.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":403,\"positionY\":-246,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-275,\"positionY\":-207.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-3-95.png\",\"numero\":3,\"escenaid\":24,\"id\":95}",
+      "96": "{\"personajes\":[{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":493.5,\"positionY\":223.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-254,\"positionY\":-280.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"1-1-96.png\",\"numero\":1,\"escenaid\":25,\"id\":96}",
+      "97": "{\"personajes\":[{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":493.5,\"positionY\":223.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-254,\"positionY\":-280.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":238.5,\"positionY\":4.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"1-2-97.png\",\"numero\":2,\"escenaid\":25,\"id\":97}",
+      "98": "{\"personajes\":[{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":493.5,\"positionY\":223.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-254,\"positionY\":-280.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":238.5,\"positionY\":4.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":384,\"positionY\":-22,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"1-3-98.png\",\"numero\":3,\"escenaid\":25,\"id\":98}",
+      "99": "{\"personajes\":[{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":493.5,\"positionY\":223.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-254,\"positionY\":-280.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":238.5,\"positionY\":4.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":384,\"positionY\":-22,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":300,\"positionY\":29.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"1-4-99.png\",\"numero\":4,\"escenaid\":25,\"id\":99}",
+      "100": "{\"personajes\":[{\"id\":\"4\",\"foto\":\"/assets/imgs/vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":493.5,\"positionY\":223.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-254,\"positionY\":-280.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"5\",\"foto\":\"/assets/imgs/vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":238.5,\"positionY\":4.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":384,\"positionY\":-22,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"3\",\"foto\":\"/assets/imgs/blanpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":300,\"positionY\":29.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"},{\"id\":\"1\",\"foto\":\"/assets/imgs/malo.jpg\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-266,\"positionY\":-101,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":\"\",\"alto\":\"\",\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"1-5-100.png\",\"numero\":5,\"escenaid\":25,\"id\":100}",
+      "101": "{\"personajes\":[],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":1,\"escenaid\":26,\"id\":101}"
     },
     "escena": {
       "1": "{\"id\":1,\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":0,\"numeroframeActual\":0,\"numeroEscena\":0}",
@@ -235,30 +259,16 @@
       "21": "{\"id\":21,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":12,\"numeroframeActual\":6,\"numeroEscena\":1,\"libroId\":15}",
       "22": "{\"id\":22,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":12,\"numeroframeActual\":6,\"numeroEscena\":2,\"libroId\":15}",
       "23": "{\"id\":23,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":6,\"numeroframeActual\":3,\"numeroEscena\":1,\"libroId\":16}",
-      "24": "{\"id\":24,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":6,\"numeroframeActual\":3,\"numeroEscena\":2,\"libroId\":16}"
+      "24": "{\"id\":24,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":6,\"numeroframeActual\":3,\"numeroEscena\":2,\"libroId\":16}",
+      "25": "{\"id\":25,\"fondo\":\"http://localhost:8100/assets/imgs/1.png\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":10,\"numeroframeActual\":5,\"numeroEscena\":1,\"libroId\":22}",
+      "26": "{\"id\":26,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":2,\"numeroframeActual\":1,\"numeroEscena\":1,\"libroId\":25}"
     },
     "Libro": {
-      "1": "{\"titulo\":\"alumnoid2\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":2,\"id\":1}",
-      "2": "{\"titulo\":\"alumnoid1\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":1,\"id\":2}",
-      "3": "{\"titulo\":\"alumnoid1libro2\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":1,\"id\":3}",
-      "4": "{\"titulo\":\"alumnoid1libro3niggi\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":\"string\",\"idAlumno\":\"string\",\"numeropag\":\"string\",\"alumnoId\":1,\"id\":4}",
-      "5": "{\"titulo\":\"librodesdeappniggi\",\"autor\":\"aa\",\"resumen\":\"este resmuen es triste\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"2\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":5}",
-      "6": "{\"titulo\":\"Polbook\",\"autor\":\"Pol\",\"resumen\":\"holasoy un libro fet per pol\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":6}",
-      "7": "{\"titulo\":\"pruebas\",\"autor\":\"Pol\",\"resumen\":\"peebas\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":7}",
-      "8": "{\"titulo\":\"quierserunacarpeta\",\"autor\":\"Pol\",\"resumen\":\"quieroserunacarpeta sipnosis\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":8}",
-      "9": "{\"titulo\":\"soyyaunacarpeta?\",\"autor\":\"Pol\",\"resumen\":\"a la espera de ser carpeyaniggi\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":9}",
-      "10": "{\"titulo\":\"porfavorquierrooounacarpetaaaa\",\"autor\":\"Pol\",\"resumen\":\"mi carpetaaaaaa\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":10}",
-      "11": "{\"titulo\":\"porfavorquierrooounacarpetaaaa\",\"autor\":\"Pol\",\"resumen\":\"mi carpetaaaaaa\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":11}",
-      "12": "{\"titulo\":\"supercarpeta\",\"autor\":\"Pol\",\"resumen\":\"spy una supercarpeta\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":12}",
-      "13": "{\"titulo\":\"pruebareproductor\",\"autor\":\"Pol\",\"resumen\":\"pruebareproductor\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":13}",
-      "14": "{\"titulo\":\"cafemalo\",\"autor\":\"Pol\",\"resumen\":\"que pena\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":14}",
-      "15": "{\"titulo\":\"guitarra\",\"autor\":\"Pol\",\"resumen\":\"guitarra\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":15}",
-      "16": "{\"titulo\":\"blobs\",\"autor\":\"Pol\",\"resumen\":\"soy un blobs\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":\"nada\",\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":16}",
-      "17": "{\"id\":17}",
-      "18": "{\"id\":18}",
-      "19": "{\"id\":19,\"puntuacion\":[5]}",
-      "20": "{\"id\":20,\"numeropag\":\"string\",\"alumnoId\":1}",
-      "21": "{\"id\":21,\"titulo\":\"ooooo\",\"autor\":\"Pol\",\"resumen\":\"rrrrr\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[2],\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1}"
+      "21": "{\"id\":21,\"titulo\":\"ooooo\",\"autor\":\"Pol\",\"resumen\":\"rrrrr\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[2,3,5,4],\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1}",
+      "22": "{\"id\":22,\"titulo\":\"librofuncional\",\"autor\":\"Pol\",\"resumen\":\"\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[3,5],\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1}",
+      "23": "{\"titulo\":\"soy un libro, y tu?\",\"autor\":\"Pol\",\"resumen\":\"supongo que tu no, pringdo\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":23}",
+      "24": "{\"titulo\":\"jiji\",\"autor\":\"Pol\",\"resumen\":\"jaja\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":24}",
+      "25": "{\"titulo\":\"aaa\",\"autor\":\"Pol\",\"resumen\":\"ddd\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1,\"id\":25}"
     }
   }
 }
