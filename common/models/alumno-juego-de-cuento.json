@@ -31,7 +31,7 @@
       "foreignKey": "AlumnoId"
     },
     "juegodelibro": {
-      "type": "hasMany",
+      "type": "belongsTo",
       "model": "juegodelibro",
       "foreignKey": "juegodelibroId",
       "through": ""
