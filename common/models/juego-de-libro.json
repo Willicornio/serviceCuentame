@@ -48,6 +48,8 @@
       "default": true
 
 
+}
+
   },
   "validations": [],
   "relations": {
@@ -64,8 +66,7 @@
         "model": "Libro",
         "foreignKey": "libroId"
       }
-    }
-  },
+      },
   "acls": [],
   "methods": {}
 
