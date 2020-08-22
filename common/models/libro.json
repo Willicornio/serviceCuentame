@@ -39,7 +39,11 @@
     },
     "numeropag": {
       "type": "string"
+    }, 
+    "listavotantes": {
+      "type": "any"
     }
+
   },
   "validations": [],
   "relations": {
@@ -47,6 +51,12 @@
       "type": "hasMany",
       "model": "escena",
       "foreignKey": "libroId",
+      "through": ""
+    },
+    "juegoldelibro": {
+      "type": "belongsTo",
+      "model": "juegodelibro",
+      "foreignKey": "juegodelibroId",
       "through": ""
     }
   },

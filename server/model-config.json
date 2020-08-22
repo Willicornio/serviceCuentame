@@ -276,7 +276,17 @@
     "public": true
   },
   "recursosLibro": {
-    "dataSource": "baseDatosEnMemoria",
-    "public": true
+    "alumno-juego-de-libro": {
+      "dataSource": "db",
+      "public": true
+    },
+    "alumno-juego-de-cuento": {
+      "dataSource": "baseDatosEnMemoria",
+      "public": true
+    },
+    "juego-de-libro": {
+      "dataSource": "baseDatosEnMemoria",
+      "public": true
+    }
   }
 }

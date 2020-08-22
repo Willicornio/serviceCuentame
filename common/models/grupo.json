@@ -42,6 +42,13 @@
       "model": "JuegoDeColeccion",
       "foreignKey": "grupoId"
     },
+    "juegodelibro": {
+      "type": "hasMany",
+      "model": "juego-de-libro",
+      "foreignKey": "grupoId"
+    },
+
+    
     "juegoDeCompeticions": {
       "type": "hasMany",
       "model": "JuegoDeCompeticion",

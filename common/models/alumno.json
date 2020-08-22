@@ -103,7 +103,19 @@
       "type": "hasMany",
       "model": "Libro",
       "foreignKey": "alumnoId"
+<<<<<<< HEAD
     },
+=======
+    
+  },
+  "juegodelibro": {
+    "type": "hasMany",
+    "model": "juego-de-libro",
+    "foreignKey": "alumnoId"
+  },
+
+    
+>>>>>>> f8a8e13afea4572ddee1c8d96889bbeb57d1cbb5
     "juegosDeGeocaching": {
       "type": "hasMany",
       "model": "JuegoDeGeocaching",
