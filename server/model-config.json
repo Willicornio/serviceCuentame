@@ -274,5 +274,9 @@
   "Libro": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "recursosLibro": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

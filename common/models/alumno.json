@@ -99,12 +99,10 @@
       },
       "through": "AlumnoJuegoDeAvatar"
     },
-
     "libro": {
       "type": "hasMany",
       "model": "Libro",
       "foreignKey": "alumnoId"
-     
     },
     "juegosDeGeocaching": {
       "type": "hasMany",
@@ -114,7 +112,7 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDeGeocaching"
-          }
+    }
   },
   "acls": [],
   "methods": {}
