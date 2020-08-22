@@ -104,7 +104,6 @@
       "model": "Libro",
       "foreignKey": "alumnoId"
     
-    
   },
   "juegodelibro": {
     "type": "hasMany",

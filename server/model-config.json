@@ -275,7 +275,10 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-  "recursosLibro": {
+    "recursosLibro": {
+      "dataSource": "baseDatosEnMemoria",
+      "public": true
+    },
     "alumno-juego-de-libro": {
       "dataSource": "db",
       "public": true
@@ -289,4 +292,3 @@
       "public": true
     }
   }
-}
