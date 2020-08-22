@@ -135,20 +135,11 @@
     "SesionClase": {},
     "AsistenciaClase": {},
     "FamiliaAvatares": {
-      "1": "{\"profesorId\":1,\"NombreFamilia\":\"prueba\",\"Silueta\":\"manos-pintadas-ninos_29937-3693.jpg\",\"NombreComplemento1\":\"aa\",\"Complemento1\":[\"manos-pintadas-ninos_29937-3693.jpg\"],\"NombreComplemento2\":\"aaaaa\",\"Complemento2\":[\"ninos-saltando-fondo-ninos-felices-jugando-hombres-mujeres-plantilla-juegos-lugar-texto_80590-4915.jpg\"],\"NombreComplemento3\":\"fred\",\"Complemento3\":[\"dia-del-libro-blog.jpg\"],\"NombreComplemento4\":\"wwd\",\"Complemento4\":[\"icono libro.jpg\"],\"id\":1}"
+      "1": "{\"profesorId\":1,\"NombreFamilia\":\"qwer\",\"Silueta\":\"Aika_Fuwa - copia (5).png\",\"NombreComplemento1\":\"qer\",\"Complemento1\":[\"Aika_Fuwa.png\"],\"NombreComplemento2\":\"qwrwqer\",\"Complemento2\":[\"Aika_Fuwa.png\"],\"NombreComplemento3\":\"qwerwer\",\"Complemento3\":[\"Aika_Fuwa - copia (5).png\"],\"NombreComplemento4\":\"wqerwre\",\"Complemento4\":[\"Aika_Fuwa - copia.png\"],\"id\":1}",
+      "2": "{\"profesorId\":1,\"NombreFamilia\":\"erwert\",\"Silueta\":\"Aika_Fuwa - copia (3).png\",\"NombreComplemento1\":\"wer\",\"Complemento1\":[\"Aika_Fuwa - copia.png\"],\"NombreComplemento2\":\"ewrt\",\"Complemento2\":[\"Aika_Fuwa.png\"],\"NombreComplemento3\":\"wetwrtet\",\"Complemento3\":[\"Aika_Fuwa - copia (5).png\"],\"NombreComplemento4\":\"111\",\"Complemento4\":[\"Aika_Fuwa - copia (5).png\"],\"id\":2}"
     },
-    "JuegoDeAvatar": {
-      "1": "{\"NombreJuego\":\"aaa\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[1],\"CriteriosPrivilegioComplemento1\":\"aaa\",\"CriteriosPrivilegioComplemento2\":\"wsqr\",\"CriteriosPrivilegioComplemento3\":\"rer\",\"CriteriosPrivilegioComplemento4\":\"eweqe\",\"CriteriosPrivilegioVoz\":\"ewqreqr\",\"CriteriosPrivilegioVerTodos\":\"qder42regrwt\",\"grupoId\":1,\"id\":1}",
-      "2": "{\"NombreJuego\":\"stringavatar\",\"Tipo\":\"string\",\"Modo\":\"string\",\"JuegoActivo\":true,\"Familias\":[0],\"CriteriosPrivilegioComplemento1\":\"string\",\"CriteriosPrivilegioComplemento2\":\"string\",\"CriteriosPrivilegioComplemento3\":\"string\",\"CriteriosPrivilegioComplemento4\":\"string\",\"CriteriosPrivilegioVoz\":\"string\",\"CriteriosPrivilegioVerTodos\":\"string\",\"grupoId\":0,\"id\":2}"
-    },
-    "AlumnoJuegoDeAvatar": {
-      "1": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":12,\"juegoDeAvatarId\":1,\"id\":1}",
-      "2": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":15,\"juegoDeAvatarId\":1,\"id\":2}",
-      "3": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":14,\"juegoDeAvatarId\":1,\"id\":3}",
-      "4": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":4,\"juegoDeAvatarId\":1,\"id\":4}",
-      "5": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":7,\"juegoDeAvatarId\":1,\"id\":5}",
-      "6": "{\"Silueta\":\"string\",\"Privilegios\":[true],\"Complemento1\":\"string\",\"Complemento2\":\"string\",\"Complemento3\":\"string\",\"Complemento4\":\"string\",\"Voz\":\"string\",\"alumnoId\":0,\"juegoDeAvatarId\":1,\"id\":6}"
-    },
+    "JuegoDeAvatar": {},
+    "AlumnoJuegoDeAvatar": {},
     "JuegoDeCuestionario": {},
     "AlumnoJuegoDeCuestionario": {},
     "JuegoDeGeocaching": {},

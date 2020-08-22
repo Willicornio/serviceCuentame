@@ -87,6 +87,11 @@
       "type": "hasMany",
       "model": "JuegoDeGeocaching",
       "foreignKey": "profesorId"
+    },
+    "recursosLibros": {
+      "type": "hasMany",
+      "model": "recursosLibro",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],
