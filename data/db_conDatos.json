@@ -45,7 +45,8 @@
     "AlumnoJuegoDeCuestionario": 79,
     "JuegoDeGeocaching": 2,
     "AlumnoJuegoDeGeocaching": 3,
-    "RespuestaJuegoDeCuestionario": 144
+    "RespuestaJuegoDeCuestionario": 144,
+    "recursosLibro": 1
   },
   "models": {
     "Profesor": {
@@ -655,6 +656,6 @@
       "141": "{\"Respuesta\":\"8\",\"alumnoJuegoDeCuestionarioId\":78,\"preguntaId\":6,\"id\":141}",
       "142": "{\"Respuesta\":\"Trump\",\"alumnoJuegoDeCuestionarioId\":78,\"preguntaId\":5,\"id\":142}",
       "143": "{\"Respuesta\":\"2\",\"alumnoJuegoDeCuestionarioId\":78,\"preguntaId\":3,\"id\":143}"
-    }
+    },"recursosLibro":{}
   }
 }

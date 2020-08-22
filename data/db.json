@@ -48,7 +48,8 @@
     "frame": 107,
     "escena": 29,
     "Libro": 29,
-    "juego-de-libro": 3
+    "juego-de-libro": 3,
+    "recursosLibro": 3
   },
   "models": {
     "Profesor": {
@@ -278,6 +279,10 @@
     "juego-de-libro": {
       "1": "{\"NombreJuego\":\"juegodelibro\",\"Tipo\":\"string\",\"Modo\":\"string\",\"JuegoActivo\":true,\"Familias\":{},\"Temporada\":{},\"grupoId\":{},\"descripción\":{},\"id\":1}",
       "2": "{\"NombreJuego\":\"stdddring\",\"Tipo\":\"string\",\"Modo\":\"string\",\"JuegoActivo\":true,\"Familias\":{},\"Temporada\":{},\"grupoId\":{},\"descripción\":{},\"id\":2}"
+    },
+    "recursosLibro": {
+      "1": "{\"nombre\":\"prueba\",\"carpeta\":\"Recursos-prueba\",\"imagenes\":[{\"url\":\"Aika_Fuwa - copia (2).png\",\"nombre\":\"Aika_Fuwa - copia (2).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (3).png\",\"nombre\":\"Aika_Fuwa - copia (3).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (4).png\",\"nombre\":\"Aika_Fuwa - copia (4).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (5).png\",\"nombre\":\"Aika_Fuwa - copia (5).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia.png\",\"nombre\":\"Aika_Fuwa - copia.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa.png\",\"nombre\":\"Aika_Fuwa.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"fondo - copia.png\",\"nombre\":\"fondo - copia.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"fondo.png\",\"nombre\":\"fondo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"haberlas.png\",\"nombre\":\"haberlas.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"haberlas2.png\",\"nombre\":\"haberlas2.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":1,\"id\":1}",
+      "2": "{\"nombre\":\"prueba2\",\"carpeta\":\"Recursos-prueba2\",\"imagenes\":[{\"url\":\"Aika_Fuwa - copia (2).png\",\"nombre\":\"Aika_Fuwa - copia (2).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia.png\",\"nombre\":\"Aika_Fuwa - copia.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (3).png\",\"nombre\":\"Aika_Fuwa - copia (3).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (4).png\",\"nombre\":\"Aika_Fuwa - copia (4).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (5).png\",\"nombre\":\"Aika_Fuwa - copia (5).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa.png\",\"nombre\":\"Aika_Fuwa.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"haberlas - copia (2).png\",\"nombre\":\"haberlas - copia (2).png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"fondo - copia.png\",\"nombre\":\"fondo - copia.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"haberlas - copia.png\",\"nombre\":\"haberlas - copia.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"fondo.png\",\"nombre\":\"fondo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"haberlas - copia (3).png\",\"nombre\":\"haberlas - copia (3).png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"haberlas.png\",\"nombre\":\"haberlas.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":1,\"id\":2}"
     }
   }
 }
