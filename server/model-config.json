@@ -279,11 +279,8 @@
       "dataSource": "baseDatosEnMemoria",
       "public": true
     },
-    "alumno-juego-de-libro": {
-      "dataSource": "db",
-      "public": true
-    },
-    "alumno-juego-de-cuento": {
+  
+    "alumnojuegodecuento": {
       "dataSource": "baseDatosEnMemoria",
       "public": true
     },

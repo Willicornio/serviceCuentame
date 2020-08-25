@@ -57,10 +57,24 @@
     "alumnos": {
       "type": "hasMany",
       "model": "Alumno",
-      "foreignKey": "AlumnoId",
-      "options": {
-       }
+      "foreignKey": "AlumnoId"
+     
       },
+
+      
+    "alumnosjuegolibro": {
+      "type": "hasMany",
+      "model": "alumno-juego-de-cuento",
+      "foreignKey": "alumno-juego-de-cuentoId"
+     
+      },
+
+      "alumnojuegodecuento": {
+        "type": "hasMany",
+        "model": "alumnojuegodecuento",
+        "foreignKey": "alumnojuegodecuentoId"
+       
+        },
        "libro": {
         "type": "hasMany",
         "model": "Libro",
@@ -71,3 +85,4 @@
   "methods": {}
 
 }
+
