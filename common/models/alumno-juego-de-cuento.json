@@ -21,16 +21,8 @@
     },
     "permisoparavotar": {
       "type": "boolean"
-    },
-    
-    "alumnojuegodecuentoId": {
-      "type": "any"
-    },
-
-
-    "juegoDeLibroId": {
-      "type": "any"
     }
+
 
   },
   "validations": [],
@@ -43,8 +35,7 @@
     "juegodelibro": {
       "type": "belongsTo",
       "model": "juegodelibro",
-      "foreignKey": "juegodelibroId",
-      "through": ""
+      "foreignKey": "juegodelibroId"
     }
   },
   "acls": [],

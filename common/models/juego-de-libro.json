@@ -62,17 +62,12 @@
       },
 
       
-    "alumnosjuegolibro": {
-      "type": "hasMany",
-      "model": "alumno-juego-de-cuento",
-      "foreignKey": "alumno-juego-de-cuentoId"
-     
-      },
+ 
 
       "alumnojuegodecuento": {
         "type": "hasMany",
         "model": "alumnojuegodecuento",
-        "foreignKey": "alumnojuegodecuentoId"
+        "foreignKey": "juegoId"
        
         },
        "libro": {
