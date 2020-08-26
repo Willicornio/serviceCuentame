@@ -1,15 +1,15 @@
 {
   "ids": {
     "Profesor": 3,
-    "Alumno": 17,
-    "Grupo": 2,
+    "Alumno": 18,
+    "Grupo": 4,
     "Punto": 1,
     "Coleccion": 1,
     "Cromo": 1,
     "Equipo": 1,
     "JuegoDePuntos": 1,
     "JuegoDeColeccion": 1,
-    "Matricula": 6,
+    "Matricula": 20,
     "AsignacionEquipo": 1,
     "AsignacionPuntoJuego": 1,
     "Nivel": 1,
@@ -22,10 +22,10 @@
     "EquipoJuegoDeColeccion": 1,
     "Album": 1,
     "AlbumEquipo": 1,
-    "JuegoDeCompeticionLiga": 1,
-    "JornadaDeCompeticionLiga": 1,
-    "EnfrentamientoLiga": 1,
-    "AlumnoJuegoDeCompeticionLiga": 1,
+    "JuegoDeCompeticionLiga": 2,
+    "JornadaDeCompeticionLiga": 3,
+    "EnfrentamientoLiga": 5,
+    "AlumnoJuegoDeCompeticionLiga": 6,
     "EquipoJuegoDeCompeticionLiga": 1,
     "JuegoDeCompeticionFormulaUno": 1,
     "JornadaDeCompeticionFormulaUno": 1,
@@ -39,8 +39,8 @@
     "SesionClase": 1,
     "AsistenciaClase": 1,
     "FamiliaAvatares": 2,
-    "JuegoDeAvatar": 3,
-    "AlumnoJuegoDeAvatar": 7,
+    "JuegoDeAvatar": 4,
+    "AlumnoJuegoDeAvatar": 12,
     "JuegoDeCuestionario": 1,
     "AlumnoJuegoDeCuestionario": 1,
     "JuegoDeGeocaching": 1,
@@ -48,9 +48,10 @@
     "frame": 107,
     "escena": 29,
     "Libro": 29,
-    "juego-de-libro": 6,
+    "juego-de-libro": 11,
     "recursosLibro": 7,
-    "alumno-juego-de-cuento": 16
+    "alumno-juego-de-cuento": 16,
+    "alumnojuegodecuento": 46
   },
   "models": {
     "Profesor": {
@@ -73,10 +74,13 @@
       "13": "{\"Nombre\":\"Josep\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":13}",
       "14": "{\"Nombre\":\"Bea\",\"PrimerApellido\":\"Garcés\",\"SegundoApellido\":\"Peiro\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":14}",
       "15": "{\"Nombre\":\"eeg\",\"PrimerApellido\":\"eggeg\",\"SegundoApellido\":\"Egeo\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":1,\"id\":15}",
-      "16": "{\"Nombre\":\"string\",\"PrimerApellido\":\"string\",\"SegundoApellido\":\"string\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":0,\"AlumnoId\":1,\"id\":16}"
+      "16": "{\"Nombre\":\"string\",\"PrimerApellido\":\"string\",\"SegundoApellido\":\"string\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":0,\"AlumnoId\":1,\"id\":16}",
+      "17": "{\"Nombre\":\"string\",\"PrimerApellido\":\"string\",\"SegundoApellido\":\"string\",\"ImagenPerfil\":\"UsuarioAlumno.jpg\",\"profesorId\":0,\"AlumnoId\":8,\"id\":17}"
     },
     "Grupo": {
-      "1": "{\"Nombre\":\"clase 1\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":1}"
+      "1": "{\"Nombre\":\"clase 1\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"grupo2\",\"Descripcion\":\"grupo2\",\"profesorId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"pruebas yii bois\",\"Descripcion\":\"1234\",\"profesorId\":1,\"id\":3}"
     },
     "Punto": {},
     "Coleccion": {},
@@ -89,7 +93,21 @@
       "2": "{\"alumnoId\":7,\"grupoId\":1,\"id\":2}",
       "3": "{\"alumnoId\":15,\"grupoId\":1,\"id\":3}",
       "4": "{\"alumnoId\":14,\"grupoId\":1,\"id\":4}",
-      "5": "{\"alumnoId\":4,\"grupoId\":1,\"id\":5}"
+      "5": "{\"alumnoId\":4,\"grupoId\":1,\"id\":5}",
+      "6": "{\"alumnoId\":15,\"grupoId\":2,\"id\":6}",
+      "7": "{\"alumnoId\":7,\"grupoId\":2,\"id\":7}",
+      "8": "{\"alumnoId\":14,\"grupoId\":2,\"id\":8}",
+      "9": "{\"alumnoId\":1,\"grupoId\":2,\"id\":9}",
+      "10": "{\"alumnoId\":6,\"grupoId\":2,\"id\":10}",
+      "11": "{\"alumnoId\":12,\"grupoId\":3,\"id\":11}",
+      "12": "{\"alumnoId\":7,\"grupoId\":3,\"id\":12}",
+      "13": "{\"alumnoId\":15,\"grupoId\":3,\"id\":13}",
+      "14": "{\"alumnoId\":14,\"grupoId\":3,\"id\":14}",
+      "15": "{\"alumnoId\":4,\"grupoId\":3,\"id\":15}",
+      "16": "{\"alumnoId\":5,\"grupoId\":3,\"id\":16}",
+      "17": "{\"alumnoId\":3,\"grupoId\":3,\"id\":17}",
+      "18": "{\"alumnoId\":1,\"grupoId\":3,\"id\":18}",
+      "19": "{\"alumnoId\":6,\"grupoId\":3,\"id\":19}"
     },
     "AsignacionEquipo": {},
     "AsignacionPuntoJuego": {},
@@ -103,10 +121,26 @@
     "EquipoJuegoDeColeccion": {},
     "Album": {},
     "AlbumEquipo": {},
-    "JuegoDeCompeticionLiga": {},
-    "JornadaDeCompeticionLiga": {},
-    "EnfrentamientoLiga": {},
-    "AlumnoJuegoDeCompeticionLiga": {},
+    "JuegoDeCompeticionLiga": {
+      "1": "{\"NumeroTotalJornadas\":2,\"NombreJuego\":\"Grupo par\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":1}"
+    },
+    "JornadaDeCompeticionLiga": {
+      "1": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
+      "2": "{\"CriterioGanador\":\"Pendiente de determinar\",\"JuegoDeCompeticionLigaId\":1,\"id\":2}"
+    },
+    "EnfrentamientoLiga": {
+      "1": "{\"JugadorUno\":7,\"JugadorDos\":4,\"JornadaDeCompeticionLigaId\":1,\"id\":1}",
+      "2": "{\"JugadorUno\":15,\"JugadorDos\":14,\"JornadaDeCompeticionLigaId\":1,\"id\":2}",
+      "3": "{\"JugadorUno\":4,\"JugadorDos\":15,\"JornadaDeCompeticionLigaId\":2,\"id\":3}",
+      "4": "{\"JugadorUno\":12,\"JugadorDos\":7,\"JornadaDeCompeticionLigaId\":2,\"id\":4}"
+    },
+    "AlumnoJuegoDeCompeticionLiga": {
+      "1": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":12,\"JuegoDeCompeticionLigaId\":1,\"id\":1}",
+      "2": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":7,\"JuegoDeCompeticionLigaId\":1,\"id\":2}",
+      "3": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":15,\"JuegoDeCompeticionLigaId\":1,\"id\":3}",
+      "4": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":14,\"JuegoDeCompeticionLigaId\":1,\"id\":4}",
+      "5": "{\"PuntosTotalesAlumno\":0,\"AlumnoId\":4,\"JuegoDeCompeticionLigaId\":1,\"id\":5}"
+    },
     "EquipoJuegoDeCompeticionLiga": {},
     "JuegoDeCompeticionFormulaUno": {},
     "JornadaDeCompeticionFormulaUno": {},
@@ -123,8 +157,16 @@
       "1": "{\"profesorId\":1,\"NombreFamilia\":\"qwer\",\"Silueta\":\"Aika_Fuwa - copia (5).png\",\"NombreComplemento1\":\"qer\",\"Complemento1\":[\"Aika_Fuwa.png\"],\"NombreComplemento2\":\"qwrwqer\",\"Complemento2\":[\"Aika_Fuwa.png\"],\"NombreComplemento3\":\"qwerwer\",\"Complemento3\":[\"Aika_Fuwa - copia (5).png\"],\"NombreComplemento4\":\"wqerwre\",\"Complemento4\":[\"Aika_Fuwa - copia.png\"],\"id\":1}",
       "2": "{\"profesorId\":1,\"NombreFamilia\":\"erwert\",\"Silueta\":\"Aika_Fuwa - copia (3).png\",\"NombreComplemento1\":\"wer\",\"Complemento1\":[\"Aika_Fuwa - copia.png\"],\"NombreComplemento2\":\"ewrt\",\"Complemento2\":[\"Aika_Fuwa.png\"],\"NombreComplemento3\":\"wetwrtet\",\"Complemento3\":[\"Aika_Fuwa - copia (5).png\"],\"NombreComplemento4\":\"111\",\"Complemento4\":[\"Aika_Fuwa - copia (5).png\"],\"id\":2}"
     },
-    "JuegoDeAvatar": {},
-    "AlumnoJuegoDeAvatar": {},
+    "JuegoDeAvatar": {
+      "3": "{\"NombreJuego\":\"juegodevatares\",\"Tipo\":\"Juego De Avatar\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":[1,1],\"CriteriosPrivilegioComplemento1\":\"sw\",\"CriteriosPrivilegioComplemento2\":\"ssssssss\",\"CriteriosPrivilegioComplemento3\":\"ssssssssss\",\"CriteriosPrivilegioComplemento4\":\"sssssssssssssss\",\"CriteriosPrivilegioVoz\":\"sssssssssssssss\",\"CriteriosPrivilegioVerTodos\":\"sssssssssssssssss\",\"grupoId\":1,\"id\":3}"
+    },
+    "AlumnoJuegoDeAvatar": {
+      "7": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":12,\"juegoDeAvatarId\":3,\"id\":7}",
+      "8": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":15,\"juegoDeAvatarId\":3,\"id\":8}",
+      "9": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":14,\"juegoDeAvatarId\":3,\"id\":9}",
+      "10": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":7,\"juegoDeAvatarId\":3,\"id\":10}",
+      "11": "{\"Privilegios\":[false,false,false,false,false,false],\"alumnoId\":4,\"juegoDeAvatarId\":3,\"id\":11}"
+    },
     "JuegoDeCuestionario": {},
     "AlumnoJuegoDeCuestionario": {},
     "JuegoDeGeocaching": {},
@@ -282,7 +324,12 @@
       "2": "{\"NombreJuego\":\"stdddring\",\"Tipo\":\"string\",\"Modo\":\"string\",\"JuegoActivo\":true,\"Familias\":{},\"Temporada\":{},\"grupoId\":{},\"descripción\":{},\"id\":2}",
       "3": "{\"NombreJuego\":\"qwewer\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":1,\"descripción\":\"ewrew\",\"id\":3}",
       "4": "{\"NombreJuego\":\"xcvvx\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":1,\"descripción\":\"xcxcvxcv\",\"id\":4}",
-      "5": "{\"NombreJuego\":\"sddsaf\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":1,\"descripción\":\"sdaffds\",\"id\":5}"
+      "5": "{\"NombreJuego\":\"sddsaf\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":1,\"descripción\":\"sdaffds\",\"id\":5}",
+      "6": "{\"NombreJuego\":\"Hola\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":3,\"descripción\":1234,\"id\":6}",
+      "7": "{\"NombreJuego\":\"asssssssssssssssssssss\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":3,\"descripción\":\"aass\",\"id\":7}",
+      "8": "{\"NombreJuego\":\"2143234\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":3,\"descripción\":1234,\"id\":8}",
+      "9": "{\"NombreJuego\":\"eiiii kkk taaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":3,\"descripción\":1241243,\"id\":9}",
+      "10": "{\"NombreJuego\":\"455444444\",\"Tipo\":\"Juego De Cuentos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"Familias\":true,\"Temporada\":\"SI\",\"grupoId\":3,\"descripción\":456456,\"id\":10}"
     },
     "recursosLibro": {
       "1": "{\"nombre\":\"prueba\",\"carpeta\":\"Recursos-prueba\",\"imagenes\":[{\"url\":\"Aika_Fuwa - copia (2).png\",\"nombre\":\"Aika_Fuwa - copia (2).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (3).png\",\"nombre\":\"Aika_Fuwa - copia (3).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (4).png\",\"nombre\":\"Aika_Fuwa - copia (4).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia (5).png\",\"nombre\":\"Aika_Fuwa - copia (5).png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa - copia.png\",\"nombre\":\"Aika_Fuwa - copia.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"Aika_Fuwa.png\",\"nombre\":\"Aika_Fuwa.png\",\"tipo\":\"objeto\",\"especial\":false},{\"url\":\"fondo - copia.png\",\"nombre\":\"fondo - copia.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"fondo.png\",\"nombre\":\"fondo.png\",\"tipo\":\"fondo\",\"especial\":false},{\"url\":\"haberlas.png\",\"nombre\":\"haberlas.png\",\"tipo\":\"personaje\",\"especial\":false},{\"url\":\"haberlas2.png\",\"nombre\":\"haberlas2.png\",\"tipo\":\"personaje\",\"especial\":false}],\"profesorId\":1,\"id\":1}",
@@ -308,6 +355,53 @@
       "13": "{\"alumnoId\":15,\"juegoDeLibroId\":5,\"id\":13}",
       "14": "{\"alumnoId\":14,\"juegoDeLibroId\":5,\"id\":14}",
       "15": "{\"alumnoId\":4,\"juegoDeLibroId\":5,\"id\":15}"
+    },
+    "alumnojuegodecuento": {
+      "1": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":12,\"id\":1}",
+      "2": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":15,\"id\":2}",
+      "3": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":14,\"id\":3}",
+      "4": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":4,\"id\":4}",
+      "5": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":5,\"id\":5}",
+      "6": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":3,\"id\":6}",
+      "7": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":7,\"id\":7}",
+      "8": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":1,\"id\":8}",
+      "9": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":6,\"juegoDeLibroId\":6,\"alumnoId\":6,\"id\":9}",
+      "10": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":10}",
+      "11": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":11}",
+      "12": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":12}",
+      "13": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":13}",
+      "14": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":14}",
+      "15": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":15}",
+      "16": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":16}",
+      "17": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":17}",
+      "18": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":7,\"id\":18}",
+      "19": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":19}",
+      "20": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":20}",
+      "21": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":21}",
+      "22": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":22}",
+      "23": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":23}",
+      "24": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":24}",
+      "25": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":25}",
+      "26": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":26}",
+      "27": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnojuegodecuentoId\":8,\"id\":27}",
+      "28": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":12,\"alumnojuegodecuentoId\":9,\"id\":28}",
+      "29": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":15,\"alumnojuegodecuentoId\":9,\"id\":29}",
+      "30": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":14,\"alumnojuegodecuentoId\":9,\"id\":30}",
+      "31": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":4,\"alumnojuegodecuentoId\":9,\"id\":31}",
+      "32": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":5,\"alumnojuegodecuentoId\":9,\"id\":32}",
+      "33": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":3,\"alumnojuegodecuentoId\":9,\"id\":33}",
+      "34": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":7,\"alumnojuegodecuentoId\":9,\"id\":34}",
+      "35": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":1,\"alumnojuegodecuentoId\":9,\"id\":35}",
+      "36": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":6,\"alumnojuegodecuentoId\":9,\"id\":36}",
+      "37": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":12,\"alumnojuegodecuentoId\":10,\"id\":37}",
+      "38": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":7,\"alumnojuegodecuentoId\":10,\"id\":38}",
+      "39": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":15,\"alumnojuegodecuentoId\":10,\"id\":39}",
+      "40": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":14,\"alumnojuegodecuentoId\":10,\"id\":40}",
+      "41": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":4,\"alumnojuegodecuentoId\":10,\"id\":41}",
+      "42": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":5,\"alumnojuegodecuentoId\":10,\"id\":42}",
+      "43": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":3,\"alumnojuegodecuentoId\":10,\"id\":43}",
+      "44": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":1,\"alumnojuegodecuentoId\":10,\"id\":44}",
+      "45": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":6,\"alumnojuegodecuentoId\":10,\"id\":45}"
     }
   }
 }

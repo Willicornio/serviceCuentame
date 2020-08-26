@@ -1,5 +1,5 @@
 {
-  "name": "alumno-juego-de-cuento",
+  "name": "alumnojuegodecuento",
   "plural": "alumnojuegodecuento",
   "base": "PersistedModel",
   "idInjection": true,
@@ -21,21 +21,16 @@
     },
     "permisoparavotar": {
       "type": "boolean"
+    },
+    
+    "alumnoID": {
+      "type": "any"
     }
+
   },
   "validations": [],
   "relations": {
-    "alumno": {
-      "type": "belongsTo",
-      "model": "Alumno",
-      "foreignKey": "AlumnoId"
-    },
-    "juegodelibro": {
-      "type": "belongsTo",
-      "model": "juegodelibro",
-      "foreignKey": "juegodelibroId",
-      "through": ""
-    }
+
   },
   "acls": [],
   "methods": {}
