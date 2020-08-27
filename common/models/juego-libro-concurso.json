@@ -1,0 +1,50 @@
+{
+  "name": "juegoLibroConcurso",
+  "plural": "juegoLibroConcursos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+
+
+    "concursoTematica": {
+      "type": "any",
+      "required": false
+    },
+    "dateFinInscripcion": {
+      "type": "any",
+      "required": false
+    },
+    "dateFinVotacion": {
+      "type": "any",
+      "required": false
+    },
+    "concursoRequisitos": {
+      "type": "any",
+      "required": false
+    },
+    "concursoPrimerCriterio": {
+      "type": "any",
+      "required": false
+    },
+    "concursoSegundoCriterio": {
+      "type": "any",
+      "required": false
+    },
+    "concursoTercerCriterio": {
+      "type": "any",
+      "required": false
+    },
+    "listaLibrosParticipantes": {
+      "type": "any",
+      "required": false
+    }
+
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

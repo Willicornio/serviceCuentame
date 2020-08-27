@@ -47,8 +47,6 @@
       "model": "juego-de-libro",
       "foreignKey": "grupoId"
     },
-
-    
     "juegoDeCompeticions": {
       "type": "hasMany",
       "model": "JuegoDeCompeticion",

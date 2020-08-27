@@ -6,8 +6,6 @@
   "options": {
     "validateUpsert": true
   },
- 
-
   "properties": {
     "NombreJuego": {
       "type": "string",
@@ -40,29 +38,26 @@
       "type": "any",
       "required": true,
       "default": true
-
     },
     "descripción": {
       "type": "any",
       "required": true,
       "default": true
-
-
-}
-
+    }
   },
   "validations": [],
   "relations": {
-
-      "alumnojuegodecuento": {
-        "type": "hasMany",
-        "model": "alumnojuegodecuento",
-        "foreignKey": "juegoId"
-       
-        }
-      },
+    "alumnojuegodecuento": {
+      "type": "hasMany",
+      "model": "alumnojuegodecuento",
+      "foreignKey": "juegoId"
+    },
+    "juegoLibroConcurso": {
+      "type": "hasMany",
+      "model": "juegoLibroConcurso",
+      "foreignKey": "juegoId"
+    }
+  },
   "acls": [],
   "methods": {}
-
 }
-

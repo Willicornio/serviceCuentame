@@ -22,16 +22,12 @@
     "permisoparavotar": {
       "type": "boolean"
     },
-    
     "alumnoID": {
       "type": "any"
     }
-
   },
   "validations": [],
-  "relations": {
-
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
