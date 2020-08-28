@@ -21,22 +21,16 @@
     },
     "permisoparavotar": {
       "type": "boolean"
+    },
+    
+    "alumnoID": {
+      "type": "any"
     }
 
 
   },
   "validations": [],
   "relations": {
-    "alumno": {
-      "type": "belongsTo",
-      "model": "Alumno",
-      "foreignKey": "AlumnoId"
-    },
-    "juegodelibro": {
-      "type": "belongsTo",
-      "model": "juegodelibro",
-      "foreignKey": "juegodelibroId"
-    }
   },
   "acls": [],
   "methods": {}

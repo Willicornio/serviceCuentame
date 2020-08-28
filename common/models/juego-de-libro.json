@@ -54,27 +54,12 @@
   "validations": [],
   "relations": {
 
-    "alumnos": {
-      "type": "hasMany",
-      "model": "Alumno",
-      "foreignKey": "AlumnoId"
-     
-      },
-
-      
- 
-
       "alumnojuegodecuento": {
         "type": "hasMany",
         "model": "alumnojuegodecuento",
         "foreignKey": "juegoId"
        
-        },
-       "libro": {
-        "type": "hasMany",
-        "model": "Libro",
-        "foreignKey": "libroId"
-      }
+        }
       },
   "acls": [],
   "methods": {}
