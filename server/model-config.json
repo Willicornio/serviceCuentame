@@ -275,17 +275,20 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-    "recursosLibro": {
-      "dataSource": "baseDatosEnMemoria",
-      "public": true
-    },
-  
-    "alumnojuegodecuento": {
-      "dataSource": "baseDatosEnMemoria",
-      "public": true
-    },
-    "juego-de-libro": {
-      "dataSource": "baseDatosEnMemoria",
-      "public": true
-    }
+  "recursosLibro": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "alumnojuegodecuento": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "juego-de-libro": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "juegoLibroConcurso": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
+}

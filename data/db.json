@@ -47,11 +47,20 @@
     "AlumnoJuegoDeGeocaching": 1,
     "frame": 107,
     "escena": 29,
+<<<<<<< HEAD
     "Libro": 30,
     "juego-de-libro": 45,
     "alumno-juego-de-cuento": 81,
     "recursosLibro": 3,
     "alumnojuegodecuento": 84
+=======
+    "Libro": 29,
+    "juego-de-libro": 17,
+    "recursosLibro": 7,
+    "alumno-juego-de-cuento": 16,
+    "alumnojuegodecuento": 100,
+    "juegoLibroConcurso": 5
+>>>>>>> 317b16d108b7703565f1e8d19771b8cc8273eb41
   },
   "models": {
     "Profesor": {

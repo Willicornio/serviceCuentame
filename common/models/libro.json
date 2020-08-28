@@ -39,11 +39,10 @@
     },
     "numeropag": {
       "type": "string"
-    }, 
+    },
     "listavotantes": {
       "type": "any"
     }
-
   },
   "validations": [],
   "relations": {
