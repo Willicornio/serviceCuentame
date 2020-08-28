@@ -290,5 +290,9 @@
   "juegoLibroConcurso": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "recursosJuegoLibro": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

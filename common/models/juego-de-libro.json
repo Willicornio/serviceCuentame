@@ -56,6 +56,11 @@
       "type": "hasMany",
       "model": "juegoLibroConcurso",
       "foreignKey": "juegoId"
+    },
+    "recursosJuegoLibro": {
+      "type": "hasMany",
+      "model": "recursosJuegoLibro",
+      "foreignKey": "juegoId"
     }
   },
   "acls": [],
