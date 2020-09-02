@@ -39,7 +39,7 @@
       "required": true,
       "default": true
     },
-    "descripción": {
+    "descripcion": {
       "type": "any",
       "required": true,
       "default": true
