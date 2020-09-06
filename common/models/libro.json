@@ -40,6 +40,22 @@
     "numeropag": {
       "type": "string"
     },
+    "criterio1": {
+      "type": "any"
+    },
+    "criterio2": {
+      "type": "any"
+    },
+
+    "criterio3": {
+      "type": "any"
+    },
+    "inscrito": {
+      "type": "boolean"
+    },
+    "listavotantesconcurso": {
+      "type": "any"
+    },
     "listavotantes": {
       "type": "any"
     }
