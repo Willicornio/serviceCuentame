@@ -27,7 +27,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Libro": {
+      "type": "hasMany",
+      "model": "Libro",
+      "foreignKey": "alumnjoJuegoLibroId"
+
+    }
+  },
   "acls": [],
   "methods": {}
 }
