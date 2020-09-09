@@ -33,12 +33,29 @@
       "type": "any",
       "required": true,
       "default": true
-    },
+    },  
     "grupoId": {
       "type": "any",
       "required": true,
       "default": true
     },
+    "criterioprivilegio1": {
+      "type": "any",
+      "required": true,
+      "default": true
+    },
+    "criterioprivilegio2": {
+      "type": "any",
+      "required": true,
+      "default": true
+    },
+    "criterioprivilegio3": {
+      "type": "any",
+      "required": true,
+      "default": true
+    },
+
+
     "descripcion": {
       "type": "any",
       "required": true,

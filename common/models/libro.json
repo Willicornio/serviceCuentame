@@ -54,7 +54,7 @@
       "type": "boolean"
     },
     "listavotantesconcurso": {
-      "type": "any"
+      "type":  "any"
     },
     "listavotantes": {
       "type": "any"

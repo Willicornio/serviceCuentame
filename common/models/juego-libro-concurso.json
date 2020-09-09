@@ -27,6 +27,18 @@
       "type": "any",
       "required": false
     },
+    "peso1": {
+      "type": "any",
+      "required": false
+    },
+    "peso2": {
+      "type": "any",
+      "required": false
+    },
+    "peso3": {
+      "type": "any",
+      "required": false
+    },
     "concursoSegundoCriterio": {
       "type": "any",
       "required": false
