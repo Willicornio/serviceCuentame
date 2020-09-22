@@ -43,11 +43,15 @@
     "criterio1": {
       "type": "any"
     },
+    
     "criterio2": {
       "type": "any"
     },
 
     "criterio3": {
+      "type": "any"
+    },
+    "criteriototal": {
       "type": "any"
     },
     "inscrito": {
