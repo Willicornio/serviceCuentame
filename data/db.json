@@ -45,7 +45,6 @@
     "AlumnoJuegoDeCuestionario": 1,
     "JuegoDeGeocaching": 1,
     "AlumnoJuegoDeGeocaching": 1,
-<<<<<<< HEAD
     "frame": 143,
     "escena": 38,
     "Libro": 35,
@@ -55,17 +54,6 @@
     "alumnojuegodecuento": 217,
     "juegoLibroConcurso": 14,
     "recursosJuegoLibro": 8
-=======
-    "frame": 107,
-    "escena": 29,
-    "Libro": 43,
-    "juego-de-libro": 36,
-    "recursosLibro": 8,
-    "alumno-juego-de-cuento": 16,
-    "alumnojuegodecuento": 220,
-    "juegoLibroConcurso": 18,
-    "recursosJuegoLibro": 15
->>>>>>> 1c264018ae287537d619b7a2a01218ffcab5b0ca
   },
   "models": {
     "Profesor": {
