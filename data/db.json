@@ -45,19 +45,11 @@
     "AlumnoJuegoDeCuestionario": 1,
     "JuegoDeGeocaching": 1,
     "AlumnoJuegoDeGeocaching": 1,
-<<<<<<< HEAD
     "frame": 145,
     "escena": 39,
     "Libro": 35,
     "juego-de-libro": 30,
     "recursosLibro": 10,
-=======
-    "frame": 107,
-    "escena": 30,
-    "Libro": 45,
-    "juego-de-libro": 38,
-    "recursosLibro": 8,
->>>>>>> ea4f4531c32e44b2010103d0371f4373f4d4908f
     "alumno-juego-de-cuento": 16,
     "alumnojuegodecuento": 228,
     "juegoLibroConcurso": 20,
