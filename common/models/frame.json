@@ -22,6 +22,10 @@
     "numero": {
       "type": "number",
       "required": false
+    },
+    "audioUrl": {
+      "type": "any",
+      "required": false
     }
   },
   "validations": [],
