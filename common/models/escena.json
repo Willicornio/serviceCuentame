@@ -25,11 +25,19 @@
     },
     "numeroframeActual": {
       "type": "number",
-      "numeroframeActual": true
+      "required": true
     },
     "numeroEscena": {
       "type": "number",
-      "numeroframeActual": true
+      "required": true
+    },
+    "tipoAudio": {
+      "type": "any",
+      "required": false
+    },
+    "urlAudioFondo": {
+      "type": "any",
+      "required": false
     }
   },
   "validations": [],
