@@ -22,6 +22,15 @@
     "permisoparavotar": {
       "type": "boolean"
     },
+    "primerpuesto": {
+      "type": "boolean"
+    },
+    "segundopuesto": {
+      "type": "boolean"
+    },
+    "tercerpuesto": {
+      "type": "boolean"
+    },
     "alumnoID": {
       "type": "any"
     }

@@ -39,6 +39,10 @@
       "type": "any",
       "required": false
     },
+    "acabado": {
+      "type": "any",
+      "required": false
+    },
     "concursoSegundoCriterio": {
       "type": "any",
       "required": false
