@@ -43,11 +43,16 @@
       "type": "any",
       "required": false
     },
-    "concursoSegundoCriterio": {
+
+    "primerpuesto": {
       "type": "any",
       "required": false
     },
-    "concursoTercerCriterio": {
+    "segundopuesto": {
+      "type": "any",
+      "required": false
+    },
+    "tercerpuesto": {
       "type": "any",
       "required": false
     },
