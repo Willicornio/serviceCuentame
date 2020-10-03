@@ -45,9 +45,9 @@
     "AlumnoJuegoDeCuestionario": 1,
     "JuegoDeGeocaching": 1,
     "AlumnoJuegoDeGeocaching": 1,
-    "frame": 107,
-    "escena": 30,
-    "Libro": 45,
+    "frame": 120,
+    "escena": 41,
+    "Libro": 51,
     "juego-de-libro": 39,
     "recursosLibro": 8,
     "alumno-juego-de-cuento": 16,
@@ -321,7 +321,8 @@
       "115": "{\"personajes\":[{\"id\":7,\"foto\":\"vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":261.5,\"positionY\":67.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":475,\"alto\":475,\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-1-115.png\",\"numero\":1,\"escenaid\":31,\"id\":115}",
       "116": "{\"personajes\":[{\"id\":6,\"foto\":\"evee.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-0.5,\"positionY\":40.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":475,\"alto\":475,\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-2-116.png\",\"numero\":2,\"escenaid\":31,\"id\":116}",
       "117": "{\"personajes\":[{\"id\":6,\"foto\":\"evee.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":-0.5,\"positionY\":40.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":475,\"alto\":475,\"tipo\":\"\"},{\"id\":7,\"foto\":\"vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":459.5,\"positionY\":54.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":475,\"alto\":475,\"tipo\":\"\"},{\"id\":8,\"foto\":\"vulpix.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":335.5,\"positionY\":-53.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":475,\"alto\":475,\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-3-117.png\",\"numero\":3,\"escenaid\":31,\"id\":117}",
-      "118": "{\"personajes\":[{\"id\":7,\"foto\":\"vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":442.5,\"positionY\":343.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":145,\"alto\":155,\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-4-118.png\",\"numero\":4,\"escenaid\":31,\"id\":118}"
+      "118": "{\"personajes\":[{\"id\":7,\"foto\":\"vape.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":442.5,\"positionY\":343.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":145,\"alto\":155,\"tipo\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"2-4-118.png\",\"numero\":4,\"escenaid\":31,\"id\":118}",
+      "119": "{\"personajes\":[{\"id\":11,\"foto\":\"haberlas - copia.png\",\"tiempoEntrada\":\"\",\"tiempoSalida\":\"\",\"positionX\":507.5,\"positionY\":199.5,\"pintado\":false,\"positionEnImagenX\":\"\",\"positionEnImagenY\":\"\",\"ancho\":179,\"alto\":175,\"tipo\":\"\",\"url\":\"\"}],\"textos\":\"\",\"portadaFrame\":\"\",\"numero\":2,\"audioUrl\":\"\",\"escenaid\":40,\"id\":119}"
     },
     "escena": {
       "1": "{\"id\":1,\"fondo\":{},\"duracionFrame\":0,\"maximoFrames\":0,\"numeroFrames\":0,\"numeroframeActual\":0,\"numeroEscena\":0}",
@@ -354,7 +355,16 @@
       "28": "{\"id\":28,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":4,\"numeroframeActual\":2,\"numeroEscena\":1,\"libroId\":27}",
       "29": "{\"id\":29,\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":8,\"numeroframeActual\":4,\"numeroEscena\":1,\"libroId\":28}",
       "30": "{\"id\":30,\"fondo\":\"fondo.png\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":8,\"numeroframeActual\":4,\"numeroEscena\":1,\"libroId\":29}",
-      "31": "{\"id\":31,\"fondo\":\"fondo.png\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":8,\"numeroframeActual\":4,\"numeroEscena\":2,\"libroId\":29}"
+      "31": "{\"id\":31,\"fondo\":\"fondo.png\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":8,\"numeroframeActual\":4,\"numeroEscena\":2,\"libroId\":29}",
+      "32": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":48,\"id\":32}",
+      "33": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":2,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":48,\"id\":33}",
+      "34": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":47,\"id\":34}",
+      "35": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":2,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":47,\"id\":35}",
+      "36": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":3,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":47,\"id\":36}",
+      "37": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":49,\"id\":37}",
+      "38": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":2,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":49,\"id\":38}",
+      "39": "{\"fondo\":\"\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":1,\"numeroframeActual\":1,\"numeroEscena\":1,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":45,\"id\":39}",
+      "40": "{\"id\":40,\"fondo\":\"fondo.png\",\"duracionFrame\":2,\"maximoFrames\":10,\"numeroFrames\":7,\"numeroframeActual\":2,\"numeroEscena\":1,\"tipoAudio\":\"frame\",\"urlAudioFondo\":\"no\",\"libroId\":50}"
     },
     "Libro": {
       "21": "{\"id\":21,\"titulo\":\"ooooo\",\"autor\":\"Pol\",\"resumen\":\"rrrrr\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[2,3,5,4],\"idAlumno\":\"1\",\"numeropag\":\"32\",\"alumnoId\":1}",
@@ -380,7 +390,13 @@
       "41": "{\"id\":41,\"titulo\":\"hihi\",\"autor\":\"strin33g\",\"resumen\":\"str3ing\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":{},\"idAlumno\":\"string\",\"numeropag\":\"string\",\"criterio1\":30,\"criterio2\":16,\"criterio3\":12,\"criteriototal\":58,\"inscrito\":true,\"listavotantesconcurso\":[\"1\"],\"listavotantes\":[],\"alumnoId\":0,\"alumnjoJuegoLibroId\":30}",
       "42": "{\"id\":42,\"titulo\":\"strdding\",\"autor\":\"strin33g\",\"resumen\":\"str3ing\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":{},\"idAlumno\":\"string\",\"numeropag\":\"string\",\"criterio1\":30,\"criterio2\":14,\"criterio3\":18,\"criteriototal\":62,\"inscrito\":true,\"listavotantesconcurso\":[\"1\"],\"listavotantes\":[],\"alumnoId\":0,\"alumnjoJuegoLibroId\":35}",
       "43": "{\"id\":43,\"titulo\":\"loikujyhtgre\",\"resumen\":\"nuybtrvfecdxs\",\"portada\":\"aa\",\"finalizado\":true,\"puntuacion\":[],\"idAlumno\":\"223\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":223}",
-      "44": "{\"id\":44,\"titulo\":\"5hgt64fredw\",\"resumen\":\"gf4redwsqagfre\",\"portada\":\"aa\",\"finalizado\":true,\"puntuacion\":[],\"idAlumno\":\"223\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":223}"
+      "44": "{\"id\":44,\"titulo\":\"5hgt64fredw\",\"resumen\":\"gf4redwsqagfre\",\"portada\":\"aa\",\"finalizado\":true,\"puntuacion\":[],\"idAlumno\":\"223\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":223}",
+      "45": "{\"titulo\":\"\",\"resumen\":\"hbgvfcdxs\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"231\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":231,\"id\":45}",
+      "46": "{\"titulo\":\"ddd\",\"resumen\":\"hbgvfcdxs\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"231\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":231,\"id\":46}",
+      "47": "{\"titulo\":\"yhtgrefw\",\"resumen\":\"dsa\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"211\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":211,\"id\":47}",
+      "48": "{\"titulo\":\"yhtygrefdw\",\"resumen\":\"hygtrfedwsq\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"219\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":219,\"id\":48}",
+      "49": "{\"titulo\":\"64t45r3ew\",\"resumen\":\"t6yt54r3ew2\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"125\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":125,\"id\":49}",
+      "50": "{\"titulo\":\"rdcftvygbnuim\",\"resumen\":\" fygvhbunjikml,\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"227\",\"numeropag\":\"32\",\"criterio1\":\"\",\"criterio2\":\"\",\"criterio3\":\"\",\"criteriototal\":\"\",\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":227,\"id\":50}"
     },
     "juego-de-libro": {
       "1": "{\"NombreJuego\":\"juegodelibro\",\"Tipo\":\"string\",\"Modo\":\"string\",\"JuegoActivo\":true,\"Familias\":{},\"Temporada\":{},\"grupoId\":{},\"descripción\":{},\"id\":1}",
@@ -677,10 +693,10 @@
       "225": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":7,\"juegoId\":37,\"id\":225}",
       "226": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":15,\"juegoId\":37,\"id\":226}",
       "227": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":1,\"juegoId\":37,\"id\":227}",
-      "228": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":12,\"juegoId\":38,\"id\":228}",
-      "229": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":7,\"juegoId\":38,\"id\":229}",
-      "230": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":15,\"juegoId\":38,\"id\":230}",
-      "231": "{\"nivel1\":false,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":false,\"permisoparavotar\":false,\"alumnoID\":1,\"juegoId\":38,\"id\":231}"
+      "228": "{\"nivel1\":true,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":true,\"permisoparavotar\":false,\"alumnoID\":12,\"juegoId\":38,\"id\":228}",
+      "229": "{\"nivel1\":true,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":true,\"permisoparavotar\":false,\"alumnoID\":7,\"juegoId\":38,\"id\":229}",
+      "230": "{\"nivel1\":true,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":true,\"permisoparavotar\":false,\"alumnoID\":15,\"juegoId\":38,\"id\":230}",
+      "231": "{\"nivel1\":true,\"nivel2\":false,\"nivel3\":false,\"permisoparaver\":true,\"permisoparavotar\":false,\"alumnoID\":1,\"juegoId\":38,\"id\":231}"
     },
     "juegoLibroConcurso": {
       "1": "{\"concursoTematica\":\"eeeeeeeee\",\"dateFinInscripcion\":{},\"dateFinVotacion\":{},\"concursoRequisitos\":{},\"concursoPrimerCriterio\":{},\"concursoSegundoCriterio\":{},\"concursoTercerCriterio\":{},\"listaLibrosParticipantes\":{},\"juegoId\":10,\"id\":1}",
