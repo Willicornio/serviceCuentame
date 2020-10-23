@@ -26,7 +26,14 @@
     "audioUrl": {
       "type": "any",
       "required": false
+    },
+    "duracionAudio": {
+      "type": "any",
+      "required": false
     }
+
+
+    
   },
   "validations": [],
   "relations": {},
