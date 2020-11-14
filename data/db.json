@@ -47,7 +47,7 @@
     "AlumnoJuegoDeGeocaching": 1,
     "frame": 576,
     "escena": 519,
-    "Libro": 511,
+    "Libro": 514,
     "juego-de-libro": 59,
     "recursosLibro": 53,
     "alumno-juego-de-cuento": 50,
@@ -531,7 +531,10 @@
       "507": "{\"titulo\":\"adsfdsa\",\"resumen\":\"sadfd\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"566\",\"numeropag\":\"32\",\"criterio1\":0,\"criterio2\":0,\"criterio3\":0,\"criteriototal\":0,\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":566,\"id\":507}",
       "508": "{\"id\":508,\"titulo\":\"Viaje a marte\",\"resumen\":\"dsaf\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[5],\"idAlumno\":\"580\",\"numeropag\":\"32\",\"criterio1\":0,\"criterio2\":0,\"criterio3\":0,\"criteriototal\":0,\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[\"3\"],\"alumnjoJuegoLibroId\":580}",
       "509": "{\"titulo\":\"\",\"resumen\":\"\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"580\",\"numeropag\":\"32\",\"criterio1\":0,\"criterio2\":0,\"criterio3\":0,\"criteriototal\":0,\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":580,\"id\":509}",
-      "510": "{\"titulo\":\"sdafsadf\",\"resumen\":\"sdfsdaf\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"585\",\"numeropag\":\"32\",\"criterio1\":0,\"criterio2\":0,\"criterio3\":0,\"criteriototal\":0,\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":585,\"id\":510}"
+      "510": "{\"titulo\":\"sdafsadf\",\"resumen\":\"sdfsdaf\",\"portada\":\"aa\",\"finalizado\":false,\"puntuacion\":[],\"idAlumno\":\"585\",\"numeropag\":\"32\",\"criterio1\":0,\"criterio2\":0,\"criterio3\":0,\"criteriototal\":0,\"inscrito\":false,\"listavotantesconcurso\":[],\"listavotantes\":[],\"alumnjoJuegoLibroId\":585,\"id\":510}",
+      "511": "{\"titulo\":\"pruebareproductor\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":{},\"idAlumno\":\"string\",\"numeropag\":\"string\",\"criterio1\":{},\"criterio2\":{},\"criterio3\":{},\"criteriototal\":{},\"inscrito\":true,\"listavotantesconcurso\":{},\"listavotantes\":{},\"alumnoId\":0,\"alumnjoJuegoLibroId\":0,\"id\":511}",
+      "512": "{\"titulo\":\"pruebareproductor\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":{},\"idAlumno\":\"string\",\"numeropag\":\"string\",\"criterio1\":{},\"criterio2\":{},\"criterio3\":{},\"criteriototal\":{},\"inscrito\":true,\"listavotantesconcurso\":{},\"listavotantes\":{},\"alumnoId\":0,\"alumnjoJuegoLibroId\":0,\"id\":512}",
+      "513": "{\"titulo\":\"pruebareproductor\",\"autor\":\"string\",\"resumen\":\"string\",\"portada\":\"string\",\"finalizado\":true,\"puntuacion\":{},\"idAlumno\":\"string\",\"numeropag\":\"string\",\"criterio1\":{},\"criterio2\":{},\"criterio3\":{},\"criteriototal\":{},\"inscrito\":true,\"listavotantesconcurso\":{},\"listavotantes\":{},\"alumnoId\":0,\"alumnjoJuegoLibroId\":0,\"id\":513}"
     },
     "juego-de-libro": {
       "1": "{\"NombreJuego\":\"juegodelibro\",\"Tipo\":\"string\",\"Modo\":\"string\",\"JuegoActivo\":true,\"Familias\":{},\"Temporada\":{},\"grupoId\":{},\"descripción\":{},\"id\":1}",
