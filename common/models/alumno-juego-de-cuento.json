@@ -31,6 +31,9 @@
     "tercerpuesto": {
       "type": "boolean"
     },
+    "Nombre": {
+      "type": "any"
+    },
     "alumnoID": {
       "type": "any"
     }
